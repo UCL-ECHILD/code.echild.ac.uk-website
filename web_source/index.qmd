@@ -1,6 +1,6 @@
 # ECHILD Code website {.unnumbered}
 
-The website for examples code for use with the 
+The website for example code for use with the 
 [EHILD Research Database](https://www.echild.ac.uk).
 
 🚧 Currently under construction 🚧
