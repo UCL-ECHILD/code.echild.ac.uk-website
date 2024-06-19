@@ -1,9 +1,9 @@
 name: Render and deploy website
 
 on:
-  # push:
-  #   branches: main
-  # workflow_dispatch:
+  push:
+    branches: main
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -67,4 +67,4 @@ jobs:
         with:
           accountId: ${{ secrets.CLOUDFLARE_ID }}
           apiToken: ${{ secrets.CLOUDFLARE_PAGES_TOKEN }}
-          command: pages deploy ./_docs --project-name=SUBDOMAIN-PAGES-PROJECT --commit-dirty=true
+          command: pages deploy ./_docs --project-name=echild-code --commit-dirty=true

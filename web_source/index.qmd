@@ -1,3 +1,4 @@
-# SUBDOMAIN homepage {.unnumbered}
+# ECHILD Code website {.unnumbered}
 
-Welcome to the SUBDOMAIN homepage.
+The website for examples code for use with the 
+[EHILD Research Databasr](https://www.echild.ac.uk).
