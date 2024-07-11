@@ -1,6 +1,16 @@
-# ECHILD Code website {.unnumbered}
+# ECHILD Phenotype Code Repository {.unnumbered}
 
-The website for example code for use with the 
-[EHILD Research Database](https://www.echild.ac.uk).
+🚧 Currently under construction 🚧
+
+Welcome to the ECHILD Phenotype Code Repository. Here you will find phenotype code lists, documentation and example code for implementation in Stata and R. While these resources have been developed to aid the ECHILD research community, you are free to use the Repository to support other research and uses of data. It is provided without any warranty.
+
+We also hope that this website will serve as a bit of a primer on phenotyping in administrative data. [Find out more](@primer.qmd) about phenotyping and creating code lists for administrative data.
+
+The Phenotype Code Repository has been designed according to a set of principles that are intended to make finding, understanding and using phenotype code lists easier. Read more about these principles [here](@principles.qmd).
+
+This website is under construction. For any queries or suggestions, please contact
+[Dr Matthew Jay](mailto:matthew.jay@ucl.ac.uk) or <echild@ucl.ac.uk>.
+
+ECHILD is the [Education and Child Health Insights using Linked Data](https://www.echild.ac.uk) project, which links the National Pupil Database and Hospital Episode Statistics plus other relevant datasets) for all of England.
 
 🚧 Currently under construction 🚧
