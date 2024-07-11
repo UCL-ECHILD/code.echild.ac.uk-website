@@ -6,7 +6,7 @@ project:
   # post-render:
  
 book:
-  title: "ECHILD Code"
+  title: "ECHILD Phenotype Code Repository"
   reader-mode: true
   page-footer: >
     The content of this site is licensed under the
@@ -22,6 +22,9 @@ book:
   repo-actions: [edit, issue]
   chapters:
     - index.qmd
+    - primer.qmd
+    - principles.qmd
+    - references.qmd
 format:
   html:
     theme:
@@ -29,8 +32,9 @@ format:
     code-copy: true
     code-link: true
     
-# bibliography: references.bib
-# csl: CITATION-STYLE.csl
-# link-citations: true
+bibliography: references.bib
+csl: harvard-cite-them-right-11th-edition.csl
+link-citations: true
+
 # nocite: |
 #   @*
