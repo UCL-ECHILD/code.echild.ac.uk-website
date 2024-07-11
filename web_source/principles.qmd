@@ -4,7 +4,7 @@ The Repository has been designed according to an overarching plan. This plan is 
 
 The plan’s principles are:
 
-**Code list principles**
+## Code list principles
 
 1. Only final code lists are admitted to the Repository (i.e., no drafts). Ideally the code lists will have been peer reviewed.
 2. Two reviewers from ECHILD will check each code list to ensure that all codes and flags are correctly included.
@@ -24,11 +24,11 @@ d. Where a 4-character code is used, the dot is always present.
 12. Any amendments to code lists (e.g. removals or truncations) must be documented in full.
 13. Each code list must be accompanied by an R script and Stata do file that illustrate how to implement the list. While the common schema for organising code lists means that the starting point for every list will be the same, some have idiosyncrasies, such as certain codes only being valid under certain conditions. Scripts must therefore also illustrate how to deal with these issues.
 
-**Schema for naming code list files (principle 3)**
+## Schema for naming code list files (principle 3)
 
 Each code list file will be named exactly as its `phenotype_id` in its documentation, followed by an underscore and the version number (where version refers to its version within the repository). Thus, for example, the Hardelid et al [-@hardelid2014] code list, whose `phenotye_id` is `hardelid`, and whose version is 1, is called `hardelid_v1.csv`.
 
-**Schema for organising and formatting code lists (principle 4)**
+## Schema for organising and formatting code lists (principle 4)
 
 Every code list has the following five columns: `code`, `dataset`, `field`, `code_type` and `description`. For example, the Fraser and Parslow list has only these five columns:
 
@@ -55,7 +55,7 @@ In addition, there are some general formatting principles for all code lists:
 3. Where a code list has groups (and subgroups), labels used in all code lists must adhere, as far as possible, to the original labels, including in spelling. This is to aid cross-checking with the original. This principle means that both British and American spellings (usually abbreviated) may be used. It also means that some terms that are no longer commonly used in the UK are retained. Users are, of course, free to alter labels in their own analyses.
 4. Code lists should be organised in the same order as in the relevant publication, in terms of the order of codes, groups and sub-groups. This is also to aid cross-checking with the original publications.
 
-**Removals and truncations**
+## Removals and truncations
 
 Sometimes it is necessary to remove some codes from a list. For example, the Cohen et al [-@cohen2014] code list has 20 codes removed, all of which are ICD-9 codes that are not used in ECHILD. The removed codes are saved in an accompanying *.csv file:
 
