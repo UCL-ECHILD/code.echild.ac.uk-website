@@ -55,8 +55,9 @@ css: styles.css
 
 ```{r}
 #| echo: false
+library(knitr)
 dt <- read.csv("https://github.com/UCL-ECHILD/phenotype-code-lists/raw/main/chc_hardelid_v1.csv")
-dt
+kable(dt)
 ```
 
 :::

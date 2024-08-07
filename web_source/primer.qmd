@@ -8,7 +8,9 @@ By 'phenotype' we mean anything observable about a unit of study. In the context
 
 In epidemiological terms, phenotyping is part of the process of ascertaining exposures and outcomes/cases. One of the advantages of datasets such as the HES Admitted Patient Care data is the availability of rich [ICD-10 diagnostic and OPCS-4 procedure](https://classbrowser.nhs.uk/) data, recorded by trained clinical coders in each hospital according to national standards. This information (as well as other fields) can be used to ascertain whether children have particular conditions or other phenotypes.
 
-A code list is therefore a list of ICD-10, OPCS-4 or other codes that can be used to identify records indicative of the target phenotype in administrative data. Within the Repository, all code lists are available to download as machine-readable *.csv files which can be implemented relatively easily. Each list is accompanied by sample code that you are free to use, adapt or ignore as you wish.
+A code list is therefore a list of ICD-10, OPCS-4 or other codes that can be used to identify records indicative of the target phenotype in administrative data. Within the Repository, all code lists are available to download as machine-readable *.csv files which can be implemented relatively easily.
+
+Each list will be accompanied by sample code that you are free to use, adapt or ignore as you wish. Current ECHILD users should contact [Matthew Jay](mailto:matthew.jay@ucl.ac.uk) for example code that is already available on the Secure Research Service.
 
 ## What are some examples of phenotypes and their code lists?
 
