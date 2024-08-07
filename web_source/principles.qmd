@@ -21,7 +21,7 @@ d. Where a 4-character code is used, the dot is always present.
 11. Any amendments to code lists (e.g. removals or truncations) must be documented in full.
 12. Each code list must be accompanied by an R script and Stata do file that illustrate how to implement the list. While the common scheme for organising code lists means that the starting point for every list will be the same, some have idiosyncrasies, such as certain codes only being valid under certain conditions. Scripts must therefore also illustrate how to deal with these issues.
 
-## Schema for organising and formatting code lists
+## Scheme for organising and formatting code lists
 
 Every code list has the following five columns: `code`, `dataset`, `field`, `code_type` and `description`. For example, the Fraser and Parslow [-@fraser2018] list has only these five columns:
 

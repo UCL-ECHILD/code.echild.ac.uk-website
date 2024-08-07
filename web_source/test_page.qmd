@@ -1,14 +1,13 @@
 # 	Chronic health conditions - Hardelid {.unnumbered}
 
-This is a test page that will demonstrate what each code list page should look like.
-
-## Code list details
+## Repository details
 
 | | |
 |---|---|
 | **Name** | Chronic health conditions - Hardelid |
-| **id** | 1 |
-| **Previous version** | NA |
+| **Version** | 1 |
+| **id** | chc_hardelid_v1 |
+| **Previous version(s)** | NA |
 | **Number of files ** | 1 |
 | **Code list file ** | [chc_hardelid_v1.csv](https://github.com/UCL-ECHILD/phenotype-code-lists/raw/main/chc_hardelid_v1.csv) |
 | **Restrictions file ** | NA |
@@ -37,8 +36,8 @@ This is a test page that will demonstrate what each code list page should look l
 | **Original purpose** | To describe what chronic health conditions die with, using HES APC as well as death certificates. |
 | **Groups** | Nine groups according to body systems plus further sub-groups. |
 | **Flags** | LOS3 = code is only valid if the admission is at least 3 days or longer. AGE10 = code is only valid if the child is aged 10 or older when the code was recorded. |
-| **Other details** | |
-| **Changes since first version** | |
+| **Other details** | NA |
+| **Changes since first version** | NA |
 | **Number of codes** | 1371 |
 | **Codes removed** | 0 |
 | **Codes truncated** | 0 |
