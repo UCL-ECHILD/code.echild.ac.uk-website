@@ -1,4 +1,4 @@
-# test_page {.unnumbered}
+# 	Chronic health conditions - Hardelid {.unnumbered}
 
 This is a test page that will demonstrate what each code list page should look like.
 
@@ -10,10 +10,12 @@ This is a test page that will demonstrate what each code list page should look l
 | **id** | 1 |
 | **Previous version** | NA |
 | **Number of files ** | 1 |
-| **Download code list file ** | [chc_hardelid_v1.csv](https://github.com/UCL-ECHILD/phenotype-code-lists/blob/main/chc_hardelid_v1.csv) |
-| **Download restrictions file ** | NA |
-| **Download truncations file ** | NA |
-| **Download removals file ** | NA |
+| **Code list file ** | [chc_hardelid_v1.csv](https://github.com/UCL-ECHILD/phenotype-code-lists/raw/main/chc_hardelid_v1.csv) |
+| **Restrictions file ** | NA |
+| **Truncations file ** | NA |
+| **Removals file ** | NA |
+| **R script** | |
+| **Stata do file** | |
 | **Prepared for repo by** | Matthew Jay |
 | **First check** | Matthew Jay - 2024/06/19 |
 | **Second check** | |
@@ -26,7 +28,7 @@ This is a test page that will demonstrate what each code list page should look l
 |---|---|
 | **Authors** | Hardelid et al |
 | **Year** | 2014 |
-| **Reference** | [Hardelid P, et al. BMJ Open 2014;4:e005331](https://bmjopen.bmj.com/content/4/8/e005331) |
+| **Reference** | [Hardelid P, et al. BMJ Open 2014;4:e005331](https://bmjopen.bmj.com/content/4/8/e005331){target="_blank"} |
 | **Target phenotype** | Chronic health conditions |
 | **Dataset** | HES APC |
 | **Datafields** | diag |
