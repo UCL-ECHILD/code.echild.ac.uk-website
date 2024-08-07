@@ -39,4 +39,8 @@ book:
     - primer.qmd
     - principles.qmd
     - references.qmd
-    - test_page.qmd
+    
+    - part: "Code lists"
+      chapters:
+      - test_page.qmd
+  
