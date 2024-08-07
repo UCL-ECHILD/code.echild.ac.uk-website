@@ -44,3 +44,19 @@
 
 ## Preview
 
+---
+title: "Code list preview"
+format: html
+
+css: styles.css
+---
+
+:::{.scrolling}
+
+```{r}
+#| echo: false
+dt <- read.csv("https://github.com/UCL-ECHILD/phenotype-code-lists/raw/main/chc_hardelid_v1.csv")
+dt
+```
+
+:::
