@@ -5,6 +5,20 @@ project:
   # pre-render: 
   # post-render:
  
+format:
+  html:
+    theme:
+      - cosmo
+    code-copy: true
+    code-link: true
+    
+bibliography: references.bib
+csl: harvard-cite-them-right-11th-edition.csl
+link-citations: true
+
+# nocite: |
+#   @*
+
 book:
   title: "ECHILD Phenotype Code Repository"
   reader-mode: true
@@ -25,16 +39,4 @@ book:
     - primer.qmd
     - principles.qmd
     - references.qmd
-format:
-  html:
-    theme:
-      - cosmo
-    code-copy: true
-    code-link: true
-    
-bibliography: references.bib
-csl: harvard-cite-them-right-11th-edition.csl
-link-citations: true
-
-# nocite: |
-#   @*
+    - test_page.qmd
