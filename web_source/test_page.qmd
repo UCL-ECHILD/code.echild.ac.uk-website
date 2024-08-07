@@ -2,7 +2,7 @@
 
 This is a test page that will demonstrate what each code list page should look like.
 
-# Code list details
+## Code list details
 
 | | |
 |---|---|
@@ -22,7 +22,7 @@ This is a test page that will demonstrate what each code list page should look l
 | **Date added** | 2024/06/19 |
 
 
-# Background information
+## Background information
 
 | | |
 |---|---|
@@ -43,5 +43,5 @@ This is a test page that will demonstrate what each code list page should look l
 | **Codes removed** | 0 |
 | **Codes truncated** | 0 |
 
-# Preview
+## Preview
 

@@ -1,36 +1,29 @@
 # Design principles {.unnumbered}
 
-The Repository has been designed according to an overarching plan. This plan is intended to ensure that finding and using the code lists is as easy as possible. A common code list schema makes implementing each list easier. Users do not need to hard-code the code lists into their scripts but instead can simply load the relevant code list file into memory.
-
-The plan’s principles are:
+The Repository has been designed according to an overarching plan. This is intended to ensure that finding and using the code lists is as easy as possible. As each code list is formatted according to a common scheme as *.csv files, users do not need to hard-code the code lists into their scripts but instead can simply load the relevant code list file into memory.
 
 ## Code list principles
 
 1. Only final code lists are admitted to the Repository (i.e., no drafts). Ideally the code lists will have been peer reviewed.
-2. Two reviewers from ECHILD will check each code list to ensure that all codes and flags are correctly included.
+2. The ECHILD team will check each code list to ensure that all codes and flags are correctly included.
 3. The code list should have an associated publication, which may be a journal article, a pre-print or some other repository. The associated publication must be the publication where the code list first appeared (i.e., a subsequent paper using a previously-published code list is not admissible). This is to ensure that the Repository reflects the original, single version of a code list.
-4. Code list files are to be named and numbered according to a common schema (see below).
-5. Code lists are to be arranged according to a common schema (see below).
-6. All code lists must be machine-readable in *.csv format. Some code lists may have two or more files associated with them where there are several distinct code lists relevant to one phenotype and/or where codes are removed from, or truncated in, the original list.
-7. Only one code per row is permitted. Ranges of codes such as “B20-B24” are not permitted on a single row as these are not easily machine-readable. In such cases, each of B20, B21, B22, B23 and B24 would need to be specified.
-8. In the cases of ICD-10 and OPCS-4 codes:
+4. Code list files are to be named, numbered and arranged according to a common scheme (see below).
+5. All code lists must be machine-readable in *.csv format. Some code lists may have two or more files associated with them where there are several distinct code lists relevant to one phenotype and/or where codes are removed from, or truncated in, the original list.
+6. Only one code per row is permitted. Ranges of codes such as “B20-B24” are not permitted on a single row as these are not easily machine-readable.
+7. In the cases of ICD-10 and OPCS-4 codes:
 a. The code description must be that used in ICD-10 or OPCS-4.
 b. Inclusion of a 3-character code implies including all sub-codes.
 c. Inclusion of a 4-character code implies including only that sub-code.
 d. Where a 4-character code is used, the dot is always present.
-9. ICD-9 and ICD-10-PCS (procedure codes) are not used in ECHILD and so are removed from all code lists.
-10. Where a code list uses ICD-10-CM or ICD-10-CA (also not used in ECHILD), up to the 4th character only is used. Such changes are noted using a `code_truncated` flag.
-11. Any alterations to a code list should be minimal. Extensive alterations may affect the validity of the code list and therefore, without further validation, such lists should be considered drafts and not eligible for inclusion in the repository. It is up to users to determine whether the modifications to a code list in the Repository render it inappropriate for their analyses.
-12. Any amendments to code lists (e.g. removals or truncations) must be documented in full.
-13. Each code list must be accompanied by an R script and Stata do file that illustrate how to implement the list. While the common schema for organising code lists means that the starting point for every list will be the same, some have idiosyncrasies, such as certain codes only being valid under certain conditions. Scripts must therefore also illustrate how to deal with these issues.
+8. ICD-9 and ICD-10-PCS (procedure codes) are not used in ECHILD and so are removed from all code lists.
+9. Where a code list uses ICD-10-CM or ICD-10-CA (also not used in ECHILD), up to the 4th character only is used. Such changes are noted using a `code_truncated` flag.
+10. Any alterations to a code list should be minimal. Extensive alterations may affect the validity of the code list. It is up to users to determine whether the modifications to a code list in the Repository render it inappropriate for their analyses.
+11. Any amendments to code lists (e.g. removals or truncations) must be documented in full.
+12. Each code list must be accompanied by an R script and Stata do file that illustrate how to implement the list. While the common scheme for organising code lists means that the starting point for every list will be the same, some have idiosyncrasies, such as certain codes only being valid under certain conditions. Scripts must therefore also illustrate how to deal with these issues.
 
-## Schema for naming code list files (principle 3)
+## Schema for organising and formatting code lists
 
-Each code list file will be named exactly as its `phenotype_id` in its documentation, followed by an underscore and the version number (where version refers to its version within the repository). Thus, for example, the Hardelid et al [-@hardelid2014] code list, whose `phenotye_id` is `hardelid`, and whose version is 1, is called `hardelid_v1.csv`.
-
-## Schema for organising and formatting code lists (principle 4)
-
-Every code list has the following five columns: `code`, `dataset`, `field`, `code_type` and `description`. For example, the Fraser and Parslow list has only these five columns:
+Every code list has the following five columns: `code`, `dataset`, `field`, `code_type` and `description`. For example, the Fraser and Parslow [-@fraser2018] list has only these five columns:
 
 ![](static/scr_fraser_parslow.png){fig-alt="A screenshot showing the Fraser and Parslow code list in Excel."}
 
@@ -44,7 +37,7 @@ Some code lists have additional columns, such as the Hardelid et al [-@hardelid2
 
 The Hardelid et al [-@hardelid2014] code list also contains a column called `flag`. Where a code list has certain stipulations, then the list will have one or more `flag` columns. For example, in the above screenshot, codes `F55` and `G24.0` have `flag = los3`. The Hardelid et al [-@hardelid2014] code list documentation reveals that this means the code is only to be counted if the admission is more than three days long. See the documentation for each code list in the Repository and the original papers cited therein for details of all such flags and restrictions.
 
-Not all code lists use ICD-10 or OPCS codes (or exclusively these). For example, the code list used to identify births (`births_v1.csv`) uses, in addition to being designed for use where `startage` is `7001` or `7002` (`flag = startage_7001_7002`), ICD-10 codes (`diag`), healthcare resource group codes (`hrgnhs`), episode type (`epitype`), patient classification (`classpat`), admission method (`admimeth`) and neonatal care (`neocare`):
+Not all code lists use ICD-10 or OPCS codes (or exclusively these). For example, the code list used to identify births (`births_v1.csv`) uses, in addition to being designed for use where `startage` is `7001` or `7002` (`flag = startage_7001_7002`), ICD-10 codes (`diag`), healthcare resource group codes (`hrg`), episode type (`epitype`), patient classification (`classpat`), admission method (`admimeth`) and neonatal care (`neocare`):
 
 ![](static/scr_births.png){fig-alt="A screenshot showing the births code list in Excel."}
 
@@ -69,6 +62,6 @@ In this instance, codes `K91.4` and `J95.0` appear only once in the code list.
 
 Sometime this truncation process can cause duplication of codes across categories. For example, in Feudtner et al [-@feudtner2014], code `Z94.8` appears twice, once under `malignancy` and once under `gastro`. This is because in ICD-10-CM, `Z94.81` refers to bone marrow transplant status and `Z94.82` refers to intestine transplant status. This distinction is lost in the standard ICD-10 used in ECHILD. Users should therefore check very carefully that truncated codes (all codes with `flag = code_truncated`) are not rendered invalid by truncation.
 
-Codes are identified as not being part of ICD-10 because the authors of the original paper indicated so in their publication, because the code was obviously not an ICD-10 code, or because the code could not be found when joining the code description from the ICD-10’s data file available from [TRUD](https://isd.digital.nhs.uk/trud/users/guest/filters/0/categories/28). Where a code does not appear in this data file, the 2019 [6th edition](https://icd.who.int/browse10/2019/en) is also consulted, as is the [cumulative change log](https://www.who.int/publications/m/item/official-who-updates-combined-1996-2019-volume-1) published by the WHO. If still not found, [ICD-10-CM](https://www.icd10data.com/ICD10CM/Codes) and [ICD-10-CA](https://secure.cihi.ca/estore/productSeries.htm?pc=PCC1860) are consulted to confirm that the code in question is part of those systems. This occurred, for example, with code `R40.3` in the Feudtner et al [-@feudtner2014] list. Rarely, a code cannot be found at all, such as `G82.9` (in fact, `G82.90`) in Feudtner et al [-@feudtner2014], which is therefore removed.
+Codes are identified as not being part of ICD-10 because the authors of the original paper indicated so in their publication, because the code is obviously not an ICD-10 code, or because the code cannot be found when joining the code description from the ICD-10’s data file available from [TRUD](https://isd.digital.nhs.uk/trud/users/guest/filters/0/categories/28). Where a code does not appear in this data file, the 2019 [6th edition](https://icd.who.int/browse10/2019/en) is also consulted, as is the [cumulative change log](https://www.who.int/publications/m/item/official-who-updates-combined-1996-2019-volume-1) published by the World Health Organization. If still not found, [ICD-10-CM](https://www.icd10data.com/ICD10CM/Codes) and [ICD-10-CA](https://secure.cihi.ca/estore/productSeries.htm?pc=PCC1860) are consulted to confirm that the code in question is part of those systems. This occurred, for example, with code `R40.3` in the Feudtner et al [-@feudtner2014] list. Rarely, a code cannot be found at all, such as `G82.9` (in fact, `G82.90`) in Feudtner et al [-@feudtner2014], which is therefore removed from the version of the code list in the Repository.
 
-Sometimes a range of codes is given in a code list, for example D80-D89 in Feudtner et al [-@feudtner2014]. Some codes that would logically fall within this range do not exist in either the standard ICD-10 or the American or Canadian versions, for example, `D85`, `D87` and `D88`. In such cases, these codes are not contained within the code list in the Repository, though this is not considered a removal and therefore not documented as such.
+Often a range of codes is given in the original publication of a code list, for example D80-D89 in Feudtner et al [-@feudtner2014]. Some codes that would logically fall within this range do not exist in either the standard ICD-10 or the American or Canadian versions, for example, `D85`, `D87` and `D88`. In such cases, these codes are not contained within the code list in the Repository, though this is not considered a removal and therefore not documented as such.
