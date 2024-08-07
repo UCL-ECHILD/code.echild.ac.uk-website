@@ -4,6 +4,7 @@ This is a test page that will demonstrate what each code list page should look l
 
 # Code list details
 
+| | |
 |---|---|
 | **Name** | Chronic health conditions - Hardelid |
 | **id** | 1 |
@@ -21,6 +22,7 @@ This is a test page that will demonstrate what each code list page should look l
 
 # Background information
 
+| | |
 |---|---|
 | **Authors** | Hardelid et al |
 | **Year** | 2014 |
