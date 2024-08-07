@@ -9,7 +9,7 @@ The Phenotype Code List Repository has been designed according to a [set of prin
 This website is under construction. For any queries or suggestions, please contact
 [Matthew Jay](mailto:matthew.jay@ucl.ac.uk).
 
-ECHILD is [Education and Child Health Insights from Linked Data](https://www.echild.ac.uk), which links the National Pupil Database and Hospital Episode Statistics plus other relevant datasets) for all of England.
+ECHILD is [Education and Child Health Insights from Linked Data](https://www.echild.ac.uk){target="_blank"}, which links the National Pupil Database and Hospital Episode Statistics plus other relevant datasets) for all of England.
 
 ![](static/echild-intro.png){fig-alt="The ECHILD logo."}    
 🚧 Currently under construction 🚧
