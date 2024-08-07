@@ -44,3 +44,18 @@
 
 ## Preview
 
+---
+title: "Code list preview"
+format: html
+
+css: styles.css
+---
+
+:::{.scrolling}
+
+```{r}
+print("test text")
+
+```
+
+:::
