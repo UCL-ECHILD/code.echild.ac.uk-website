@@ -1,17 +1,19 @@
 {
-	"name": "RStudio Server",
+	"name": "RStudio Server environment",
 	"build": {
 		"dockerfile": "Dockerfile",
-		"args": { "VARIANT": "4.4" }
+		// Update VARIANT to pick a specific R version: 4, 4.1, 4.0
+		// More info: https://github.com/rocker-org/devcontainer-images/pkgs/container/devcontainer%2Ftidyverse
+		"args": { "VARIANT": "4" }
 	},
 
 	// Install Dev Container Features. More info: https://containers.dev/features
 	"features": {
-		"ghcr.io/rocker-org/devcontainer-features/quarto-cli:1.1.2": {
-      "version": "1.5"
-    },
-		"ghcr.io/rocker-org/devcontainer-features/r-rig:1.2.4": {
-			"version": "4.4",
+		"ghcr.io/rocker-org/devcontainer-features/quarto-cli:1": {},
+		// Install JupyterLab and IRkernel.
+		// More info: https://github.com/rocker-org/devcontainer-templates/tree/main/src/r-ver
+		"ghcr.io/rocker-org/devcontainer-features/r-rig:1": {
+			"version": "none",
 			"installJupyterlab": true
 		}
 	},
@@ -24,7 +26,8 @@
 				"ms-toolsai.jupyter-renderers",
 				"ms-python.python",
 				"ms-python.vscode-pylance",
-        "eamodio.gitlens"
+				"vsls-contrib.codetour",
+				"GitHub.copilot"
 			]
 		}
 	},
@@ -46,4 +49,7 @@
 
 	// Use 'postAttachCommand' to run commands after the container is started.
 	"postAttachCommand": "sudo rstudio-server start"
+
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root
+	// "remoteUser": "root"
 }
