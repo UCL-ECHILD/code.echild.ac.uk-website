@@ -1,4 +1,4 @@
-# 	Chronic health conditions - Hardelid {.unnumbered}
+# Chronic health conditions - Hardelid {.unnumbered}
 
 ## Repository details
 
@@ -37,7 +37,8 @@
 | **Groups** | Nine groups according to body systems plus further sub-groups. |
 | **Flags** | LOS3 = code is only valid if the admission is at least 3 days or longer. AGE10 = code is only valid if the child is aged 10 or older when the code was recorded. |
 | **Other details** | NA |
-| **Changes since first version** | NA |
+| **Changes from original** | NA |
+| **Changes since first version in repo** | NA |
 | **Number of codes** | 1371 |
 | **Codes removed** | 0 |
 | **Codes truncated** | 0 |
