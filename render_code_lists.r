@@ -5,16 +5,17 @@ code_lists <- read.csv("page_template/page_template.csv")
 # Write index file
 index_filename <- "code_list_index.qmd"
 index_fileConn <- paste0("web_source/", index_filename)
+write("", index_fileConn) # overwrite any existing file and start again
 write("# Code lists {.unnumbered}\n", index_fileConn, append = T)
 write("The following phenotype code lists are currently available:\n", index_fileConn, append = T)
-write("\n", index_fileConn, append = T)
 write("| Code list name (version) | Target phenotype | Ref | Link |", index_fileConn, append = T)
 write("|---|---|---|---|", index_fileConn, append = T)
 
 # Write _quarto.yml
-file.copy("page_template/_quarto_master.yml", "web_source/_quarto.yml")
+file.copy("page_template/_quarto_master.yml", "web_source/_quarto.yml", overwrite = T)
 quarto_fileConn <- "web_source/_quarto.yml"
 
+write("\n", quarto_fileConn, append = T)
 write(paste0("    - part: ", index_filename), quarto_fileConn, append = T)
 write("      chapters:", quarto_fileConn, append = T)
 
