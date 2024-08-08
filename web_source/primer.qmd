@@ -10,7 +10,7 @@ In epidemiological terms, phenotyping is part of the process of ascertaining exp
 
 A code list is therefore a list of ICD-10, OPCS-4 or other codes that can be used to identify records indicative of the target phenotype in administrative data. Within the Repository, all code lists are available to download as machine-readable *.csv files which can be implemented relatively easily.
 
-Each list will be accompanied by sample code that you are free to use, adapt or ignore as you wish. Current ECHILD users should contact [Matthew Jay](mailto:matthew.jay@ucl.ac.uk) for example code that is already available on the Secure Research Service.
+Each list will be accompanied by sample code that you are free to use, adapt or ignore as you wish. There are not yet available to download but current ECHILD users may contact [Matthew Jay](mailto:matthew.jay@ucl.ac.uk) for example code that is already available on the Secure Research Service.
 
 ## What are some examples of phenotypes and their code lists?
 
