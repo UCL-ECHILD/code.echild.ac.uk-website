@@ -58,7 +58,7 @@ jobs:
           cache-version: 1
 
       - name: Write code list files
-        run: Rscript -e 'source("render_code_lists.R")'
+        run: Rscript -e 'source("render_code_lists.r")'
 
       - name: Render quarto website
         uses: quarto-dev/quarto-actions/render@v2
