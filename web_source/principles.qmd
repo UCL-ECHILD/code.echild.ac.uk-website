@@ -1,3 +1,8 @@
+---
+format: html
+css: styles.css
+---
+
 # Design principles {.unnumbered}
 
 The Repository has been designed according to an overarching plan. This is intended to ensure that finding and using the code lists is as easy as possible. As each code list is formatted according to a common scheme as *.csv files, users do not need to hard-code the code lists into their scripts but instead can simply load the relevant code list file into memory.
@@ -25,21 +30,48 @@ d. Where a 4-character code is used, the dot is always present.
 
 Every code list has the following five columns: `code`, `dataset`, `field`, `code_type` and `description`. For example, the Fraser et al [-@fraser2012] list has only these five columns:
 
-![](static/scr_fraser_parslow.png){fig-alt="A screenshot showing the Fraser et al code list in Excel."}
+:::{.scrolling}
+
+```{r}
+#| echo: false
+library(knitr)
+dt <- read.csv("https://github.com/UCL-ECHILD/phenotype-code-lists/raw/main/llc_fraser_v1.csv")
+kable(dt)
+```
+
+:::
 
 Respectively, these fields give the relevant code, the dataset to which the codes relate, the field in that dataset, the type of code it is (e.g. ICD-10, OPCS-4 or something else) and the code’s description.
 
-Use of a 3-character code implies including all sub-codes; 4-character codes are only used when only specific sub-codes are used. For example, in the above screenshot, code `B20` means include all of `B20.0`, `B20.1`, `B20.2`, `B20.3`, `B20.4`, `B20.5`, `B20.6`, `B20.7`, `B20.8` and `B20.9`. By contrast, in the case of code `A81`, only `A81.0` and `A81.1` should be included, and NOT `A81.2`, `A81.8` or `A81.9` (and there are no ICD-10 codes designated `A81.3` to `A81.7`). Note also that each of `B20`, `B21`, `B22`, `B23` and `B24` are coded each on their own row and not by reference to a range of codes (e.g. “B20-B24”).
+Use of a 3-character code implies including all sub-codes; 4-character codes are only used when only specific sub-codes are used. For example, in the Fraser et al [-@fraser2012] list, code `B20` means include all of `B20.0`, `B20.1`, `B20.2`, `B20.3`, `B20.4`, `B20.5`, `B20.6`, `B20.7`, `B20.8` and `B20.9`. By contrast, in the case of code `A81`, only `A81.0` and `A81.1` should be included, and NOT `A81.2`, `A81.8` or `A81.9` (and there are no ICD-10 codes designated `A81.3` to `A81.7`). Note also that each of `B20`, `B21`, `B22`, `B23` and `B24` are coded each on their own row and not by reference to a range of codes (e.g. “B20-B24”).
 
 Some code lists have additional columns, such as the Hardelid et al [-@hardelid2014] list, which contains columns for the groups and sub-groups (`group` and `subgroup`) into which the codes are divided in Hardelid et al’s [-@hardelid2014] original paper:
 
-![](static/scr_hardelid.png){fig-alt="A screenshot showing the Hardelid et al code list in Excel."}
+:::{.scrolling}
 
-The Hardelid et al [-@hardelid2014] code list also contains a column called `flag`. Where a code list has certain stipulations, then the list will have one or more `flag` columns. For example, in the above screenshot, codes `F55` and `G24.0` have `flag = los3`. The Hardelid et al [-@hardelid2014] code list documentation reveals that this means the code is only to be counted if the admission is more than three days long. See the documentation for each code list in the Repository and the original papers cited therein for details of all such flags and restrictions.
+```{r}
+#| echo: false
+library(knitr)
+dt <- read.csv("https://github.com/UCL-ECHILD/phenotype-code-lists/raw/main/chc_hardelid_v1.csv")
+kable(dt)
+```
 
-Not all code lists use ICD-10 or OPCS codes (or exclusively these). For example, the code list used to identify births (`births_v1.csv`) uses, in addition to being designed for use where `startage` is `7001` or `7002` (`flag = startage_7001_7002`), ICD-10 codes (`diag`), healthcare resource group codes (`hrg`), episode type (`epitype`), patient classification (`classpat`), admission method (`admimeth`) and neonatal care (`neocare`):
+:::
 
-![](static/scr_births.png){fig-alt="A screenshot showing the births code list in Excel."}
+The Hardelid et al [-@hardelid2014] code list also contains a column called `flag`. Where a code list has certain stipulations, then the list will have one or more `flag` columns. For example, codes `F55` and `G24.0` have `flag = los3`. The Hardelid et al [-@hardelid2014] code list documentation reveals that this means the code is only to be counted if the admission is more than three days long. See the documentation for each code list in the Repository and the original papers cited therein for details of all such flags and restrictions.
+
+Not all code lists use ICD-10 or OPCS codes (or exclusively these). For example, the Zylbersztejn et al [-@zylbersztejn2020] code list used to identify births uses, in addition to being designed for use where `startage` is `7001` or `7002` (`flag = startage_7001_7002`), ICD-10 codes (`diag`), healthcare resource group codes (`hrg`), episode type (`epitype`), patient classification (`classpat`), admission method (`admimeth`) and neonatal care (`neocare`):
+
+:::{.scrolling}
+
+```{r}
+#| echo: false
+library(knitr)
+dt <- read.csv("https://github.com/UCL-ECHILD/phenotype-code-lists/raw/main/births_zylb_v1.csv")
+kable(dt)
+```
+
+:::
 
 In addition, there are some general formatting principles for all code lists:
 
@@ -52,11 +84,29 @@ In addition, there are some general formatting principles for all code lists:
 
 Sometimes it is necessary to remove some codes from a list. For example, the Cohen et al [-@cohen2012] code list has 20 codes removed, all of which are ICD-9 codes that are not used in ECHILD. The removed codes are saved in an accompanying *.csv file:
 
-![](static/scr_cohen_rem.png){fig-alt="A screenshot showing the codes removed from the Cohen et al code list in Excel."}
+:::{.scrolling}
+
+```{r}
+#| echo: false
+library(knitr)
+dt <- read.csv("https://github.com/UCL-ECHILD/phenotype-code-lists/raw/main/mc_cohen_v1_removals.csv")
+kable(dt)
+```
+
+:::
 
 Cohen et al [-@cohen2012] also happens to have some truncated codes. In this instance, these are 5-character ICD-10-CA codes. These codes are truncated to the corresponding 4-character version:
 
-![](static/scr_cohen_trun.png){fig-alt="A screenshot showing the codes truncated in the Cohen et al code list in Excel."}
+:::{.scrolling}
+
+```{r}
+#| echo: false
+library(knitr)
+dt <- read.csv("https://github.com/UCL-ECHILD/phenotype-code-lists/raw/main/mc_cohen_v1_truncations.csv")
+kable(dt)
+```
+
+:::
 
 In this instance, codes `K91.4` and `J95.0` appear only once in the code list.
 
