@@ -8,8 +8,8 @@ index_fileConn <- paste0("web_source/", index_filename)
 write("", index_fileConn) # overwrite any existing file and start again
 write("# Code lists {.unnumbered}\n", index_fileConn, append = T)
 write("The following phenotype code lists are currently available:\n", index_fileConn, append = T)
-write("| Code list name (version) | Target phenotype | Ref | Link |", index_fileConn, append = T)
-write("|---|---|---|---|", index_fileConn, append = T)
+write("| Code list name (version and link) | Target phenotype | Ref |", index_fileConn, append = T)
+write("|---|---|---|", index_fileConn, append = T)
 
 # Write _quarto.yml
 file.copy("page_template/_quarto_master.yml", "web_source/_quarto.yml", overwrite = T)
@@ -143,10 +143,9 @@ for (i in 1:nrow(code_lists)) {
   
   ## Add to index file
   write(paste0("| ",
-               name, " (", version, ") | ",
+               "[", name, " (", version, ")](", qmd_filename, ") | ",
                target_phenotype, " | ",
-               "[", ref, "](", ref_url, "){target=\"_blank\"} | ",
-               "@", qmd_filename, " |"),
+               "[", ref, "](", ref_url, "){target=\"_blank\"} | "),
         index_fileConn, append = T)
   
   ## Add to _quarto.yml
