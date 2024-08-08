@@ -23,9 +23,9 @@ d. Where a 4-character code is used, the dot is always present.
 
 ## Scheme for organising and formatting code lists
 
-Every code list has the following five columns: `code`, `dataset`, `field`, `code_type` and `description`. For example, the Fraser and Parslow [-@fraser2018] list has only these five columns:
+Every code list has the following five columns: `code`, `dataset`, `field`, `code_type` and `description`. For example, the Fraser et al [-@fraser2012] list has only these five columns:
 
-![](static/scr_fraser_parslow.png){fig-alt="A screenshot showing the Fraser and Parslow code list in Excel."}
+![](static/scr_fraser_parslow.png){fig-alt="A screenshot showing the Fraser et al code list in Excel."}
 
 Respectively, these fields give the relevant code, the dataset to which the codes relate, the field in that dataset, the type of code it is (e.g. ICD-10, OPCS-4 or something else) and the code’s description.
 
