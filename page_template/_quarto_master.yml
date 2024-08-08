@@ -40,7 +40,4 @@ book:
     - principles.qmd
     - references.qmd
     
-    - part: "Code lists"
-      chapters:
-      - test_page.qmd
   

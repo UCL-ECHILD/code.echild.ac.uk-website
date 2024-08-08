@@ -1,8 +1,26 @@
 
+# load source data
 code_lists <- read.csv("page_template/page_template.csv")
+
+# Write index file
+index_filename <- "code_list_index.qmd"
+index_fileConn <- paste0("web_source/", index_filename)
+write("# Code lists {.unnumbered}\n", index_fileConn, append = T)
+write("The following phenotype code lists are currently available:\n", index_fileConn, append = T)
+write("\n", index_fileConn, append = T)
+write("| Code list name (version) | Target phenotype | Ref | Link |", index_fileConn, append = T)
+write("|---|---|---|---|", index_fileConn, append = T)
+
+# Write _quarto.yml
+file.copy("page_template/_quarto_master.yml", "web_source/_quarto.yml")
+quarto_fileConn <- "web_source/_quarto.yml"
+
+write(paste0("    - part: ", index_filename), quarto_fileConn, append = T)
+write("      chapters:", quarto_fileConn, append = T)
 
 for (i in 1:nrow(code_lists)) {
   
+  ## Create one .qmd file per code list
   # Extract each element as an object
   name <- code_lists[i, ]$name
   version <- code_lists[i, ]$version
@@ -44,9 +62,8 @@ for (i in 1:nrow(code_lists)) {
   # Write file and connect to it
   qmd_filename <- paste0(id, ".qmd")
   fileConn <- paste0("web_source/", qmd_filename)
-  write("", file = fileConn)
   
-  # Start adding content
+  # Add content
   # Header
   write(paste0("# ", name, " {.unnumbered}\n"), fileConn, append = T)
   
@@ -123,9 +140,15 @@ for (i in 1:nrow(code_lists)) {
   write("```\n", fileConn, append = T)
   write(":::", fileConn, append = T)
   
+  ## Add to index file
+  write(paste0("| ",
+               name, " (", version, ") | ",
+               target_phenotype, " | ",
+               "[", ref, "](", ref_url, "){target=\"_blank\"} | ",
+               "@", qmd_filename, " |"),
+        index_fileConn, append = T)
+  
+  ## Add to _quarto.yml
+  write(paste0("      - ", qmd_filename), quarto_fileConn, append = T)
+  
 }
-
-# Write index file
-
-# Write _quarto.yml
-
