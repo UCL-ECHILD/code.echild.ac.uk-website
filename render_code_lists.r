@@ -92,9 +92,9 @@ for (i in 1:nrow(code_lists)) {
   }
   if (!is.na(removals_file)) {
     removals_filename <- paste0(id, "_removals.csv")
-    write(paste0("| **Truncations file ** | [", removals_filename, "](", removals_file, "){traget=\"_blank\"} |"), fileConn, append = T)
+    write(paste0("| **Removals file ** | [", removals_filename, "](", removals_file, "){traget=\"_blank\"} |"), fileConn, append = T)
   } else {
-    write(paste0("| **Truncations file ** | NA |"), fileConn, append = T)
+    write(paste0("| **Removals file ** | NA |"), fileConn, append = T)
   }
   write(paste0("| **R script** | ", r_script, " |"), fileConn, append = T)
   write(paste0("| **Stata do file** | ", stata_script, " |"), fileConn, append = T)
