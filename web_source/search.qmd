@@ -1,0 +1,5 @@
+# Search {.unnumbered}
+
+To search, click the magnifying glass in the top-right corner. This will open a search bar that conducts text search of the entire website.
+
+You can use this to search for anything that is visible on the website. This means that you can search for a code list by name, target phenotype, authors and even by a specific code.
