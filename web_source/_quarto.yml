@@ -22,6 +22,8 @@ link-citations: true
 book:
   title: "ECHILD Phenotype Code List Repository"
   reader-mode: true
+  navbar:
+    search: true
   page-footer: >
     The content of this site is licensed under the
     [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-nc-sa/4.0/),

@@ -14,7 +14,7 @@ Each list will be accompanied by sample code that you are free to use, adapt or 
 
 ## What are some examples of phenotypes and their code lists?
 
-Currently within the repository, we have a range of code lists that cover different target phenotypes. The repository is fully searchable and you can consult the index for an overview of what is currently held.
+Currently within the repository, we have a [range of code lists](code_list_index.qmd) that cover different target phenotypes. The repository is fully searchable and you can consult the index for an overview of what is currently held.
 
 Code lists may cover conditions generically defined (e.g. chronic health conditions) or target specific conditions (e.g. severe congenital heart disease). A code list might also target something other than a health condition, such as homelessness.
 
