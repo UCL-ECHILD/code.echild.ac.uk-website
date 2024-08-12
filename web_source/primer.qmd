@@ -1,8 +1,8 @@
-# A brief primer on phenotyping in administrative data {.unnumbered}
+# Primer on phenotyping {.unnumbered}
 
 > Written by Matthew Jay
 
-## What is a 'phenotype' and what is a phenotype code list?
+## 'Phenotypes' and phenotype code lists
 
 By 'phenotype' we mean anything observable about a unit of study. In the context of ECHILD, and especially Hospital Episode Statistics (HES), we are often referring to health conditions. However a phenotype may be broader and we have admitted to the Repository, for example, code lists that cover homelessness and intimate partner violence.
 
@@ -12,7 +12,7 @@ A code list is therefore a list of ICD-10, OPCS-4 or other codes that can be use
 
 Each list will be accompanied by sample code that you are free to use, adapt or ignore as you wish. These are not yet available to download but current ECHILD users may contact [Matthew Jay](mailto:matthew.jay@ucl.ac.uk) for example code that is already available on the Secure Research Service.
 
-## What are some examples of phenotypes and their code lists?
+## Examples of phenotype code lists
 
 Currently within the repository, we have a [range of code lists](code_list_index.qmd) that cover different target phenotypes. The repository is fully searchable and you can consult the index for an overview of what is currently held.
 
@@ -20,7 +20,7 @@ Code lists may cover conditions generically defined (e.g. chronic health conditi
 
 To take one example, consider the Hardelid et al [-@hardelid2014] list, which targets chronic health conditions generally. The target phenotype is in fact "any health problem likely to require follow-up for more than one year, where follow-up could be repeated hospital admission, specialist consultation through outpatient department visits, medication or use of support services." The list contains 1,371 distinct ICD-10 codes, which are divided into nine body systems (e.g. respiratory, cardiac) and further into sub-groups. This list has been used extensively in studies such as on childhood mortality [@hardelid2014] and the cumulative incidence of chronic health conditions across childhood.
 
-## What are the caveats of using phenotype code lists?
+## Caveats of phenotype code lists
 
 You must be careful to recognise possible limitations in using code lists. First, when using administrative data, you must always consider the possibility of various biases such as that induced by the fact that patients admitted to hospital are generally in poorer health than those not admitted. To the contrary, administrative hospital data, particularly HES, will pick up fewer mental health presentations and other conditions primarily seen in outpatients.
 
@@ -34,7 +34,7 @@ Each code list also has its idiosyncrasies. For example, in the Hardelid et al [
 
 One particular caveat to bear in mind is that some code lists are only designed for use with emergency admissions. This is the case, for example, with the adversity-related admissions (@herbert2015) and stress-related presentations (@blackburn2021; @nichobhthaigh2024) lists. You should therefore also consult the [emergency admissions](emergency_admissions_v1.qmd) code list that identifies HES admissions as such with reference to `admimeth` (admission methods) values `21` to `25`, `28`, `2A` and `2D`. We recommend that you use the list available in the Repository as codes `25`, `2A` and `2D` were not availalbe before 2013/14.
 
-## How is a phenotype code list developed?
+## Developing a phenotype code list
 
 Precise methods vary, and all users are encouraged to carefully consult the original publications that accompany each phenotype code list in the Repository. Development, however, would normally occur in a manner like the following. 
 
@@ -43,13 +43,13 @@ Precise methods vary, and all users are encouraged to carefully consult the orig
 3. Ideally, the list would be validated against a gold standard source, such as original hospital records, though this is not always possible due to practical constraints.
 4. Finally, further validation occurs through using the code list in the administrative data, including sensitivity analyses with different observation windows and more or less restricted code groups. It can also be useful to examine incidence of codes over time to identify possible changes in coding unexplained by clinical or epidemiological factors.
 
-## Are code lists updated?
+## Updating code lists
 
 Naturally, the above process of validation is a very complex process that does not end after initial validation. Changes in coding practice and healthcare policy can affect the validity and utility of a code list or particular codes in it, up to years after the code list was first developed. It may therefore be necessary to update code lists over time.
 
 While it is beyond the scope of the Repository to carry out this updating work, updated lists may be admitted to it. Compare, for example, the code list of stress-related emergency presentations developed by Blackburn et al [-@blackburn2021] with that of Ní Chobhthaigh et al [-@nichobhthaigh2024]. The latter is an update of the former, accounting for the latest research and practice in paediatric mental health.
 
-## Using code lists from other countries
+## Code lists from other countries
 
 In the Repository, we have some code lists that were developed in other countries. An example is that of Feudtner et al [-@feudtner2014]. Users should take particular care with these.
 
