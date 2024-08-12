@@ -11,7 +11,8 @@ write("The following phenotype code lists are currently available:\n", index_fil
 write("| Code list name (version and link) | Target phenotype | Ref |", index_fileConn, append = T)
 write("|---|---|---|", index_fileConn, append = T)
 
-# Modify _quarto.yml
+# Write _quarto.yml
+file.copy("page_template/_quarto_master.yml", "web_source/_quarto.yml", overwrite = T)
 quarto_fileConn <- "web_source/_quarto.yml"
 
 write("\n", quarto_fileConn, append = T)
@@ -127,6 +128,10 @@ for (i in 1:nrow(code_lists)) {
   # Preview
   write("\n", fileConn, append = T)
   write("## Preview\n", fileConn, append = T)
+  write("---", fileConn, append = T)
+  write("format: html", fileConn, append = T)
+  write("css: styles.css", fileConn, append = T)
+  write("---\n", fileConn, append = T)
   write(":::{.scrolling}\n", fileConn, append = T)
   write("```{r}", fileConn, append = T)
   write("#| echo: false", fileConn, append = T)
