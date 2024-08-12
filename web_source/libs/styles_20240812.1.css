@@ -1,4 +1,4 @@
-.scrolling cell-output-display {
+.scrolling .cell-output-display {
   max-height: 500px;
   overflow: auto;
 }
