@@ -1,6 +1,4 @@
-.scrolling {
+.scrolling cell-output-display {
   max-height: 500px;
   overflow: auto;
-  width: auto;
-  white-space: norwap;
 }
