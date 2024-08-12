@@ -11,8 +11,7 @@ write("The following phenotype code lists are currently available:\n", index_fil
 write("| Code list name (version and link) | Target phenotype | Ref |", index_fileConn, append = T)
 write("|---|---|---|", index_fileConn, append = T)
 
-# Write _quarto.yml
-file.copy("page_template/_quarto_master.yml", "web_source/_quarto.yml", overwrite = T)
+# Modify _quarto.yml
 quarto_fileConn <- "web_source/_quarto.yml"
 
 write("\n", quarto_fileConn, append = T)
