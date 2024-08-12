@@ -133,7 +133,7 @@ for (i in 1:nrow(code_lists)) {
   write("```{r}", fileConn, append = T)
   write("#| echo: false", fileConn, append = T)
   write("library(knitr)", fileConn, append = T)
-  write(paste0("dt <- read.csv(\"", codelist_file, "\")"), fileConn, append = T)
+  write(paste0("dt <- read.csv(\"", phenotype_repo_raw_content_prefix, codelist_file, "\")"), fileConn, append = T)
   write("kable(dt)", fileConn, append = T)
   write("```\n", fileConn, append = T)
   write(":::", fileConn, append = T)
