@@ -10,7 +10,7 @@ format:
   html:
     theme:
       - cosmo
-    css: libs/styles_20240812.1.css
+    css: libs/styles_20240812.2.css
     code-copy: true
     code-link: true
     
