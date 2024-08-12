@@ -2,7 +2,6 @@ project:
   type: book
   resources: static/*
   output-dir: ../_docs
-  lib-dir: libs/
   # pre-render: 
   # post-render:
  
@@ -10,7 +9,6 @@ format:
   html:
     theme:
       - cosmo
-    css: libs/styles_20240812.1.css
     code-copy: true
     code-link: true
     
