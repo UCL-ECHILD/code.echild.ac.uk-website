@@ -1,0 +1,3 @@
+# How to submit a code list {.unnumbered}
+
+If you have a phenotype code list that you would like to be included in the Repository, please contact [Matthew Jay](mailto:matthew.jay@ucl.ac.uk). All code lists will be reviewed by the ECHILD team to ensure they meet the Repository's [design principles](principles.qmd). It would be helpful if you could read these and format your code list in the appropriate way to speed up the list's inclusion in the Repository.

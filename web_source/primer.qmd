@@ -30,6 +30,10 @@ Timing can also be difficult. Whereas each patient episode in HES is date stampe
 
 Each code list also has its idiosyncrasies. For example, in the Hardelid et al [-@hardelid2014] list for chronic health conditions, some codes are only valid if the admission is at least 3 days long and others are only valid where the patient is at least ten years old. Each code list in the Repository is formatted in the same way, meaning that identifying these factors (which are also documented on this website) should be straightforward.
 
+## Emergency admissions
+
+One particular caveat to bear in mind is that some code lists are only designed for use with emergency admissions. This is the case, for example, with the adversity-related admissions (@herbet2015) and stress-related presentations (@blackburn2021; @nichobhthaigh2024) lists. You should therefore also consult the emergency admissions code list that identifies HES admissions as such with reference to `admimeth` (admission methods) values.
+
 ## How is a phenotype code list developed?
 
 Precise methods vary, and all users are encouraged to carefully consult the original publications that accompany each phenotype code list in the Repository. Development, however, would normally occur in a manner like the following. 
