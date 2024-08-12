@@ -128,10 +128,6 @@ for (i in 1:nrow(code_lists)) {
   # Preview
   write("\n", fileConn, append = T)
   write("## Preview\n", fileConn, append = T)
-  write("---", fileConn, append = T)
-  write("format: html", fileConn, append = T)
-  write("css: styles.css", fileConn, append = T)
-  write("---\n", fileConn, append = T)
   write(":::{.scrolling}\n", fileConn, append = T)
   write("```{r}", fileConn, append = T)
   write("#| echo: false", fileConn, append = T)
