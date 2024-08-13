@@ -32,7 +32,7 @@ Each code list also has its idiosyncrasies. For example, in the Hardelid et al [
 
 ## Emergency admissions
 
-One particular caveat to bear in mind is that some code lists are only designed for use with emergency admissions. This is the case, for example, with the adversity-related admissions (@herbert2015) and stress-related presentations (@blackburn2021; @nichobhthaigh2024) lists. You should therefore also consult the [emergency admissions](emergency_admissions_v1.qmd) code list that identifies HES admissions as such with reference to `admimeth` (admission methods) values `21` to `25`, `28`, `2A` and `2D`. We recommend that you use the list available in the Repository as codes `25`, `2A` and `2D` were not availalbe before 2013/14.
+One particular caveat to bear in mind is that some code lists are only designed for use with emergency admissions. This is the case, for example, with the adversity-related admissions (@herbert2015) and stress-related presentations (@blackburn2021; @nichobhthaigh2024) lists. You should therefore also consult the [emergency admissions](emergency_admissions_v1.qmd) code list that identifies HES admissions as such with reference to `admimeth` (admission methods) values `21` to `25`, `28`, and `2A` to `2D`. We recommend that you use the list available in the Repository as codes `25`, `2A` and `2D` were not available before 2013/14.
 
 ## Developing a phenotype code list
 
