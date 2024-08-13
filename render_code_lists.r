@@ -74,7 +74,11 @@ for (i in 1:nrow(code_lists)) {
   write(paste0("| **Name** | ", name, " |"), fileConn, append = T)
   write(paste0("| **Version** | ", version, " |"), fileConn, append = T)
   write(paste0("| **id** | ", id, " |"), fileConn, append = T)
-  write(paste0("| **Previous version(s)** | ", prev_vers, " |"), fileConn, append = T)
+  if (!is.na(prev_vers)) {
+    write(paste0("| **Previous version** | [", prev_vers, "](", prev_vers, ".qmd) |"), fileConn, append = T)
+  } else {
+    write(paste0("| **Previous version** | NA |"), fileConn, append = T)
+  }
   write(paste0("| **Number of files** | ", n_files, " |"), fileConn, append = T)
   write(paste0("| **Code list file** (right-click to download) | [", id, ".csv](", codelist_file, "){target=\"_blank\"} |"), fileConn, append = T)
   if (!is.na(restrictions_file)) {
