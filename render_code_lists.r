@@ -1,4 +1,3 @@
-library(knitr)
 
 # load source data
 code_lists <- read.csv("page_template/page_template.csv")
@@ -84,19 +83,19 @@ for (i in 1:nrow(code_lists)) {
   write(paste0("| **Code list file** (right-click to download) | [", id, ".csv](", codelist_file, "){target=\"_blank\"} |"), fileConn, append = T)
   if (!is.na(restrictions_file)) {
     restrictions_filename <- paste0(id, "_restrictions.csv")
-    write(paste0("| **Restrictions file** (right-click to download) | [", restrictions_filename, "](", restrictions_file, "){target=\"_blank\"} |"), fileConn, append = T)
+    write(paste0("| **Restrictions file** | [", restrictions_filename, "](", restrictions_file, "){target=\"_blank\"} |"), fileConn, append = T)
   } else {
     write(paste0("| **Restrictions file** | NA |"), fileConn, append = T)
   }
   if (!is.na(truncations_file)) {
     truncations_filename <- paste0(id, "_trunactions.csv")
-    write(paste0("| **Truncations file** (right-click to download) | [", truncations_filename, "](", truncations_file, "){target=\"_blank\"} |"), fileConn, append = T)
+    write(paste0("| **Truncations file** | [", truncations_filename, "](", truncations_file, "){target=\"_blank\"} |"), fileConn, append = T)
   } else {
     write(paste0("| **Truncations file** | NA |"), fileConn, append = T)
   }
   if (!is.na(removals_file)) {
     removals_filename <- paste0(id, "_removals.csv")
-    write(paste0("| **Removals file** (right-click to download) | [", removals_filename, "](", removals_file, "){target=\"_blank\"} |"), fileConn, append = T)
+    write(paste0("| **Removals file** | [", removals_filename, "](", removals_file, "){target=\"_blank\"} |"), fileConn, append = T)
   } else {
     write(paste0("| **Removals file** | NA |"), fileConn, append = T)
   }
@@ -130,11 +129,15 @@ for (i in 1:nrow(code_lists)) {
   write(paste0("| **Codes truncated** | ", n_codes_truncated, " |"), fileConn, append = T)
   
   # Preview
-  dt <- read.csv(codelist_file)
   write("\n", fileConn, append = T)
   write("## Preview\n", fileConn, append = T)
   write(":::{.scrolling}\n", fileConn, append = T)
-  write(kable(dt), fileConn, append = T)
+  write("```{r}", fileConn, append = T)
+  write("#| echo: false", fileConn, append = T)
+  write("library(knitr)", fileConn, append = T)
+  write(paste0("dt <- read.csv(\"", codelist_file, "\")"), fileConn, append = T)
+  write("kable(dt)", fileConn, append = T)
+  write("```\n", fileConn, append = T)
   write(":::", fileConn, append = T)
   
   ## Add to index file
