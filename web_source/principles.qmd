@@ -28,7 +28,7 @@ d. Where a 4-character code is used, the dot is always present.
 
 ## Scheme for organising and formatting code lists
 
-Every code list has the following five columns: `code`, `dataset`, `field`, `code_type` and `description`. For example, the Fraser et al [-@fraser2012] list has only these five columns:
+Every code list has the following five columns: `code`, `dataset`, `field`, `code_type` and `description`. For example, the [Fraser et al](llc_fraser_v1.qmd) list has only these five columns:
 
 :::{.scrolling}
 
@@ -44,9 +44,9 @@ kable(dt)
 
 Respectively, these fields give the relevant code, the dataset to which the codes relate, the field in that dataset, the type of code it is (e.g. ICD-10, OPCS-4 or something else) and the code’s description.
 
-Use of a 3-character code implies including all sub-codes; 4-character codes are only used when only specific sub-codes are used. For example, in the Fraser et al [-@fraser2012] list, code `B20` means include all of `B20.0`, `B20.1`, `B20.2`, `B20.3`, `B20.4`, `B20.5`, `B20.6`, `B20.7`, `B20.8` and `B20.9`. By contrast, in the case of code `A81`, only `A81.0` and `A81.1` should be included, and NOT `A81.2`, `A81.8` or `A81.9` (and there are no ICD-10 codes designated `A81.3` to `A81.7`). Note also that each of `B20`, `B21`, `B22`, `B23` and `B24` are coded each on their own row and not by reference to a range of codes (e.g. “B20-B24”).
+Use of a 3-character code implies including all sub-codes; 4-character codes are only used when only specific sub-codes are used. For example, in the [Fraser et al](llc_fraser_v1.qmd) list, code `B20` means include all of `B20.0`, `B20.1`, `B20.2`, `B20.3`, `B20.4`, `B20.5`, `B20.6`, `B20.7`, `B20.8` and `B20.9`. By contrast, in the case of code `A81`, only `A81.0` and `A81.1` should be included, and NOT `A81.2`, `A81.8` or `A81.9` (and there are no ICD-10 codes designated `A81.3` to `A81.7`). Note also that each of `B20`, `B21`, `B22`, `B23` and `B24` are coded each on their own row and not by reference to a range of codes (e.g. “B20-B24”).
 
-Some code lists have additional columns, such as the Hardelid et al [-@hardelid2014] list, which contains columns for the groups and sub-groups (`group` and `subgroup`) into which the codes are divided in Hardelid et al’s [-@hardelid2014] original paper:
+Some code lists have additional columns, such as the [Hardelid et al](chc_hardelid_v1) list, which contains columns for the groups and sub-groups (`group` and `subgroup`) into which the codes are divided in Hardelid et al’s [-@hardelid2014] original paper:
 
 :::{.scrolling}
 
@@ -60,9 +60,9 @@ kable(dt)
 :::
 
 
-The Hardelid et al [-@hardelid2014] code list also contains a column called `flag`. Where a code list has certain stipulations, then the list will have one or more `flag` columns. For example, codes `F55` and `G24.0` have `flag = los3`. The Hardelid et al [-@hardelid2014] code list documentation reveals that this means the code is only to be counted if the admission is more than three days long. See the documentation for each code list in the Repository and the original papers cited therein for details of all such flags and restrictions.
+The [Hardelid et al](chc_hardelid_v1) code list also contains a column called `flag`. Where a code list has certain stipulations, then the list will have one or more `flag` columns. For example, codes `F55` and `G24.0` have `flag = los3`. The [Hardelid et al](chc_hardelid_v1) code list documentation reveals that this means the code is only to be counted if the admission is more than three days long. See the documentation for each code list in the Repository and the original papers cited therein for details of all such flags and restrictions.
 
-Not all code lists use ICD-10 or OPCS codes (or exclusively these). For example, the Zylbersztejn et al [-@zylbersztejn2020] code list used to identify births uses, in addition to being designed for use where `startage` is `7001` or `7002` (`flag = startage_7001_7002`), ICD-10 codes (`diag`), healthcare resource group codes (`hrg`), episode type (`epitype`), patient classification (`classpat`), admission method (`admimeth`) and neonatal care (`neocare`):
+Not all code lists use ICD-10 or OPCS codes (or exclusively these). For example, the [Zylbersztejn et al](births_zylb_v1) code list used to identify births uses, in addition to being designed for use where `startage` is `7001` or `7002` (`flag = startage_7001_7002`), ICD-10 codes (`diag`), healthcare resource group codes (`hrg`), episode type (`epitype`), patient classification (`classpat`), admission method (`admimeth`) and neonatal care (`neocare`):
 
 :::{.scrolling}
 
@@ -85,7 +85,7 @@ In addition, there are some general formatting principles for all code lists:
 
 ## Removals and truncations
 
-Sometimes it is necessary to remove some codes from a list. For example, the Cohen et al [-@cohen2012] code list has 20 codes removed, all of which are ICD-9 codes that are not used in ECHILD. The removed codes are saved in an accompanying *.csv file:
+Sometimes it is necessary to remove some codes from a list. For example, the [Cohen et al](mc_cohen_v1.qmd) code list has 20 codes removed, all of which are ICD-9 codes that are not used in ECHILD. The removed codes are saved in an accompanying *.csv file:
 
 :::{.scrolling}
 
@@ -99,7 +99,7 @@ kable(dt)
 :::
 
 
-Cohen et al [-@cohen2012] also happens to have some truncated codes. In this instance, these are 5-character ICD-10-CA codes. These codes are truncated to the corresponding 4-character version:
+[Cohen et al](mc_cohen_v1.qmd) also happens to have some truncated codes. In this instance, these are 5-character ICD-10-CA codes. These codes are truncated to the corresponding 4-character version:
 
 :::{.scrolling}
 
@@ -115,8 +115,8 @@ kable(dt)
 
 In this instance, codes `K91.4` and `J95.0` appear only once in the code list.
 
-Sometime this truncation process can cause duplication of codes across categories. For example, in Feudtner et al [-@feudtner2014], code `Z94.8` appears twice, once under `malignancy` and once under `gastro`. This is because in ICD-10-CM, `Z94.81` refers to bone marrow transplant status and `Z94.82` refers to intestine transplant status. This distinction is lost in the standard ICD-10 used in ECHILD. Users should therefore check very carefully that truncated codes (all codes with `flag = code_truncated`) are not rendered invalid by truncation.
+Sometime this truncation process can cause duplication of codes across categories. For example, in [Feudtner et al](ccc_feudtner_v1.qmd), code `Z94.8` appears twice, once under `malignancy` and once under `gastro`. This is because in ICD-10-CM, `Z94.81` refers to bone marrow transplant status and `Z94.82` refers to intestine transplant status. This distinction is lost in the standard ICD-10 used in ECHILD. Users should therefore check very carefully that truncated codes (all codes with `flag = code_truncated`) are not rendered invalid by truncation.
 
-Codes are identified as not being part of ICD-10 because the authors of the original paper indicated so in their publication, because the code is obviously not an ICD-10 code, or because the code cannot be found when joining the code description from the ICD-10’s data file available from [TRUD](https://isd.digital.nhs.uk/trud/users/guest/filters/0/categories/28). Where a code does not appear in this data file, the 2019 [6th edition](https://icd.who.int/browse10/2019/en) is also consulted, as is the [cumulative change log](https://www.who.int/publications/m/item/official-who-updates-combined-1996-2019-volume-1) published by the World Health Organization. If still not found, [ICD-10-CM](https://www.icd10data.com/ICD10CM/Codes) and [ICD-10-CA](https://secure.cihi.ca/estore/productSeries.htm?pc=PCC1860) are consulted to confirm that the code in question is part of those systems. This occurred, for example, with code `R40.3` in the Feudtner et al [-@feudtner2014] list. Rarely, a code cannot be found at all, such as `G82.9` (in fact, `G82.90`) in Feudtner et al [-@feudtner2014], which is therefore removed from the version of the code list in the Repository.
+Codes are identified as not being part of ICD-10 because the authors of the original paper indicated so in their publication, because the code is obviously not an ICD-10 code, or because the code cannot be found when joining the code description from the ICD-10’s data file available from [TRUD](https://isd.digital.nhs.uk/trud/users/guest/filters/0/categories/28). Where a code does not appear in this data file, the 2019 [6th edition](https://icd.who.int/browse10/2019/en) is also consulted, as is the [cumulative change log](https://www.who.int/publications/m/item/official-who-updates-combined-1996-2019-volume-1) published by the World Health Organization. If still not found, [ICD-10-CM](https://www.icd10data.com/ICD10CM/Codes) and [ICD-10-CA](https://secure.cihi.ca/estore/productSeries.htm?pc=PCC1860) are consulted to confirm that the code in question is part of those systems. Rarely, a code cannot be found at all, such as `G82.9` (in fact, `G82.90`) in [Feudtner et al](ccc_feudtner_v1.qmd), which is therefore removed from the version of the code list in the Repository.
 
-Often a range of codes is given in the original publication of a code list, for example D80-D89 in Feudtner et al [-@feudtner2014]. Some codes that would logically fall within this range do not exist in either the standard ICD-10 or the American or Canadian versions, for example, `D85`, `D87` and `D88`. In such cases, these codes are not contained within the code list in the Repository, though this is not considered a removal and therefore not documented as such.
+Often a range of codes is given in the original publication of a code list, for example D80-D89 in [Feudtner et al](ccc_feudtner_v1.qmd). Some codes that would logically fall within this range do not exist in either the standard ICD-10 or the American or Canadian versions, for example, `D85`, `D87` and `D88`. In such cases, these codes are not contained within the code list in the Repository, though this is not considered a removal and therefore not documented as such.
