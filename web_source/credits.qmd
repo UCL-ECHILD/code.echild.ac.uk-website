@@ -1,0 +1,5 @@
+# Credits {.unnumbered}
+
+The Repository launched in August 2024 and was designed by [Matthew Jay](https://profiles.ucl.ac.uk/60536-matthew-jay){target="_blank"}, who also wrote the content for this website and who is, as of August 2024, working on the example R code. He also formatted and checked the code lists that were included in the Repository when it launched. The technical aspects of the website were initially supported by [Tony Stone](https://profiles.ucl.ac.uk/92864-tony-stone){target="_blank"}.
+
+All the code lists included in the Repository were created by others. The documentation for each includes the authors and a link to the original place of publication.
