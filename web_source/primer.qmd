@@ -4,9 +4,9 @@
 
 ## 'Phenotypes' and phenotype code lists
 
-By 'phenotype' we mean anything observable about a unit of study. In the context of ECHILD, and especially Hospital Episode Statistics (HES), we are often referring to health conditions. However a phenotype may be broader and we have admitted to the Repository, for example, code lists that cover homelessness and intimate partner violence.
+By 'phenotype' we mean anything observable about a unit of study. In the context of ECHILD, and especially Hospital Episode Statistics (HES), we are often referring to health conditions. However a phenotype may be broader and we have admitted to the Repository, for example, code lists that cover [emergency admissions](emergency_admissions_v1.qmd).
 
-In epidemiological terms, phenotyping is part of the process of ascertaining exposures and outcomes/cases. One of the advantages of datasets such as the HES Admitted Patient Care data is the availability of rich [ICD-10 diagnostic and OPCS-4 procedure](https://classbrowser.nhs.uk/){target="_blank"} data, recorded by trained clinical coders in each hospital according to national standards. This information (as well as other fields) can be used to ascertain whether children have particular conditions or other phenotypes.
+In epidemiological terms, phenotyping is part of the process of ascertaining exposures, outcomes or other variables. One of the advantages of datasets such as the HES Admitted Patient Care data is the availability of rich [ICD-10 diagnostic and OPCS-4 procedure](https://classbrowser.nhs.uk/){target="_blank"} data, recorded by trained clinical coders in each hospital according to national standards. This information (as well as other fields) can be used to ascertain whether children have particular conditions or other phenotypes.
 
 A code list is therefore a list of ICD-10, OPCS-4 or other codes that can be used to identify records indicative of the target phenotype in administrative data. Within the Repository, all code lists are available to download as machine-readable *.csv files which can be implemented relatively easily.
 
