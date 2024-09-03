@@ -102,13 +102,13 @@ for (i in 1:nrow(code_lists)) {
   
   if (!is.na(r_script)) {
     r_script_filename <- paste0(id, ".r")
-    write(paste0("| **R script file** (right-click to download) | [", r_script_filename, "](", r_script, "){target=\"_blank\"} |"), fileConn, append = T)
+    write(paste0("| **R script** (right-click to download) | [", r_script_filename, "](", r_script, "){target=\"_blank\"} |"), fileConn, append = T)
   } else {
     write(paste0("| **R script** | Not yet available |"), fileConn, append = T)
   }
   if (!is.na(stata_script)) {
     stata_script_filename <- paste0(id, ".do")
-    write(paste0("| **Stata do file file** (right-click to download) | [", stata_script_filename, "](", stata_script, "){target=\"_blank\"} |"), fileConn, append = T)
+    write(paste0("| **Stata do file** (right-click to download) | [", stata_script_filename, "](", stata_script, "){target=\"_blank\"} |"), fileConn, append = T)
   } else {
     write(paste0("| **Stata do file** | Not yet available |"), fileConn, append = T)
   }
