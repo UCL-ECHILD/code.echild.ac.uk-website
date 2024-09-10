@@ -43,6 +43,6 @@ book:
     - primer.qmd
     - principles.qmd
     - howtosubmit.qmd
-    - credits.qmd
+    - acknowledgements.qmd
     - references.qmd
     
