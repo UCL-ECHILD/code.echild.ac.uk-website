@@ -10,6 +10,33 @@ A code list is therefore a list of ICD-10, OPCS-4 or other codes that can be use
 
 Each list is accompanied by sample R and Stata code that you are free to use, adapt or ignore as you wish.
 
+## How do ICD-10 and OCPS-4 work?
+
+As most phenotype code lists currently in the repository primarily make use of ICD-10 and, to a lesser extent, OPCS-4, we provide here a brief overview of how these coding systems work in HES. For full details and the broader context, users can consult the [World Health Organization’s browser](https://icd.who.int/browse10/2019/en){target="_blank"}, which contains the full ICD-10 classification plus links to the user guide, and the [NHS Classifications Browser](https://classbrowser.nhs.uk/#/){target="_blank"}, which hosts an OPCS-4 and ICD-10 browser.
+
+### ICD-10
+
+ICD-10 is the 10th edition of the World Health Organization’s International Statistical Classification of Diseases and Related Health Problems. It is a list of 3-character codes arranged in 21 chapters according either to disease type or body site. Every code consists of a letter and two numbers. For example, chapter I is entitled “certain infectious and parasitic diseases” and contains codes beginning with either an `A` or `B` (strictly speaking, the letters are called “blocks” though many users colloquially refer to the blocks as chapters). Other chapters contain codes relevant either to disease-type (e.g., neoplasms in chapter II, blocks `C` and `D`) or body site (e.g., diseases of the eye and adnexa in chapter VII, block `H`). ICD-10 does not only contain diseases, however, but codes indicating circumstances for contact with healthcare. For example, chapter XV (block `O`) deals with pregnancy, childbirth and the puerperium, chapter XX (blocks `V` to `Y`) codes external causes of morbidity, such as injuries, and chapter XXI (block `Z`) treats factors influencing health status, such as homelessness.
+
+Each 3-character code can be further divided into up to ten 4-character sub-codes. For example, the 3-character code `J93` encodes pneumothorax. This code has four 4-character subcodes: `J93.0` (spontaneous tension pneumothorax), `J93.1` (other spontaneous pneumothorax), `J93.8` (other pneumothorax) and `J93.9` (pneumothorax, unspecified). Subcodes `.8` usually refers to “other” or overlapping conditions and `.9` refers to unspecified forms (i.e., the same as the 3-character code). Many codes also have inclusion or exclusion terms, indicating how certain entities should be coded. Thus, the following pneumothoraces should not be coded as `J93`, but as something else: congenital or perinatal (`P25.1`); traumatic (`S27.0`); tuberculosis (current disease) (`A15` to `A16`); and pyopneumothorax (`J86.-`, where the hyphen indicates that a subcode should be recorded).
+
+### Special characters: asterisks (*) and daggers (†)
+
+ICD-10 contains a number of special characters, many of which are self-explanatory when reading the classification and which are addressed to users carrying out coding. Details can be found in the WHO’s [user guide](https://icd.who.int/browse10/2019/en){target="_blank"}. One coding convention, however, that is visible in HES is in the asterisk (*) and dagger (†) system. These are used in situations where an underlying disease (marked with a dagger) is coded along with an additional, optional code for its manifestation (marked with an asterisk). For this reason, HES users will find ICD-10 codes longer than 4 characters in the data. The code lists currently in the Repository do not make use of this information, so users will see that our example R and Stata scripts simply ignore them.
+
+### OPCS-4
+
+OPCS-4 (the 4th edition of the OPCS Classification of Interventions and Procedures) is similar to ICD-10 in that it, too, is a list of 3-character codes, each with a letter (designating a block) and two numbers and each divided into up to nine 4-character subcodes (`.1` to `.9`). Unlike ICD-10, OPCS-4 was developed in the UK with the intention of supporting work in the NHS. Cross-country comparisons of procedure codes, while never straightforward, are therefore more complex (an example being the cross-country study of orchidopexy by Jay et al [-@jay2020], that made use of ICD-10 codes in all jurisdictions, but different procedure classifications). Another complication of OPCS-4 is that it is subject to frequent changes, which can sometimes be quite significant in terms of the codes used and whether auxiliary codes are required. Fortunately, tables of equivalences are available (see below).
+
+### How HES is coded
+
+Professional clinical coders employed by hospitals code all admissions on patient discharge according to the NHS National Clinical Coding Standards, also available via the [NHS Classifications Browser](https://classbrowser.nhs.uk/#/){target="_blank"}. HES users should always be aware that practice in coding can change over time and across hospitals. In our experience, meeting with clinical coders where possible is invaluable in aiding understanding how coding occurs and possible limitations in using these codes.
+
+### ICD-10 and OPCS-4 data files
+
+Users needing ICD-10 or OPCS-4 (including the tables of equivalences for code changes over time) in spreadsheet format can obtain these from the NHS’s [Technology Reference Update Distribution website](https://isd.digital.nhs.uk/trud/users/guest/filters/0/home){target="_blank"}. R packages and Stata commands for working with ICD-10 codes also exist, though we are not able to advise on their use.
+
+
 ## Examples of phenotype code lists
 
 Currently within the repository, we have a [range of code lists](code_list_index.qmd) that cover different target phenotypes. The repository is fully searchable and you can consult the index for an overview of what is currently held.
