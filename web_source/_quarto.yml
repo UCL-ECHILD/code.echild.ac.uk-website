@@ -42,6 +42,7 @@ book:
     - index.qmd
     - primer.qmd
     - principles.qmd
+    - usingscripts.qmd
     - howtosubmit.qmd
     - acknowledgements.qmd
     - references.qmd

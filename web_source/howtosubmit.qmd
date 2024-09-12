@@ -1,3 +1,3 @@
-# How to submit a code list {.unnumbered}
+# Submit a code list {.unnumbered}
 
 If you have a phenotype code list that you would like to be included in the Repository, please contact [Matthew Jay](mailto:matthew.jay@ucl.ac.uk) in the first instance to check if your list is eligible for inclusion. We will then advise on how to ensure your code list meets the Repository's [design principles](principles.qmd) before carrying out the checks necessary prior to inclusion.

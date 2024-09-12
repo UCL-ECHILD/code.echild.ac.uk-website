@@ -1,4 +1,4 @@
-# Primer on phenotyping {.unnumbered}
+# Primer {.unnumbered}
 
 By "phenotype" we mean anything observable about a unit of study. In the context of ECHILD, and especially the Hospital Episode Statistics (HES), we are often referring to health conditions. However a phenotype may be broader and we have admitted to the Repository, for example, code lists that cover [births](births_zylb_v1.qmd).
 
