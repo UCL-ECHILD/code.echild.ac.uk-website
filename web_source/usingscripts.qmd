@@ -6,7 +6,7 @@ Each code list in the repository has (or will soon have) an associated R script 
 
 The R scripts and Stata do files can be found on each code list page underneath the links to the code list files. Some lists may show "Not yet available" while we continue to develop the scripts.
 
-![](download_script.png){fig-alt="A screenshot with a red arrow showing where to download a code list's R script."}
+![](static/download_script.png){fig-alt="A screenshot with a red arrow showing where to download a code list's R script."}
 
 Alternatively, you can download the scripts directly from our [GitHub repository](https://github.com/UCL-ECHILD/phenotype-code-lists){target="_blank"}.
 
