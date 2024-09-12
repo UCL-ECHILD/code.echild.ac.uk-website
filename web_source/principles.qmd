@@ -17,8 +17,8 @@ The Repository has been designed according to an overarching plan. This is inten
 6. Only one code per row is permitted. Ranges of codes such as “B20-B24” are not permitted on a single row as these are not easily machine-readable.
 7. In the cases of ICD-10 and OPCS-4 codes:
 a. The code description must be that used in ICD-10 or OPCS-4.
-b. Inclusion of a 3-character code implies including all sub-codes.
-c. Inclusion of a 4-character code implies including only that sub-code.
+b. Inclusion of a 3-character code implies including all subcodes.
+c. Inclusion of a 4-character code implies including only that subcode.
 d. Where a 4-character code is used, the dot is always present.
 8. ICD-9 and ICD-10-PCS (procedure codes) are not used in ECHILD and so are removed from all code lists.
 9. Where a code list uses ICD-10-CM or ICD-10-CA (also not used in ECHILD), up to the 4th character only is used. Such changes are noted using a `code_truncated` flag.
@@ -42,7 +42,7 @@ kable(dt)
 
 Respectively, these fields give the relevant code, the dataset to which the codes relate, the field in that dataset, the type of code it is (e.g. ICD-10, OPCS-4 or something else) and the code’s description.
 
-Use of a 3-character code implies including all sub-codes; 4-character codes are only used when only specific sub-codes are used. For example, in the [Fraser et al](llc_fraser_v1.qmd) list, code `B20` means include all of `B20.0`, `B20.1`, `B20.2`, `B20.3`, `B20.4`, `B20.5`, `B20.6`, `B20.7`, `B20.8` and `B20.9`. By contrast, in the case of code `A81`, only `A81.0` and `A81.1` should be included, and NOT `A81.2`, `A81.8` or `A81.9` (and there are no ICD-10 codes designated `A81.3` to `A81.7`). Note also that each of `B20`, `B21`, `B22`, `B23` and `B24` are coded each on their own row and not by reference to a range of codes (e.g. “B20-B24”).
+Use of a 3-character code implies including all subcodes; 4-character codes are only used when only specific subcodes are used. For example, in the [Fraser et al](llc_fraser_v1.qmd) list, code `B20` means include all of `B20.0`, `B20.1`, `B20.2`, `B20.3`, `B20.4`, `B20.5`, `B20.6`, `B20.7`, `B20.8` and `B20.9`. By contrast, in the case of code `A81`, only `A81.0` and `A81.1` should be included, and NOT `A81.2`, `A81.8` or `A81.9` (and there are no ICD-10 codes designated `A81.3` to `A81.7`). Note also that each of `B20`, `B21`, `B22`, `B23` and `B24` are coded each on their own row and not by reference to a range of codes (e.g. “B20-B24”).
 
 Some code lists have additional columns, such as the [Hardelid et al](chc_hardelid_v1) list of chronic health conditions, which contains columns for the groups and sub-groups (`group` and `subgroup`) into which the codes are divided in Hardelid et al’s [-@hardelid2014] original paper:
 
