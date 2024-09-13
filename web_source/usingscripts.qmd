@@ -1,10 +1,10 @@
 # Using the scripts {.unnumbered}
 
-Each code list in the repository has (or will soon have) an associated R script and Stata do file that demonstrates one method of implementing each code list. You are, of course, free to use and adapt these scripts as you wish. Here we provide a brief guide on what each script does and we also provide an example of working with multiple phenotypes. Throughout, we try to demonstrate parsimonious coding, storing in memory as few objects as possible, themselves as small as possible, for example by dropping redundant flag variables and entire objects from memory when no longer needed. 
+Each code list in the repository has (or will soon have) an associated R script and Stata do file that demonstrate one method of implementing each code list. You are, of course, free to use and adapt these as you wish. Here we provide a brief guide to the scripts and we also provide an example of working with multiple phenotypes. Throughout, we try to demonstrate parsimonious coding, storing in memory as few objects as possible, themselves as small as possible, for example by dropping redundant flag variables and entire objects from memory when no longer needed. 
 
 # How to find the scripts
 
-The R scripts and Stata do files can be found on each code list page underneath the links to the code list files. Some lists may show "Not yet available" while we continue to develop the scripts.
+The R scripts and Stata do files can be found on each code list page. Some lists may show "Not yet available" while we develop the scripts.
 
 ![](static/download_script.png){fig-alt="A screenshot with a red arrow showing where to download a code list's R script."}
 
@@ -26,7 +26,7 @@ Our standardised approach to formatting code lists means that we can also adopt 
 
 1. Global settings, such as the working directory are set and packages are loaded.
 2. The data and code list file are loaded.
-3. Preliminary cleaning. Mostly, this involves removing the dot from ICD-10 and OPCS-4 codes in the code list (as HES omits the dot) and truncating HES diagnosis fields to the first four characters. This is to remove the `A` and `D` that are coded in the [dagger and asterisk system](https://code.echild.ac.uk/primer#special-characters-asterisks-and-daggers), which is not relevant to any code lists currently in the Repository.
+3. Preliminary cleaning. Mostly, this involves removing the dot from ICD-10 and OPCS-4 codes in the code list (as HES omits the dot) and truncating HES diagnosis fields to the first four characters. This is to remove the `D` and `A` that are coded in the [dagger and asterisk system](https://code.echild.ac.uk/primer#special-characters-asterisks-and-daggers), which is not relevant to any code lists currently in the Repository.
 4. Converting diagnostic and (where relevant) operation data to long format. We do this because there are up to 20 diagnoses and up to 24 procedures recorded per episode in HES, most of which are actually empty. Converting to long format and removing empty values makes it substantially easier to work with the data and avoids the need of computationally intensive and unnecessary `for` loops or use of the `apply()` function.
 5. Identify relevant codes. This is usually done by creating a binary flag that indicates that a given code is in our target code list.
 6. Deal with flags. For example, in the [Hardelid et al list of chronic health conditions](chc_hardelid_v1.qmd), some codes are only valid if the admission length of stay is less than three days and others are only valid if the patient is aged at least 10 years. Generally, we deal with these conditions by setting our binary flags to false where these conditions are not met. Once we have done this, we drop all codes that are not validly in our code list.
