@@ -1,6 +1,10 @@
 # Acknowledgements {.unnumbered}
 
-The Repository launched in August 2024 and was designed by [Matthew Jay](https://profiles.ucl.ac.uk/60536-matthew-jay){target="_blank"}, who also wrote the content for this website and who is currently working on the example R code. He also formatted and checked the code lists that were included in the Repository when it launched. The technical aspects of the website were initially supported by [Tony Stone](https://profiles.ucl.ac.uk/92864-tony-stone){target="_blank"}.
+The Repository launched in August 2024 and was designed by [Matthew Jay](https://profiles.ucl.ac.uk/60536-matthew-jay){target="_blank"}, who also wrote the content for this website and who is currently working on the example R code. Technical aspects of the website were initially supported by [Tony Stone](https://profiles.ucl.ac.uk/92864-tony-stone){target="_blank"}. [Kate Lewis](https://profiles.ucl.ac.uk/58088-kate-lewis){target="_blank"} is working on converting the R scripts into Stata do files. We would also like to thank the following who have served as second checkers of code list files:
+
+- Difei Shi (Steffi)
+- [Rebecca Langella](https://profiles.ucl.ac.uk/96152-rebecca-langella){target="_blank"}
+- [Ania Zylbersztejn](https://profiles.ucl.ac.uk/47044-ania-zylbersztejn){target="_blank"}
 
 While this website and the format of the code lists in the Repository are our work, all the code lists included in the Repository were originally created by others. The documentation for each includes the authors and a link to the original place of publication.
 
