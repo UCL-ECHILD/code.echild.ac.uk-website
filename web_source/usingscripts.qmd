@@ -10,7 +10,7 @@ The R scripts and Stata do files can be found on each code list page. Some lists
 
 Alternatively, you can download the scripts directly from our [GitHub repository](https://github.com/UCL-ECHILD/phenotype-code-lists){target="_blank"}.
 
-We are currently working on deployment of the Repository in the Secure Research Service. ECHILD users who need the scripts can e-mail [Matthew Jay](mailto:matthew.jay@ucl.ac.uk) to find out where they are.
+We are currently working on deployment of the Repository in the Secure Research Service.
 
 # Data used
 
