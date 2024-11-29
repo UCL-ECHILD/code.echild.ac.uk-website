@@ -4,7 +4,7 @@ Each code list in the repository has (or will soon have) an associated R script 
 
 # How to find the scripts
 
-The R scripts and Stata do files can be found on each code list page. Some lists may show "Not yet available" while we develop the scripts.
+The R scripts and Stata do files can be found on each code list page. Some lists may show "Not yet available" while we develop or update the scripts.
 
 ![](static/download_script.png){fig-alt="A screenshot with a red arrow showing where to download a code list's R script."}
 
