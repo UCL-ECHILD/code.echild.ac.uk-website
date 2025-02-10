@@ -6,6 +6,10 @@ The Repository launched in August 2024 and was designed by [Matthew Jay](https:/
 - [Rebecca Langella](https://profiles.ucl.ac.uk/96152-rebecca-langella){target="_blank"}
 - [Ania Zylbersztejn](https://profiles.ucl.ac.uk/47044-ania-zylbersztejn){target="_blank"}
 
+Suggested citation:
+
+* Jay MA, Lewis K, Shi D, Langella R, Stone T, Ní Chobhthaigh S, Zylbersztejn A, Blackburn R, Harron K. ECHILD Phenotype Code List Repository. https://code.echild.ac.uk. UCL (University College London) 2024.
+
 While this website and the format of the code lists in the Repository are our work, all the code lists included in the Repository were originally created by others. The documentation for each includes the authors and a link to the original place of publication.
 
 This Repository is supported by ADR UK (Administrative Data Research UK), an Economic and Social Research Council (part of UK Research and Innovation) programme (ES/V000977/1, ES/X000427/1 and ES/X003663/1).
