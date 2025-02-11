@@ -2,7 +2,7 @@
 
 Welcome to the ECHILD Phenotype Code List Repository. Here you will find phenotype code lists, documentation and example code for implementation in Stata and R. While these resources have been developed to aid the ECHILD research community, you are free to use the Repository to support other research and uses of data. We also hope that this website will serve as a bit of a [primer on phenotyping](primer.qmd) in administrative data. The Repository is provided without any warranty.
 
-You can browse the [index of available lists](code_list_index.qmd) or use the search bar in the top-right (click the magnifying glass and search for any text or even by code). You can download the code lists from each code list page, or, if you prefer, directly from [GitHub](https://github.com/UCL-ECHILD/phenotype-code-lists){target="_blank"}.
+You can browse the [index of available lists](code_list_index.qmd) or use the search bar in the top-right (click the magnifying glass and search for any text or even by code). You can download the code lists from each code list page, or, if you prefer, directly from [GitHub](https://github.com/UCL-ECHILD/phenotype-code-lists){target="_blank"}. To see how to implement phenotype code lists in a more complex, realistic setting, consult the [ECHILD How To Guides](https://howto.echild.ac.uk){target="_blank"}.
 
 The Phenotype Code List Repository has been designed according to a [set of principles](principles.qmd) that are intended to make finding, understanding and using phenotype code lists easier.
 
