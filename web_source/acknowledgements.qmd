@@ -12,6 +12,14 @@ Suggested citation:
 
 While this website and the format of the code lists in the Repository are our work, all the code lists included in the Repository were originally created by others. The documentation for each includes the authors and a link to the original place of publication.
 
-This Repository is supported by ADR UK (Administrative Data Research UK), an Economic and Social Research Council (part of UK Research and Innovation) programme (ES/V000977/1, ES/X000427/1 and ES/X003663/1).
+The ECHILD project is in partnership with NHS England and the Department for Education (DfE) and we thank the following individuals for their valuable contributions to the project: Jodie Taylor-Brown, Ian Goodwin, Garry Coleman, Richard Caulton, Catherine Day (NHS England), and Gary Connell, Harriet Fearn, Kirsty Knox (DfE). We are also grateful to Bill South and Alan Cotterill from the Office for National Statistics (ONS) for providing the Trustworthy Research Environment for ECHILD.
 
-You can find out more about ECHILD on the [ECHILD website](https://www.echild.ac.uk/){target="_blank"} and on [UCL's website](https://www.ucl.ac.uk/child-health/research/population-policy-and-practice-research-and-teaching-department/cenb-clinical-20){target="_blank"}. 
+We thank all the children, young people, parents and carers who contributed to the ECHILD project. We also gratefully acknowledge all children and families whose de-identified data form this research database.
+
+ECHILD uses data from the DfE, NHS England and ONS. The DfE, NHS England and ONS do not accept responsibility for any inferences or conclusions derived by the authors.
+
+This research benefits from and contributes to research conducted by the NIHR Children and Families Policy Research Unit but was not commissioned by the National Institute for Health Research (NIHR) Policy Research Programme. The views expressed herein are those of the authors and not necessarily those of the NIHR or the Department of Health and Social Care.
+
+This website is supported by ADR UK (Administrative Data Research UK), an Economic and Social Research Council (part of UK Research and Innovation) programme ([ES/V000977/1](https://gtr.ukri.org/projects?ref=ES/X003663/1){target="_blank"}, [ES/X000427/1](https://gtr.ukri.org/projects?ref=ES/X000427/1){target="_blank"} and [ES/X003663/1](https://gtr.ukri.org/projects?ref=ES/X003663/1){target="_blank"}).
+
+You can find out more about ECHILD on the [ECHILD website](https://www.echild.ac.uk/){target="_blank"} and on [UCL's website](https://www.ucl.ac.uk/child-health/research/population-policy-and-practice-research-and-teaching-department/cenb-clinical-20){target="_blank"}.
