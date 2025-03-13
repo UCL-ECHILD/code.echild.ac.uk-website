@@ -80,22 +80,22 @@ for (i in 1:nrow(code_lists)) {
     write(paste0("| **Previous version** | NA |"), fileConn, append = T)
   }
   write(paste0("| **Number of files** | ", n_files, " |"), fileConn, append = T)
-  write(paste0("| **Code list file** (right-click to download) | [", id, ".csv](", codelist_file, "){target=\"_blank\"} |"), fileConn, append = T)
+  write(paste0("| **Code list file** | [", id, ".csv](", codelist_file, ") |"), fileConn, append = T)
   if (!is.na(restrictions_file)) {
     restrictions_filename <- paste0(id, "_restrictions.csv")
-    write(paste0("| **Restrictions file** (right-click to download) | [", restrictions_filename, "](", restrictions_file, "){target=\"_blank\"} |"), fileConn, append = T)
+    write(paste0("| **Restrictions file** | [", restrictions_filename, "](", restrictions_file, ") |"), fileConn, append = T)
   } else {
     write(paste0("| **Restrictions file** | NA |"), fileConn, append = T)
   }
   if (!is.na(truncations_file)) {
     truncations_filename <- paste0(id, "_trunactions.csv")
-    write(paste0("| **Truncations file** (right-click to download) | [", truncations_filename, "](", truncations_file, "){target=\"_blank\"} |"), fileConn, append = T)
+    write(paste0("| **Truncations file** | [", truncations_filename, "](", truncations_file, ") |"), fileConn, append = T)
   } else {
     write(paste0("| **Truncations file** | NA |"), fileConn, append = T)
   }
   if (!is.na(removals_file)) {
     removals_filename <- paste0(id, "_removals.csv")
-    write(paste0("| **Removals file** (right-click to download) | [", removals_filename, "](", removals_file, "){target=\"_blank\"} |"), fileConn, append = T)
+    write(paste0("| **Removals file** | [", removals_filename, "](", removals_file, ") |"), fileConn, append = T)
   } else {
     write(paste0("| **Removals file** | NA |"), fileConn, append = T)
   }
