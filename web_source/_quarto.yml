@@ -8,6 +8,7 @@ project:
  
 format:
   html:
+    encoding: 'UTF-8'
     theme:
       - cosmo
     css: libs/styles_20240812.2.css
