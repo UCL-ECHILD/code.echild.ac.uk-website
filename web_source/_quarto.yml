@@ -14,9 +14,9 @@ format:
     code-copy: true
     code-link: true
     
-bibliography: references.bib
-csl: harvard-cite-them-right-11th-edition.csl
-link-citations: true
+#bibliography: references.bib
+#csl: harvard-cite-them-right-11th-edition.csl
+#link-citations: true
 
 # nocite: |
 #   @*
