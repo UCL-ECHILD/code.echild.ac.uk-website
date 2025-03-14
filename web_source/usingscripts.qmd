@@ -8,13 +8,9 @@ The R scripts and Stata do files can be found on each code list page. Some lists
 
 ![](static/download_script.png){fig-alt="A screenshot with a red arrow showing where to download a code list's R script."}
 
-Alternatively, you can download the scripts directly from our [GitHub repository](https://github.com/UCL-ECHILD/phenotype-code-lists){target="_blank"}.
-
-We are currently working on deployment of the Repository in the Secure Research Service.
-
 # Data used
 
-Every script uses the same dataset to demonstrate the code list: HES admitted patient care records for 2019/2020. Mostly, we only use the top 100,000 rows for the sake of speed, though for some we use all available rows where numbers of certain phenotypes were expected to be small.
+Every script uses the same dataset to demonstrate the code list: HES admitted patient care records for 2019/2020. Mostly, we only use the top 100,000 rows for the sake of speed, though for some we use all available rows where numbers of certain phenotypes were expected to be small. See the [ECHILD How To Guides](https://howto.echild.ac.uk/){target="_blank"} for examples of how to implement these code lists in a more real-world setting.
 
 # Packages required
 
@@ -26,12 +22,11 @@ Our standardised approach to formatting code lists means that we can also adopt 
 
 1. Global settings, such as the working directory are set and packages are loaded.
 2. The data and code list file are loaded.
-3. Preliminary cleaning. Mostly, this involves removing the dot from ICD-10 and OPCS-4 codes in the code list (as HES omits the dot) and truncating HES diagnosis fields to the first four characters. This is to remove the `D` and `A` that are coded in the [dagger and asterisk system](https://code.echild.ac.uk/primer#special-characters-asterisks-and-daggers), which is not relevant to any code lists currently in the Repository.
-4. Converting diagnostic and (where relevant) operation data to long format. We do this because there are up to 20 diagnoses and up to 24 procedures recorded per episode in HES, most of which are actually empty. Converting to long format and removing empty values makes it substantially easier to work with the data and avoids the need of computationally intensive and unnecessary `for` loops or use of the `apply()` function.
-5. Identify relevant codes. This is usually done by creating a binary flag that indicates that a given code is in our target code list.
-6. Deal with flags. For example, in the [Hardelid et al list of chronic health conditions](chc_hardelid_v1.qmd), some codes are only valid if the admission length of stay is at least three days and others are only valid if the patient is aged at least 10 years. Generally, we deal with these conditions by setting our binary flags to false where these conditions are not met. Once we have done this, we drop all codes that are not validly in our code list.
-7. Create flags in our original data. Finally, we go back to our original dataset (in the case of the example scripts, the 2019/2020 HES data) and create binary flags that indicate a patient ever had the target phenotype. It is a very straightforward process to extend this logic and only include, for example, codes that occur within a certain observation period.
+3. Converting diagnostic and (where relevant) operation data to long format. We do this because there are up to 20 diagnoses and up to 24 procedures recorded per episode in HES, most of which are actually empty. Converting to long format and removing empty values makes it substantially easier to work with the data and avoids the need of computationally intensive and unnecessary `for` loops or use of the `apply()` function.
+4. Identify relevant codes. This is usually done by creating a binary flag that indicates that a given code is in our target code list.
+5. Deal with flags. For example, in the [Hardelid et al list of chronic health conditions](chc_hardelid_v1.qmd), some codes are only valid if the admission length of stay is at least three days and others are only valid if the patient is aged at least 10 years. Generally, we deal with these conditions by setting our binary flags to false where these conditions are not met. Once we have done this, we drop all codes that are not validly in our code list.
+6. Create flags in our original data. Finally, we go back to our original dataset (in the case of the example scripts, the 2019/2020 HES data) and create a spine of patients, where one row represents one patient. We then create binary flags that indicate a patient ever had the target phenotype. It is a very straightforward process to extend this logic and only include, for example, codes that occur within a certain observation period.
 
 # Working with multiple phenotypes in a more real-world setting
 
-All example scripts only deal with one phenotype at a time. However, users may wish to work with multiple phenotypes at once. If you are looking for help to implement multiple phenotypes and/or want to see implementation in a real-world setting, we recommend you consult the [ECHILD How To Guides](https://howto.echild.ac.uk/){target="_blank"}. The ECHILD How To Guides will you take you through all the steps of creating an analysis-ready dataset, combining NPD and HES, and including applying clinical phenotypes.
+All example scripts only deal with one phenotype at a time. However, users may wish to work with multiple phenotypes at once. If you are looking for help to implement multiple phenotypes and/or want to see implementation in a real-world setting, we recommend you consult the [ECHILD How To Guides](https://howto.echild.ac.uk/){target="_blank"}. The ECHILD How To Guides will you take you through all the steps of creating an analysis-ready dataset, combining NPD and HES, including applying clinical phenotypes.
