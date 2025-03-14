@@ -7,7 +7,6 @@ index_filename <- "code_list_index.qmd"
 index_fileConn <- paste0("web_source/", index_filename)
 write("", index_fileConn) # overwrite any existing file and start again
 write("# Code lists {.unnumbered}\n", index_fileConn, append = T)
-write("The following phenotype code lists are currently available:\n", index_fileConn, append = T)
 write("| Code list name (version and link) | Target phenotype | Ref |", index_fileConn, append = T)
 write("|---|---|---|", index_fileConn, append = T)
 

@@ -1,3 +1,5 @@
 # Submit a code list {.unnumbered}
 
+We welcome submission of new code lists from the ECHILD community, including those relevant to datasets that are so far not featured in the repository, such as the mental health services data and National Pupil Database.
+
 If you have a phenotype code list that you would like to be included in the Repository, please contact [Matthew Jay](mailto:matthew.jay@ucl.ac.uk) in the first instance to check if your list is eligible for inclusion. We will then advise on how to ensure your code list meets the Repository's [design principles](principles.qmd) before carrying out the checks necessary prior to inclusion.
