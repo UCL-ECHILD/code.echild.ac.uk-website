@@ -3,7 +3,7 @@ G31.01,hes_apc,neuro,cns_degeneration,G31.0
 G31.09,hes_apc,neuro,cns_degeneration,G31.0
 G32.89,hes_apc,neuro,cns_degeneration,G32.8
 G95.19,hes_apc,neuro,cns_degeneration,G95.1
-G85.89,hes_apc,neuro,cns_degeneration,G95.8
+G95.89,hes_apc,neuro,cns_degeneration,G95.8
 G40.311,hes_apc,neuro,epilepsy,G40.3
 G40.301,hes_apc,neuro,epilepsy,G40.3
 G40.211,hes_apc,neuro,epilepsy,G40.2
@@ -75,8 +75,8 @@ Z95.818,hes_apc,cardio,devices [cardio],Z95.8
 Z45.010,hes_apc,cardio,devices [cardio],Z45.0
 Z45.018,hes_apc,cardio,devices [cardio],Z45.0
 T86.20,hes_apc,cardio,transplantation [cardio],T86.2
-T86.21,hes_apc,cardio,transplantation [cardio],T86.3
-T86.22,hes_apc,cardio,transplantation [cardio],T86.4
+T86.21,hes_apc,cardio,transplantation [cardio],T86.2
+T86.22,hes_apc,cardio,transplantation [cardio],T86.2
 G47.35,hes_apc,resp,chronic_resp_dis,G47.3
 I27.82,hes_apc,resp,chronic_resp_dis,I27.8
 J84.112,hes_apc,resp,chronic_resp_dis,J84.1
@@ -90,7 +90,7 @@ J95.850,hes_apc,resp,devices [resp],J95.8
 Z99.11,hes_apc,resp,devices [resp],Z99.1
 Z99.12,hes_apc,resp,devices [resp],Z99.1
 T86.810,hes_apc,resp,transplantation [resp],T86.8
-T86.811,hes_apc,resp,transplantation [resp],T86.9
+T86.811,hes_apc,resp,transplantation [resp],T86.8
 T86.819,hes_apc,resp,transplantation [resp],T86.1
 T85.71XA,hes_apc,renal_urol,devices [renal_urol],T85.7
 Z93.50,hes_apc,renal_urol,devices [renal_urol],T93.5
@@ -99,8 +99,8 @@ Z93.52,hes_apc,renal_urol,devices [renal_urol],T93.5
 Z93.59,hes_apc,renal_urol,devices [renal_urol],T93.5
 Z91.15,hes_apc,renal_urol,devices [renal_urol],Z91.1
 T86.10,hes_apc,renal_urol,transplantation [renal_urol],T86.1
-T86.11,hes_apc,renal_urol,transplantation [renal_urol],T86.2
-T86.12,hes_apc,renal_urol,transplantation [renal_urol],T86.3
+T86.11,hes_apc,renal_urol,transplantation [renal_urol],T86.1
+T86.12,hes_apc,renal_urol,transplantation [renal_urol],T86.1
 Z46.59,hes_apc,gastro,devices [gastro],Z46.5
 T86.40,hes_apc,gastro,transplantation [gastro],T86.4
 T86.41,hes_apc,gastro,transplantation [gastro],T86.4
@@ -144,6 +144,7 @@ P07.22,hes_apc,prem_neonatal,extr_immaturity,P07.2
 P07.23,hes_apc,prem_neonatal,extr_immaturity,P07.2
 P07.24,hes_apc,prem_neonatal,extr_immaturity,P07.2
 P07.25,hes_apc,prem_neonatal,extr_immaturity,P07.2
+P25.21,hes_apc,prem_neonatal,other [prem_neonatal],P25.2
 P25.22,hes_apc,prem_neonatal,other [prem_neonatal],P25.2
 T84.019A,hes_apc,misc,devices [misc],T84.0
 T84.029A,hes_apc,misc,devices [misc],T84.0
