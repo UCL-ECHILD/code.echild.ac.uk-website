@@ -296,6 +296,11 @@ _0CTS4ZZ,hes_apc,diag,icd-10-pcs,resp,other [resp],icd-10-pcs codes not used in 
 _0CTS7ZZ,hes_apc,diag,icd-10-pcs,resp,other [resp],icd-10-pcs codes not used in HES
 _0CTS8ZZ,hes_apc,diag,icd-10-pcs,resp,other [resp],icd-10-pcs codes not used in HES
 J96.20,hes_apc,diag,icd-10-cm,resp,chronic_resp_dis,icd-10-cm (including J96.2) not used in HES
+_0B110F4,hes_apc,diag,icd-10-cm,resp,devices [resp],icd-10-pcs codes not used in HES
+_0B113F4,hes_apc,diag,icd-10-cm,resp,devices [resp],icd-10-pcs codes not used in HES
+_0B114F4,hes_apc,diag,icd-10-cm,resp,devices [resp],icd-10-pcs codes not used in HES
+_0B21XFZ,hes_apc,diag,icd-10-cm,resp,devices [resp],icd-10-pcs codes not used in HES
+_0BHR0MZ,hes_apc,diag,icd-10-cm,resp,devices [resp],icd-10-pcs codes not used in HES
 _0BHR3MZ,hes_apc,diag,icd-10-pcs,resp,devices [resp],icd-10-pcs codes not used in HES
 _0BHR4MZ,hes_apc,diag,icd-10-pcs,resp,devices [resp],icd-10-pcs codes not used in HES
 _0BHS0MZ,hes_apc,diag,icd-10-pcs,resp,devices [resp],icd-10-pcs codes not used in HES
