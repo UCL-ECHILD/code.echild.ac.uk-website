@@ -6,6 +6,7 @@ G44,hes_apc,diag,icd10,other headache syndromes,potentially_psych,headache,first
 M54,hes_apc,diag,icd10,dorsalgia,potentially_psych,headache,first,emergency_admission,med_surg
 M62.6,hes_apc,diag,icd10,muscle strain,potentially_psych,other pain,first,emergency_admission,med_surg
 M79.6,hes_apc,diag,icd10,pain in limb,potentially_psych,other pain,first,emergency_admission,med_surg
+M25.5,hes_apc,diag,icd10,pain in joint,potentially_psych,other pain,first,emergency_admission,med_surg
 R52,hes_apc,diag,icd10,pain not elsewhere classified,potentially_psych,other pain,first,emergency_admission,med_surg
 R00,hes_apc,diag,icd10,abnormalities of heart beat,potentially_psych,circulatory/respiratory signs,first,emergency_admission,med_surg
 R03,hes_apc,diag,icd10,abnormal blood-pressure reading without diagnosis,potentially_psych,circulatory/respiratory signs,first,emergency_admission,med_surg
@@ -52,7 +53,6 @@ G47,hes_apc,diag,icd10,sleep disorders,potentially_psych,sleep disorders,first,e
 F32.0,hes_apc,diag,icd10,mild depressive episode,internalising,mood disorders,first,emergency_admission,
 F32.1,hes_apc,diag,icd10,moderate depressive episode,internalising,mood disorders,first,emergency_admission,
 F32.2,hes_apc,diag,icd10,severe depressive episode without psychotic symptoms,internalising,mood disorders,first,emergency_admission,
-F32.3,hes_apc,diag,icd10,severe depressive episode with psychotic symptoms,internalising,mood disorders,first,emergency_admission,
 F32.8,hes_apc,diag,icd10,other depressive episodes,internalising,mood disorders,first,emergency_admission,
 F32.9,hes_apc,diag,icd10,depressive episode unspecified,internalising,mood disorders,first,emergency_admission,
 F33.0,hes_apc,diag,icd10,recurrent depressive disorder current episode mild,internalising,mood disorders,first,emergency_admission,
