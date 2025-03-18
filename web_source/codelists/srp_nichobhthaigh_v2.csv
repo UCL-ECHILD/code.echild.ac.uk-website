@@ -33,12 +33,12 @@ R29.4,hes_apc,diag,icd10,clicking hip,potentially_psych,nervous/musculoskeletal 
 R29.8,hes_apc,diag,icd10,other and unspecified symptoms and signs involving the nervous and musculoskeletal systems,potentially_psych,nervous/musculoskeletal symptoms,first,emergency_admission,med_surg
 R41,hes_apc,diag,icd10,other symptoms and signs involving cognitive functions and awareness,potentially_psych,cognitive symptoms,first,emergency_admission,med_surg
 R42,hes_apc,diag,icd10,dizziness and giddiness,potentially_psych,cognitive symptoms,first,emergency_admission,med_surg
-F05,hes_apc,hes_apc,hes_apc,delirium not induced by alcohol and other psychoactive substances,potentially_psych,cognitive symptoms,first,emergency_admission,med_surg
-R40.0,hes_apc,hes_apc,hes_apc,somnolence,potentially_psych,malaise/fatigue/syncope,first,emergency_admission,med_surg
-R40.1,hes_apc,hes_apc,hes_apc,stupor,potentially_psych,malaise/fatigue/syncope,first,emergency_admission,med_surg
-R53,hes_apc,hes_apc,hes_apc,malaise and fatigue,potentially_psych,malaise/fatigue/syncope,first,emergency_admission,med_surg
-R55,hes_apc,hes_apc,hes_apc,syncope and collapse,potentially_psych,malaise/fatigue/syncope,first,emergency_admission,med_surg
-N39.3,hes_apc,hes_apc,hes_apc,stress incontinence,potentially_psych,other/general symptoms,first,emergency_admission,med_surg
+F05,hes_apc,diag,icd10,delirium not induced by alcohol and other psychoactive substances,potentially_psych,cognitive symptoms,first,emergency_admission,med_surg
+R40.0,hes_apc,diag,icd10,somnolence,potentially_psych,malaise/fatigue/syncope,first,emergency_admission,med_surg
+R40.1,hes_apc,diag,icd10,stupor,potentially_psych,malaise/fatigue/syncope,first,emergency_admission,med_surg
+R53,hes_apc,diag,icd10,malaise and fatigue,potentially_psych,malaise/fatigue/syncope,first,emergency_admission,med_surg
+R55,hes_apc,diag,icd10,syncope and collapse,potentially_psych,malaise/fatigue/syncope,first,emergency_admission,med_surg
+N39.3,hes_apc,diag,icd10,stress incontinence,potentially_psych,other/general symptoms,first,emergency_admission,med_surg
 R44,hes_apc,diag,icd10,other symptoms and signs involving general sensations and perceptions,potentially_psych,other/general symptoms,first,emergency_admission,med_surg
 R45,hes_apc,diag,icd10,symptoms and signs involving emotional state,potentially_psych,other/general symptoms,first,emergency_admission,med_surg
 R46,hes_apc,diag,icd10,symptoms and signs involving appearance and behaviour,potentially_psych,other/general symptoms,first,emergency_admission,med_surg
