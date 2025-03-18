@@ -34,7 +34,7 @@ Every code list has the following five columns: `code`, `dataset`, `field`, `cod
 ```{r}
 #| echo: false
 library(knitr)
-dt <- read.csv("https://github.com/UCL-ECHILD/phenotype-code-lists/raw/main/llc_fraser_v1.csv")
+dt <- read.csv("codelists/llc_fraser_v1.csv")
 kable(dt)
 ```
 :::
@@ -51,7 +51,7 @@ Some code lists have additional columns, such as the [Hardelid et al](chc_hardel
 ```{r}
 #| echo: false
 library(knitr)
-dt <- read.csv("https://github.com/UCL-ECHILD/phenotype-code-lists/raw/main/chc_hardelid_v1.csv")
+dt <- read.csv("codelists/chc_hardelid_v1.csv")
 kable(dt)
 ```
 :::
@@ -79,7 +79,7 @@ Sometimes it is necessary to remove some codes from a list. For example, the [Co
 ```{r}
 #| echo: false
 library(knitr)
-dt <- read.csv("https://github.com/UCL-ECHILD/phenotype-code-lists/raw/main/mc_cohen_v1_removals.csv")
+dt <- read.csv("codelists/mc_cohen_v1_removals.csv")
 kable(dt)
 ```
 :::
@@ -92,7 +92,7 @@ kable(dt)
 ```{r}
 #| echo: false
 library(knitr)
-dt <- read.csv("https://github.com/UCL-ECHILD/phenotype-code-lists/raw/main/mc_cohen_v1_truncations.csv")
+dt <- read.csv("codelists/mc_cohen_v1_truncations.csv")
 kable(dt)
 ```
 :::
