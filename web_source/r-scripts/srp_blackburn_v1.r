@@ -110,8 +110,17 @@ diagnoses[substr(code, 1, 3) %in%
             diag_n == 1,
           srp := T]
 
+diagnoses[substr(code, 1, 4) %in%
+            srp_blackburn[nchar(code) == 4 & diag_position == "first"]$code &
+            diag_n == 1,
+          srp := T]
+
+
 # Code R10 has a med_surg flag, meaning it should not be counted where one of
-# the exclusion codes is present. These include diag and procedure codes.
+# the exclusion codes is present.
+
+# Note that this list includes diagnosis and procedure codes.
+
 med_surg <- fread("codelists/srp_blackburn_v1_medical.csv", stringsAsFactors = F)
 med_surg[, code := gsub("\\.", "", code)]
 
@@ -159,6 +168,10 @@ rm(operations, med_surg, opertn_cols)
 # And now we can get the codes in any diagnostic position.
 diagnoses[substr(code, 1, 3) %in%
             srp_blackburn[nchar(code) == 3 & diag_position == "any"]$code,
+          srp := T]
+
+diagnoses[substr(code, 1, 4) %in%
+            srp_blackburn[nchar(code) == 4 & diag_position == "any"]$code,
           srp := T]
 
 # Now aggregate to episode level. We do this by taking the max() of our
