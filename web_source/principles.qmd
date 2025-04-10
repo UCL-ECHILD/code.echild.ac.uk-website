@@ -11,7 +11,7 @@ The Repository has been designed according to an overarching plan. This is inten
 
 1. Only final code lists are admitted to the Repository (i.e., no drafts). Ideally the code lists will have been peer reviewed.
 2. The ECHILD team will check each code list to ensure that all codes and flags are correctly included.
-3. The code list should have an associated publication, which may be a journal article, a pre-print or some other repository. The associated publication must be the publication where the code list first appeared (i.e., a subsequent paper using a previously-published code list is not admissible). This is to ensure that the Repository reflects the original, single version of a code list.
+3. The code list should have an associated publication, which should ideally be a peer-reviewed article. The associated publication must be the publication where the code list first appeared (i.e., a subsequent paper using a previously-published code list is not admissible). This is to ensure that the Repository reflects the original, single version of a code list.
 4. Code list files are to be named, numbered and arranged according to a common scheme (see below).
 5. All code lists must be machine-readable in *.csv format. Some code lists may have two or more files associated with them where there are several distinct code lists relevant to one phenotype and/or where codes are removed from, or truncated in, the original list.
 6. Only one code per row is permitted. Ranges of codes such as “B20-B24” are not permitted on a single row as these are not easily machine-readable.
@@ -45,7 +45,7 @@ Respectively, these fields give the relevant code, the dataset to which the code
 
 Use of a 3-character code implies including all subcodes; 4-character codes are only used when only specific subcodes are used. For example, in the [Fraser et al](llc_fraser_v1.qmd) list, code `B20` means include all of `B20.0`, `B20.1`, `B20.2`, `B20.3`, `B20.4`, `B20.5`, `B20.6`, `B20.7`, `B20.8` and `B20.9`. By contrast, in the case of code `A81`, only `A81.0` and `A81.1` should be included, and NOT `A81.2`, `A81.8` or `A81.9` (and there are no ICD-10 codes designated `A81.3` to `A81.7`). Note also that each of `B20`, `B21`, `B22`, `B23` and `B24` are coded each on their own row and not by reference to a range of codes (e.g. “B20-B24”).
 
-Some code lists have additional columns, such as the [Hardelid et al](chc_hardelid_v1) list of chronic health conditions, which contains columns for the groups and sub-groups (`group` and `subgroup`) into which the codes are divided in Hardelid et al’s [-@hardelid2014] original paper:
+Some code lists have additional columns, such as the [Hardelid et al](chc_hardelid_v1) list of chronic health conditions, which contains columns for the groups and sub-groups (`group` and `subgroup`) into which the codes are divided in [Hardelid et al's](chc_hardelid_v1) original paper:
 
 :::{.scrolling}
 ```{r}
