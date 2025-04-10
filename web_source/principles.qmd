@@ -11,7 +11,7 @@ The Repository has been designed according to an overarching plan. This is inten
 
 1. Only final code lists are admitted to the Repository (i.e., no drafts). Ideally the code lists will have been peer reviewed.
 2. The ECHILD team will check each code list to ensure that all codes and flags are correctly included.
-3. The code list should have an associated publication, which may be a journal article, a pre-print or some other repository. The associated publication must be the publication where the code list first appeared (i.e., a subsequent paper using a previously-published code list is not admissible). This is to ensure that the Repository reflects the original, single version of a code list.
+3. The code list should have an associated publication, which should ideally be a peer-reviewed article. The associated publication must be the publication where the code list first appeared (i.e., a subsequent paper using a previously-published code list is not admissible). This is to ensure that the Repository reflects the original, single version of a code list.
 4. Code list files are to be named, numbered and arranged according to a common scheme (see below).
 5. All code lists must be machine-readable in *.csv format. Some code lists may have two or more files associated with them where there are several distinct code lists relevant to one phenotype and/or where codes are removed from, or truncated in, the original list.
 6. Only one code per row is permitted. Ranges of codes such as “B20-B24” are not permitted on a single row as these are not easily machine-readable.
