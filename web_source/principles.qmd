@@ -60,7 +60,7 @@ kable(dt)
 
 The [Hardelid et al](chc_hardelid_v1) code list also contains a column called `flag`. Where a code list has certain stipulations, then the list will have one or more `flag` columns. For example, codes `F55` and `G24.0` (among others) have `flag = los3`. The [Hardelid et al](chc_hardelid_v1) code list documentation reveals that this means the code is only to be counted if the admission is more than three days long. See the documentation for each code list in the Repository and the original papers cited therein for details of all such flags and restrictions.
 
-Not all code lists use ICD-10 or OPCS codes (or exclusively these). For example, the code list used to identify [emergency admissions](emergency_admissions_v1) makes use of `admimeth` values (see the @primer for more detail).
+Not all code lists use ICD-10 or OPCS codes (or exclusively these). For example, the code list used to identify [emergency admissions](emergency_admissions_v1) makes use of `admimeth` values (see the [primer](primer.qmd) for more detail).
 
 
 
