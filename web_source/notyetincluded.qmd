@@ -1,1 +1,11 @@
+# Code lists not yet included {.unnumbered}
 
+Below are phenotype code lists that may be relevant to ECHILD users but which are not yet available in the repository.
+
+| Authors (link to paper)  | Proposed code list name  | Dataset & target phenotype  | Original purpose  |
+|--------------------------|--------------------------|-----------------------------|-------------------|
+| [Pearson et al](https://link.springer.com/article/10.1007/s00127-022-02221-1){target="_blank"} | Mental health conditions – Pearson – v1 | HES APC – Mental health conditions | To investigate mental health conditions in mothers in public family law proceedings |
+| [Knight et al](https://pubmed.ncbi.nlm.nih.gov/30487299/){target="_blank"} | ENAOI – Knight – v1 | HES APC – English neonatal adverse outcome indicator | To investigate neonatal adversity |
+| Nair et al | NMMOI – Nair – v1  | HES APC – National Maternal Morbidity Outcome Indicator | To investigate maternal morbidity and monitory the quality of maternity care |
+
+: Demonstration of pipe table syntax
