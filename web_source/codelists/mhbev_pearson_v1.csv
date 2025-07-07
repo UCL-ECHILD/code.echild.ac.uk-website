@@ -1,0 +1,73 @@
+code,dataset,field,code_type,group,description
+F20,hes_apc,diag,icd10,schiz_del,schizophrenia
+F21,hes_apc,diag,icd10,schiz_del,schizotypal disorder
+F22,hes_apc,diag,icd10,schiz_del,persistent delusional disorders
+F23,hes_apc,diag,icd10,schiz_del,acute and transient psychotic disorders
+F24,hes_apc,diag,icd10,schiz_del,induced delusional disorder
+F25,hes_apc,diag,icd10,schiz_del,schizoaffective disorders
+F28,hes_apc,diag,icd10,schiz_del,other nonorganic psychotic disorders
+F29,hes_apc,diag,icd10,schiz_del,unspecified nonorganic psychosis
+F30,hes_apc,diag,icd10,sev_mood_dis,manic episode
+F31,hes_apc,diag,icd10,sev_mood_dis,bipolar affective disorder
+F32.1,hes_apc,diag,icd10,sev_mood_dis,moderate depressive episode
+F32.2,hes_apc,diag,icd10,sev_mood_dis,severe depressive episode without psychotic symptoms
+F32.3,hes_apc,diag,icd10,sev_mood_dis,severe depressive episode with psychotic symptoms
+F33.1,hes_apc,diag,icd10,sev_mood_dis,recurrent depressive disorder current episode moderate
+F33.2,hes_apc,diag,icd10,sev_mood_dis,recurrent depressive disorder current episode severe without psychotic symptoms
+F33.3,hes_apc,diag,icd10,sev_mood_dis,recurrent depressive disorder current episode severe with psychotic symptoms
+F34.0,hes_apc,diag,icd10,sev_mood_dis,cyclothymia
+F34.1,hes_apc,diag,icd10,sev_mood_dis,dysthymia
+F53.0,hes_apc,diag,icd10,sev_mood_dis,mild mental and behavioural disorders associated with the puerperium not elsewhere classified
+F53.1,hes_apc,diag,icd10,sev_mood_dis,severe mental and behavioural disorders associated with the puerperium not elsewhere classified
+F40,hes_apc,diag,icd10,anx_somat_stress,phobic anxiety disorders
+F41,hes_apc,diag,icd10,anx_somat_stress,other anxiety disorders
+F42,hes_apc,diag,icd10,anx_somat_stress,obsessive-compulsive disorder
+F43,hes_apc,diag,icd10,anx_somat_stress,reaction to severe stress and adjustment disorders
+F44,hes_apc,diag,icd10,anx_somat_stress,dissociative [conversion] disorders
+F45,hes_apc,diag,icd10,anx_somat_stress,somatoform disorders
+F48,hes_apc,diag,icd10,anx_somat_stress,other neurotic disorders
+F32.0,hes_apc,diag,icd10,other_depr,mild depressive episode
+F32.8,hes_apc,diag,icd10,other_depr,other depressive episodes
+F32.9,hes_apc,diag,icd10,other_depr,depressive episode unspecified
+F33.0,hes_apc,diag,icd10,other_depr,recurrent depressive disorder current episode mild
+F33.4,hes_apc,diag,icd10,other_depr,recurrent depressive disorder currently in remission
+F33.8,hes_apc,diag,icd10,other_depr,other recurrent depressive disorders
+F33.9,hes_apc,diag,icd10,other_depr,recurrent depressive disorder unspecified
+F34.8,hes_apc,diag,icd10,other_depr,other persistent mood [affective] disorders
+F34.9,hes_apc,diag,icd10,other_depr,persistent mood [affective] disorder unspecified
+F38,hes_apc,diag,icd10,other_depr,other mood [affective] disorders
+F39,hes_apc,diag,icd10,other_depr,unspecified mood [affective] disorder
+F10,hes_apc,diag,icd10,drug_alc,mental and behavioural disorders due to use of alcohol
+F11,hes_apc,diag,icd10,drug_alc,mental and behavioural disorders due to use of opioids
+F12,hes_apc,diag,icd10,drug_alc,mental and behavioural disorders due to use of cannabinoids
+F13,hes_apc,diag,icd10,drug_alc,mental and behavioural disorders due to use of sedatives or hypnotics
+F14,hes_apc,diag,icd10,drug_alc,mental and behavioural disorders due to use of cocaine
+F15,hes_apc,diag,icd10,drug_alc,mental and behavioural disorders due to use of other stimulants including caffeine
+F16,hes_apc,diag,icd10,drug_alc,mental and behavioural disorders due to use of hallucinogens
+F18,hes_apc,diag,icd10,drug_alc,mental and behavioural disorders due to use of volatile solvents
+F19,hes_apc,diag,icd10,drug_alc,mental and behavioural disorders due to multiple drug use and use of other psychoactive substances
+F60,hes_apc,diag,icd10,personality,specific personality disorders
+F61,hes_apc,diag,icd10,personality,mixed and other personality disorders
+F62,hes_apc,diag,icd10,personality,enduring personality changes not attributable to brain damage and disease
+F63,hes_apc,diag,icd10,personality,habit and impulse disorders
+F50,hes_apc,diag,icd10,other_pyschiatr,eating disorders
+F51,hes_apc,diag,icd10,other_pyschiatr,nonorganic sleep disorders
+F52,hes_apc,diag,icd10,other_pyschiatr,sexual dysfunction not caused by organic disorder or disease
+F53,hes_apc,diag,icd10,other_pyschiatr,mental and behavioural disorders associated with the puerperium not elsewhere classified
+F53.8,hes_apc,diag,icd10,other_pyschiatr,other mental and behavioural disorders associated with the puerperium not elsewhere classified
+F53.9,hes_apc,diag,icd10,other_pyschiatr,puerperal mental disorder unspecified
+F99,hes_apc,diag,icd10,other_pyschiatr,mental disorder not otherwise specified
+F80,hes_apc,diag,icd10,psych_dev_beh_emo,specific developmental disorders of speech and language
+F81,hes_apc,diag,icd10,psych_dev_beh_emo,specific developmental disorders of scholastic skills
+F82,hes_apc,diag,icd10,psych_dev_beh_emo,specific developmental disorder of motor function
+F83,hes_apc,diag,icd10,psych_dev_beh_emo,mixed specific developmental disorders
+F84,hes_apc,diag,icd10,psych_dev_beh_emo,pervasive developmental disorders
+F88,hes_apc,diag,icd10,psych_dev_beh_emo,other disorders of psychological development
+F89,hes_apc,diag,icd10,psych_dev_beh_emo,unspecified disorder of psychological development
+F90,hes_apc,diag,icd10,psych_dev_beh_emo,hyperkinetic disorders
+F91,hes_apc,diag,icd10,psych_dev_beh_emo,conduct disorders
+F92,hes_apc,diag,icd10,psych_dev_beh_emo,mixed disorders of conduct and emotions
+F93,hes_apc,diag,icd10,psych_dev_beh_emo,emotional disorders with onset specific to childhood
+F94,hes_apc,diag,icd10,psych_dev_beh_emo,disorders of social functioning with onset specific to childhood and adolescence
+F95,hes_apc,diag,icd10,psych_dev_beh_emo,tic disorders
+F98,hes_apc,diag,icd10,psych_dev_beh_emo,other behavioural and emotional disorders with onset usually occurring in childhood and adolescence
