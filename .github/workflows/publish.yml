@@ -57,9 +57,6 @@ jobs:
         with:
           cache-version: 1
 
-      - name: Debug renv
-        run: Rscript -e 'renv::status()'
-
       - name: Write code list files
         run: Rscript render_code_lists.r
 
