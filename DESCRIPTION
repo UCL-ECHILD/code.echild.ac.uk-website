@@ -5,8 +5,9 @@ Authors@R:
     person("Tony", "Stone", , "tony-stone@users.noreply.github.com", 
            role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-0167-3800"))
-Description: The website for the ECHILD Research Database SUBDOMAIN.
+Description: The website for the ECHILD Research Database https://code.echild.ac.uk subdomain website
 License: MIT + file LICENSE
+Imports: downlit (>= 0.4.4), knitr (>= 1.48), rmarkdown (>= 2.27), xml2 (>= 1.3.8), yaml (>= 2.3.10)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
