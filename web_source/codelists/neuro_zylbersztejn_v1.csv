@@ -1,6 +1,6 @@
-code,dataset,field,code_type,description,age_criteria
-1000,hes_apc,birweit,birweit,birth weight less than 1000g,0
-26,hes_apc,gestat,gestat,gestational age less than 26 weeks,0
+ï»¿code,dataset,field,code_type,description,age_criteria
+<1000,hes_apc,birweit,birweit,birth weight less than 1000g,0
+<26,hes_apc,gestat,gestat,gestational age less than 26 weeks,0
 A06.6,hes_apc,diag,icd10,amoebic brain abscess,0
 A12,hes_apc,opertn,opcs4,creation of connection from ventricle of brain,0
 A13,hes_apc,opertn,opcs4,attention to component of connection from ventricle of brain,0
@@ -746,7 +746,7 @@ X50.1,hes_apc,opertn,opcs4,direct current cardioversion,1
 X50.2,hes_apc,opertn,opcs4,external cardioversion nec,1
 X50.3,hes_apc,opertn,opcs4,advanced cardiac pulmonary resuscitation,1
 X50.4,hes_apc,opertn,opcs4,external ventricular defibrillation,1
-X50.5,hes_apc,opertn,opcs4,evaluation of cardioverter defibrillator ,1
+X50.5,hes_apc,opertn,opcs4,evaluation of cardioverter defibrillator,1
 X51.1,hes_apc,opertn,opcs4,hypothermia therapy,1
 X51.2,hes_apc,opertn,opcs4,active cooling,1
 Y46.0,hes_apc,diag,icd10,succinimides,0
