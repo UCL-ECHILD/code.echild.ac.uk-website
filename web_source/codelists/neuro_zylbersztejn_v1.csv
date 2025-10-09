@@ -692,11 +692,11 @@ Q90.0,hes_apc,diag,icd10,trisomy 21 meiotic nondisjunction,0
 Q90.1,hes_apc,diag,icd10,trisomy 21 mosaicism (mitotic nondisjunction),0
 Q90.2,hes_apc,diag,icd10,trisomy 21 translocation,0
 Q90.9,hes_apc,diag,icd10,down syndrome unspecified,0
-Q91,hes_apc,diag,icd10,edwards' syndrome and patau syndrome,0
+Q91,hes_apc,diag,icd10,edwards syndrome and patau syndrome,0
 Q91.0,hes_apc,diag,icd10,trisomy 18 meiotic nondisjunction,0
 Q91.1,hes_apc,diag,icd10,trisomy 18 mosaicism (mitotic nondisjunction),0
 Q91.2,hes_apc,diag,icd10,trisomy 18 translocation,0
-Q91.3,hes_apc,diag,icd10,edwards' syndrome unspecified,0
+Q91.3,hes_apc,diag,icd10,edwards syndrome unspecified,0
 Q91.4,hes_apc,diag,icd10,trisomy 13 meiotic nondisjunction,0
 Q91.5,hes_apc,diag,icd10,trisomy 13 mosaicism (mitotic nondisjunction),0
 Q91.6,hes_apc,diag,icd10,trisomy 13 translocation,0
