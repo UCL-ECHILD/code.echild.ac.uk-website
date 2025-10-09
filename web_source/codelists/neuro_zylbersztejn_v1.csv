@@ -1,6 +1,6 @@
 code,dataset,field,code_type,description,age_criteria
-<1000,hes_apc,birweit,birweit,birth weight <1000g,0
-<26,hes_apc,gestat,gestat,gestational age <26 weeks,0
+1000,hes_apc,birweit,birweit,birth weight less than 1000g,0
+26,hes_apc,gestat,gestat,gestational age less than 26 weeks,0
 A06.6,hes_apc,diag,icd10,amoebic brain abscess,0
 A12,hes_apc,opertn,opcs4,creation of connection from ventricle of brain,0
 A13,hes_apc,opertn,opcs4,attention to component of connection from ventricle of brain,0
