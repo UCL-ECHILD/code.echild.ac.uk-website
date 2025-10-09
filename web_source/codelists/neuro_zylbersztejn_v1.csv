@@ -174,7 +174,7 @@ E74.4,hes_apc,diag,icd10,disorders of pyruvate metabolism and gluconeogenesis,0
 E74.8,hes_apc,diag,icd10,other specified disorders of carbohydrate metabolism,0
 E74.9,hes_apc,diag,icd10,disorder of carbohydrate metabolism unspecified,0
 E75,hes_apc,diag,icd10,disorders of sphingolipid metabolism and other lipid storage disorders,0
-E75.0,hes_apc,diag,icd10,gm₂ gangliosidosis,0
+E75.0,hes_apc,diag,icd10,gm2 gangliosidosis,0
 E75.1,hes_apc,diag,icd10,other gangliosidosis,0
 E75.2,hes_apc,diag,icd10,other sphingolipidosis,0
 E75.3,hes_apc,diag,icd10,sphingolipidosis unspecified,0
