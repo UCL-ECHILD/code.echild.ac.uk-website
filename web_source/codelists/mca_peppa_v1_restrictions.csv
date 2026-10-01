@@ -1,0 +1,14 @@
+code,dataset,field,code_type,description,restriction_flag
+Q41.2,hes_apc or mortality,diag,icd10,congenital absence atresia and stenosis of ileum,differential_diag
+Q42.8,hes_apc or mortality,diag,icd10,congenital absence atresia and stenosis of other parts of large intestine,differential_diag
+Q42.9,hes_apc or mortality,diag,icd10,congenital absence atresia and stenosis of large intestine part unspecified,differential_diag
+Q43.1,hes_apc or mortality,diag,icd10,hirschsprung disease,differential_diag
+P76.0,hes_apc or mortality,diag,icd10,meconium plug syndrome,differential_diag
+P75,hes_apc or mortality,diag,icd10,meconium ileus in cystic fibrosis,differential_diag
+E84,hes_apc or mortality,diag,icd10,cystic fibrosis,differential_diag
+P76.8,hes_apc or mortality,diag,icd10,other specified intestinal obstruction of newborn,differential_diag
+P76.9,hes_apc or mortality,diag,icd10,intestinal obstruction of newborn unspecified,differential_diag
+Q40.1,hes_apc or mortality,diag,icd10,congenital hiatus hernia,cdh_exclusion
+Q79.2,hes_apc or mortality,diag,icd10,exomphalos,cdh_exclusion
+Q79.3,hes_apc or mortality,diag,icd10,gastroschisis,cdh_exclusion
+Q39,hes_apc or mortality,diag,icd10,congenital malformations of oesophagus,cdh_exclusion

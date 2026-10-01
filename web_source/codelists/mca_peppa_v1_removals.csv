@@ -1,0 +1,3 @@
+code,dataset,field,code_type,group,subgroup,reason_for_removal
+H504.2,hes_apc,opertn,opcs4,digestive anomalies,anorectal malformation,not an opcs-4 code (clinical code and schedule development group)
+H504.3,hes_apc,opertn,opcs4,digestive anomalies,anorectal malformation,not an opcs-4 code (clinical code and schedule development group)
