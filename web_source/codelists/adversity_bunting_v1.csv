@@ -1,0 +1,144 @@
+code,dataset,field,code_type,description,group,flag
+F10,hes_apc,diag,icd10,mental and behavioural disorders due to use of alcohol,drug and/or alcohol misuse,unplanned_admission
+F11,hes_apc,diag,icd10,mental and behavioural disorders due to use of opioids,drug and/or alcohol misuse,unplanned_admission
+F12,hes_apc,diag,icd10,mental and behavioural disorders due to use of cannabinoids,drug and/or alcohol misuse,unplanned_admission
+F13,hes_apc,diag,icd10,mental and behavioural disorders due to use of sedatives or hypnotics,drug and/or alcohol misuse,unplanned_admission
+F14,hes_apc,diag,icd10,mental and behavioural disorders due to use of cocaine,drug and/or alcohol misuse,unplanned_admission
+F15,hes_apc,diag,icd10,mental and behavioural disorders due to use of other stimulants including caffeine,drug and/or alcohol misuse,unplanned_admission
+F16,hes_apc,diag,icd10,mental and behavioural disorders due to use of hallucinogens,drug and/or alcohol misuse,unplanned_admission
+F18,hes_apc,diag,icd10,mental and behavioural disorders due to use of volatile solvents,drug and/or alcohol misuse,unplanned_admission
+F19,hes_apc,diag,icd10,mental and behavioural disorders due to multiple drug use and use of other psychoactive substances,drug and/or alcohol misuse,unplanned_admission
+R78.0,hes_apc,diag,icd10,finding of alcohol in blood,drug and/or alcohol misuse,unplanned_admission
+R78.1,hes_apc,diag,icd10,finding of opiate drug in blood,drug and/or alcohol misuse,unplanned_admission
+R78.2,hes_apc,diag,icd10,finding of cocaine in blood,drug and/or alcohol misuse,unplanned_admission
+R78.3,hes_apc,diag,icd10,finding of hallucinogen in blood,drug and/or alcohol misuse,unplanned_admission
+R78.4,hes_apc,diag,icd10,finding of other drugs of addictive potential in blood,drug and/or alcohol misuse,unplanned_admission
+R78.5,hes_apc,diag,icd10,finding of psychotropic drug in blood,drug and/or alcohol misuse,unplanned_admission
+T36,hes_apc,diag,icd10,poisoning by systemic antibiotics,drug and/or alcohol misuse,unplanned_admission
+T37,hes_apc,diag,icd10,poisoning by other systemic anti-infectives and antiparasitics,drug and/or alcohol misuse,unplanned_admission
+T38,hes_apc,diag,icd10,poisoning by hormones and their synthetic substitutes and antagonists not elsewhere classified,drug and/or alcohol misuse,unplanned_admission
+T39,hes_apc,diag,icd10,poisoning by nonopioid analgesics antipyretics and antirheumatics,drug and/or alcohol misuse,unplanned_admission
+T40,hes_apc,diag,icd10,poisoning by narcotics and psychodysleptics [hallucinogens],drug and/or alcohol misuse,unplanned_admission
+T41,hes_apc,diag,icd10,poisoning by anaesthetics and therapeutic gases,drug and/or alcohol misuse,unplanned_admission
+T42,hes_apc,diag,icd10,poisoning by antiepileptic sedative-hypnotic and antiparkinsonism drugs,drug and/or alcohol misuse,unplanned_admission
+T43,hes_apc,diag,icd10,poisoning by psychotropic drugs not elsewhere classified,drug and/or alcohol misuse,unplanned_admission
+T44,hes_apc,diag,icd10,poisoning by drugs primarily affecting the autonomic nervous system,drug and/or alcohol misuse,unplanned_admission
+T45,hes_apc,diag,icd10,poisoning by primarily systemic and haematological agents not elsewhere classified,drug and/or alcohol misuse,unplanned_admission
+T46,hes_apc,diag,icd10,poisoning by agents primarily affecting the cardiovascular system,drug and/or alcohol misuse,unplanned_admission
+T47,hes_apc,diag,icd10,poisoning by agents primarily affecting the gastrointestinal system,drug and/or alcohol misuse,unplanned_admission
+T48,hes_apc,diag,icd10,poisoning by agents primarily acting on smooth and skeletal muscles and the respiratory system,drug and/or alcohol misuse,unplanned_admission
+T49,hes_apc,diag,icd10,poisoning by topical agents primarily affecting skin and mucous membrane and by ophthalmological otorhinolaryngological and dental drugs,drug and/or alcohol misuse,unplanned_admission
+T50,hes_apc,diag,icd10,poisoning by diuretics and other and unspecified drugs medicaments and biological substances,drug and/or alcohol misuse,unplanned_admission
+X45,hes_apc,diag,icd10,accidental poisoning by and exposure to alcohol,drug and/or alcohol misuse,unplanned_admission
+X40,hes_apc,diag,icd10,accidental poisoning by and exposure to nonopioid analgesics antipyretics and antirheumatics,drug and/or alcohol misuse,unplanned_admission
+X41,hes_apc,diag,icd10,accidental poisoning by and exposure to antiepileptic sedative-hypnotic antiparkinsonism and psychotropic drugs not elsewhere classified,drug and/or alcohol misuse,unplanned_admission
+X42,hes_apc,diag,icd10,accidental poisoning by and exposure to narcotics and psychodysleptics [hallucinogens] not elsewhere classified,drug and/or alcohol misuse,unplanned_admission
+X43,hes_apc,diag,icd10,accidental poisoning by and exposure to other drugs acting on the autonomic nervous system,drug and/or alcohol misuse,unplanned_admission
+X44,hes_apc,diag,icd10,accidental poisoning by and exposure to other and unspecified drugs medicaments and biological substances,drug and/or alcohol misuse,unplanned_admission
+X46,hes_apc,diag,icd10,accidental poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours,drug and/or alcohol misuse,unplanned_admission
+X47,hes_apc,diag,icd10,accidental poisoning by and exposure to other gases and vapours,drug and/or alcohol misuse,unplanned_admission
+X48,hes_apc,diag,icd10,accidental poisoning by and exposure to pesticides,drug and/or alcohol misuse,unplanned_admission
+X49,hes_apc,diag,icd10,accidental poisoning by and exposure to other and unspecified chemicals and noxious substances,drug and/or alcohol misuse,unplanned_admission
+X69,hes_apc,diag,icd10,intentional self-poisoning by and exposure to other and unspecified chemicals and noxious substances,drug and/or alcohol misuse,unplanned_admission
+Y10,hes_apc,diag,icd10,poisoning by and exposure to nonopioid analgesics antipyretics and antirheumatics undetermined intent,drug and/or alcohol misuse,unplanned_admission
+Y11,hes_apc,diag,icd10,poisoning by and exposure to antiepileptic sedative-hypnotic antiparkinsonism and psychotropic drugs not elsewhere classified undetermined intent,drug and/or alcohol misuse,unplanned_admission
+Y12,hes_apc,diag,icd10,poisoning by and exposure to narcotics and psychodysleptics [hallucinogens] not elsewhere classified undetermined intent,drug and/or alcohol misuse,unplanned_admission
+Y13,hes_apc,diag,icd10,poisoning by and exposure to other drugs acting on the autonomic nervous system undetermined intent,drug and/or alcohol misuse,unplanned_admission
+Y14,hes_apc,diag,icd10,poisoning by and exposure to other and unspecified drugs medicaments and biological substances undetermined intent,drug and/or alcohol misuse,unplanned_admission
+Y16,hes_apc,diag,icd10,poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours undetermined intent,drug and/or alcohol misuse,unplanned_admission
+Y17,hes_apc,diag,icd10,poisoning by and exposure to other gases and vapours undetermined intent,drug and/or alcohol misuse,unplanned_admission
+Y18,hes_apc,diag,icd10,poisoning by and exposure to pesticides undetermined intent,drug and/or alcohol misuse,unplanned_admission
+Y19,hes_apc,diag,icd10,poisoning by and exposure to other and unspecified chemicals and noxious substances undetermined intent,drug and/or alcohol misuse,unplanned_admission
+Y15,hes_apc,diag,icd10,poisoning by and exposure to alcohol undetermined intent,drug and/or alcohol misuse,unplanned_admission
+Y90,hes_apc,diag,icd10,evidence of alcohol involvement determined by blood alcohol level,drug and/or alcohol misuse,unplanned_admission
+Y91,hes_apc,diag,icd10,evidence of alcohol involvement determined by level of intoxication,drug and/or alcohol misuse,unplanned_admission
+Z50.2,hes_apc,diag,icd10,alcohol rehabilitation,drug and/or alcohol misuse,unplanned_admission
+Z50.3,hes_apc,diag,icd10,drug rehabilitation,drug and/or alcohol misuse,unplanned_admission
+Z71.4,hes_apc,diag,icd10,alcohol abuse counselling and surveillance,drug and/or alcohol misuse,unplanned_admission
+Z71.5,hes_apc,diag,icd10,drug abuse counselling and surveillance,drug and/or alcohol misuse,unplanned_admission
+Z72.1,hes_apc,diag,icd10,alcohol use,drug and/or alcohol misuse,unplanned_admission
+Z72.2,hes_apc,diag,icd10,drug use,drug and/or alcohol misuse,unplanned_admission
+G40.5,hes_apc,diag,icd10,special epileptic syndromes,drug and/or alcohol misuse,unplanned_admission
+Z04.0,hes_apc,diag,icd10,blood-alcohol and blood-drug test,drug and/or alcohol misuse,unplanned_admission
+O35.4,hes_apc,diag,icd10,maternal care for (suspected) damage to fetus from alcohol,drug and/or alcohol misuse,unplanned_admission
+E24.4,hes_apc,diag,icd10,alcohol-induced pseudo-cushing syndrome,drug and/or alcohol misuse,unplanned_admission
+G31.2,hes_apc,diag,icd10,degeneration of nervous system due to alcohol,drug and/or alcohol misuse,unplanned_admission
+G62.1,hes_apc,diag,icd10,alcoholic polyneuropathy,drug and/or alcohol misuse,unplanned_admission
+G72.1,hes_apc,diag,icd10,alcoholic myopathy,drug and/or alcohol misuse,unplanned_admission
+I42.6,hes_apc,diag,icd10,alcoholic cardiomyopathy,drug and/or alcohol misuse,unplanned_admission
+K29.2,hes_apc,diag,icd10,alcoholic gastritis,drug and/or alcohol misuse,unplanned_admission
+K70,hes_apc,diag,icd10,alcoholic liver disease,drug and/or alcohol misuse,unplanned_admission
+K85.2,hes_apc,diag,icd10,alcohol-induced acute pancreatitis,drug and/or alcohol misuse,unplanned_admission
+K86.0,hes_apc,diag,icd10,alcohol-induced chronic pancreatitis,drug and/or alcohol misuse,unplanned_admission
+T51,hes_apc,diag,icd10,toxic effect of alcohol,drug and/or alcohol misuse,unplanned_admission
+T74,hes_apc,diag,icd10,maltreatment syndromes,violence (including domestic violence),unplanned_admission
+T73,hes_apc,diag,icd10,effects of other deprivation,violence (including domestic violence),unplanned_admission
+Y06,hes_apc,diag,icd10,neglect and abandonment,violence (including domestic violence),unplanned_admission
+Y07,hes_apc,diag,icd10,other maltreatment,violence (including domestic violence),unplanned_admission
+Y04,hes_apc,diag,icd10,assault by bodily force,violence (including domestic violence),unplanned_admission
+Y05,hes_apc,diag,icd10,sexual assault by bodily force,violence (including domestic violence),unplanned_admission
+X85,hes_apc,diag,icd10,assault by drugs medicaments and biological substances,violence (including domestic violence),unplanned_admission
+X86,hes_apc,diag,icd10,assault by corrosive substance,violence (including domestic violence),unplanned_admission
+X87,hes_apc,diag,icd10,assault by pesticides,violence (including domestic violence),unplanned_admission
+X88,hes_apc,diag,icd10,assault by gases and vapours,violence (including domestic violence),unplanned_admission
+X89,hes_apc,diag,icd10,assault by other specified chemicals and noxious substances,violence (including domestic violence),unplanned_admission
+X90,hes_apc,diag,icd10,assault by unspecified chemical or noxious substance,violence (including domestic violence),unplanned_admission
+X91,hes_apc,diag,icd10,assault by hanging strangulation and suffocation,violence (including domestic violence),unplanned_admission
+X92,hes_apc,diag,icd10,assault by drowning and submersion,violence (including domestic violence),unplanned_admission
+X93,hes_apc,diag,icd10,assault by handgun discharge,violence (including domestic violence),unplanned_admission
+X94,hes_apc,diag,icd10,assault by rifle shotgun and larger firearm discharge,violence (including domestic violence),unplanned_admission
+X95,hes_apc,diag,icd10,assault by other and unspecified firearm discharge,violence (including domestic violence),unplanned_admission
+X96,hes_apc,diag,icd10,assault by explosive material,violence (including domestic violence),unplanned_admission
+X97,hes_apc,diag,icd10,assault by smoke fire and flames,violence (including domestic violence),unplanned_admission
+X98,hes_apc,diag,icd10,assault by steam hot vapours and hot objects,violence (including domestic violence),unplanned_admission
+X99,hes_apc,diag,icd10,assault by sharp object,violence (including domestic violence),unplanned_admission
+Y00,hes_apc,diag,icd10,assault by blunt object,violence (including domestic violence),unplanned_admission
+Y01,hes_apc,diag,icd10,assault by pushing from high place,violence (including domestic violence),unplanned_admission
+Y02,hes_apc,diag,icd10,assault by pushing or placing victim before moving object,violence (including domestic violence),unplanned_admission
+Y03,hes_apc,diag,icd10,assault by crashing of motor vehicle,violence (including domestic violence),unplanned_admission
+Y08,hes_apc,diag,icd10,assault by other specified means,violence (including domestic violence),unplanned_admission
+Y09,hes_apc,diag,icd10,assault by unspecified means,violence (including domestic violence),unplanned_admission
+Y20,hes_apc,diag,icd10,hanging strangulation and suffocation undetermined intent,violence (including domestic violence),unplanned_admission
+Y21,hes_apc,diag,icd10,drowning and submersion undetermined intent,violence (including domestic violence),unplanned_admission
+Y22,hes_apc,diag,icd10,handgun discharge undetermined intent,violence (including domestic violence),unplanned_admission
+Y23,hes_apc,diag,icd10,rifle shotgun and larger firearm discharge undetermined intent,violence (including domestic violence),unplanned_admission
+Y24,hes_apc,diag,icd10,other and unspecified firearm discharge undetermined intent,violence (including domestic violence),unplanned_admission
+Y25,hes_apc,diag,icd10,contact with explosive material undetermined intent,violence (including domestic violence),unplanned_admission
+Y26,hes_apc,diag,icd10,exposure to smoke fire and flames undetermined intent,violence (including domestic violence),unplanned_admission
+Y27,hes_apc,diag,icd10,contact with steam hot vapours and hot objects undetermined intent,violence (including domestic violence),unplanned_admission
+Y28,hes_apc,diag,icd10,contact with sharp object undetermined intent,violence (including domestic violence),unplanned_admission
+Y29,hes_apc,diag,icd10,contact with blunt object undetermined intent,violence (including domestic violence),unplanned_admission
+Y30,hes_apc,diag,icd10,falling jumping or pushed from a high place undetermined intent,violence (including domestic violence),unplanned_admission
+Y31,hes_apc,diag,icd10,falling lying or running before or into moving object undetermined intent,violence (including domestic violence),unplanned_admission
+Y32,hes_apc,diag,icd10,crashing of motor vehicle undetermined intent,violence (including domestic violence),unplanned_admission
+Y33,hes_apc,diag,icd10,other specified events undetermined intent,violence (including domestic violence),unplanned_admission
+Y34,hes_apc,diag,icd10,unspecified event undetermined intent,violence (including domestic violence),unplanned_admission
+Z04.5,hes_apc,diag,icd10,examination and observation following other inflicted injury,violence (including domestic violence),unplanned_admission
+Z04.8,hes_apc,diag,icd10,examination and observation for other specified reasons,violence (including domestic violence),unplanned_admission
+Z63.0,hes_apc,diag,icd10,problems in relationship with spouse or partner,violence (including domestic violence),unplanned_admission
+X60,hes_apc,diag,icd10,intentional self-poisoning by and exposure to nonopioid analgesics antipyretics and antirheumatics,self harm,unplanned_admission
+X61,hes_apc,diag,icd10,intentional self-poisoning by and exposure to antiepileptic sedative-hypnotic antiparkinsonism and psychotropic drugs not elsewhere classified,self harm,unplanned_admission
+X62,hes_apc,diag,icd10,intentional self-poisoning by and exposure to narcotics and psychodysleptics [hallucinogens] not elsewhere classified,self harm,unplanned_admission
+X63,hes_apc,diag,icd10,intentional self-poisoning by and exposure to other drugs acting on the autonomic nervous system,self harm,unplanned_admission
+X64,hes_apc,diag,icd10,intentional self-poisoning by and exposure to other and unspecified drugs medicaments and biological substances,self harm,unplanned_admission
+X65,hes_apc,diag,icd10,intentional self-poisoning by and exposure to alcohol,self harm,unplanned_admission
+X66,hes_apc,diag,icd10,intentional self-poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours,self harm,unplanned_admission
+X67,hes_apc,diag,icd10,intentional self-poisoning by and exposure to other gases and vapours,self harm,unplanned_admission
+X68,hes_apc,diag,icd10,intentional self-poisoning by and exposure to pesticides,self harm,unplanned_admission
+X70,hes_apc,diag,icd10,intentional self-harm by hanging strangulation and suffocation,self harm,unplanned_admission
+X71,hes_apc,diag,icd10,intentional self-harm by drowning and submersion,self harm,unplanned_admission
+X72,hes_apc,diag,icd10,intentional self-harm by handgun discharge,self harm,unplanned_admission
+X73,hes_apc,diag,icd10,intentional self-harm by rifle shotgun and larger firearm discharge,self harm,unplanned_admission
+X74,hes_apc,diag,icd10,intentional self-harm by other and unspecified firearm discharge,self harm,unplanned_admission
+X75,hes_apc,diag,icd10,intentional self-harm by explosive material,self harm,unplanned_admission
+X76,hes_apc,diag,icd10,intentional self-harm by smoke fire and flames,self harm,unplanned_admission
+X77,hes_apc,diag,icd10,intentional self-harm by steam hot vapours and hot objects,self harm,unplanned_admission
+X78,hes_apc,diag,icd10,intentional self-harm by sharp object,self harm,unplanned_admission
+X79,hes_apc,diag,icd10,intentional self-harm by blunt object,self harm,unplanned_admission
+X80,hes_apc,diag,icd10,intentional self-harm by jumping from a high place,self harm,unplanned_admission
+X81,hes_apc,diag,icd10,intentional self-harm by jumping or lying before moving object,self harm,unplanned_admission
+X82,hes_apc,diag,icd10,intentional self-harm by crashing of motor vehicle,self harm,unplanned_admission
+X83,hes_apc,diag,icd10,intentional self-harm by other specified means,self harm,unplanned_admission
+X84,hes_apc,diag,icd10,intentional self-harm by unspecified means,self harm,unplanned_admission
+Y87.0,hes_apc,diag,icd10,sequelae of intentional self-harm,self harm,unplanned_admission
+Z91.5,hes_apc,diag,icd10,personal history of self-harm,self harm,unplanned_admission

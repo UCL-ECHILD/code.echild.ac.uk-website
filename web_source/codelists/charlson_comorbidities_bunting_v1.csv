@@ -1,0 +1,290 @@
+code,dataset,field,code_type,description,group,subgroup
+I21,hes_apc,diag,icd10,acute myocardial infarction,charlson comorbidities,myocardial infarction
+I22,hes_apc,diag,icd10,subsequent myocardial infarction,charlson comorbidities,myocardial infarction
+I25.2,hes_apc,diag,icd10,old myocardial infarction,charlson comorbidities,myocardial infarction
+I09.9,hes_apc,diag,icd10,rheumatic heart disease unspecified,charlson comorbidities,congestive heart failure
+I11.0,hes_apc,diag,icd10,hypertensive heart disease with (congestive) heart failure,charlson comorbidities,congestive heart failure
+I13.0,hes_apc,diag,icd10,hypertensive heart and renal disease with (congestive) heart failure,charlson comorbidities,congestive heart failure
+I13.2,hes_apc,diag,icd10,hypertensive heart and renal disease with both (congestive) heart failure and renal failure,charlson comorbidities,congestive heart failure
+I25.5,hes_apc,diag,icd10,ischaemic cardiomyopathy,charlson comorbidities,congestive heart failure
+I42.0,hes_apc,diag,icd10,dilated cardiomyopathy,charlson comorbidities,congestive heart failure
+I42.5,hes_apc,diag,icd10,other restrictive cardiomyopathy,charlson comorbidities,congestive heart failure
+I42.6,hes_apc,diag,icd10,alcoholic cardiomyopathy,charlson comorbidities,congestive heart failure
+I42.7,hes_apc,diag,icd10,cardiomyopathy due to drugs and other external agents,charlson comorbidities,congestive heart failure
+I42.8,hes_apc,diag,icd10,other cardiomyopathies,charlson comorbidities,congestive heart failure
+I42.9,hes_apc,diag,icd10,cardiomyopathy unspecified,charlson comorbidities,congestive heart failure
+I43,hes_apc,diag,icd10,cardiomyopathy in diseases classified elsewhere,charlson comorbidities,congestive heart failure
+I50,hes_apc,diag,icd10,heart failure,charlson comorbidities,congestive heart failure
+P29.0,hes_apc,diag,icd10,neonatal cardiac failure,charlson comorbidities,congestive heart failure
+I70,hes_apc,diag,icd10,atherosclerosis,charlson comorbidities,peripheral vascular disease
+I71,hes_apc,diag,icd10,aortic aneurysm and dissection,charlson comorbidities,peripheral vascular disease
+I73.1,hes_apc,diag,icd10,thromboangiitis obliterans [buerger],charlson comorbidities,peripheral vascular disease
+I73.8,hes_apc,diag,icd10,other specified peripheral vascular diseases,charlson comorbidities,peripheral vascular disease
+I73.9,hes_apc,diag,icd10,peripheral vascular disease unspecified,charlson comorbidities,peripheral vascular disease
+I77.1,hes_apc,diag,icd10,stricture of artery,charlson comorbidities,peripheral vascular disease
+I79.0,hes_apc,diag,icd10,aneurysm of aorta in diseases classified elsewhere,charlson comorbidities,peripheral vascular disease
+I79.2,hes_apc,diag,icd10,peripheral angiopathy in diseases classified elsewhere,charlson comorbidities,peripheral vascular disease
+K55.1,hes_apc,diag,icd10,chronic vascular disorders of intestine,charlson comorbidities,peripheral vascular disease
+K55.8,hes_apc,diag,icd10,other vascular disorders of intestine,charlson comorbidities,peripheral vascular disease
+K55.9,hes_apc,diag,icd10,vascular disorder of intestine unspecified,charlson comorbidities,peripheral vascular disease
+Z95.8,hes_apc,diag,icd10,presence of other cardiac and vascular implants and grafts,charlson comorbidities,peripheral vascular disease
+Z95.9,hes_apc,diag,icd10,presence of cardiac and vascular implant and graft unspecified,charlson comorbidities,peripheral vascular disease
+G45,hes_apc,diag,icd10,transient cerebral ischaemic attacks and related syndromes,charlson comorbidities,cerebrovascular disease
+G46,hes_apc,diag,icd10,vascular syndromes of brain in cerebrovascular diseases,charlson comorbidities,cerebrovascular disease
+H34.0,hes_apc,diag,icd10,transient retinal artery occlusion,charlson comorbidities,cerebrovascular disease
+I60,hes_apc,diag,icd10,subarachnoid haemorrhage,charlson comorbidities,cerebrovascular disease
+I61,hes_apc,diag,icd10,intracerebral haemorrhage,charlson comorbidities,cerebrovascular disease
+I62,hes_apc,diag,icd10,other nontraumatic intracranial haemorrhage,charlson comorbidities,cerebrovascular disease
+I63,hes_apc,diag,icd10,cerebral infarction,charlson comorbidities,cerebrovascular disease
+I64,hes_apc,diag,icd10,stroke not specified as haemorrhage or infarction,charlson comorbidities,cerebrovascular disease
+I65,hes_apc,diag,icd10,occlusion and stenosis of precerebral arteries not resulting in cerebral infarction,charlson comorbidities,cerebrovascular disease
+I66,hes_apc,diag,icd10,occlusion and stenosis of cerebral arteries not resulting in cerebral infarction,charlson comorbidities,cerebrovascular disease
+I67,hes_apc,diag,icd10,other cerebrovascular diseases,charlson comorbidities,cerebrovascular disease
+I68,hes_apc,diag,icd10,cerebrovascular disorders in diseases classified elsewhere,charlson comorbidities,cerebrovascular disease
+I69,hes_apc,diag,icd10,sequelae of cerebrovascular disease,charlson comorbidities,cerebrovascular disease
+F00,hes_apc,diag,icd10,dementia in alzheimer disease,charlson comorbidities,dementia
+F01,hes_apc,diag,icd10,vascular dementia,charlson comorbidities,dementia
+F02,hes_apc,diag,icd10,dementia in other diseases classified elsewhere,charlson comorbidities,dementia
+F03,hes_apc,diag,icd10,unspecified dementia,charlson comorbidities,dementia
+F05.1,hes_apc,diag,icd10,delirium superimposed on dementia,charlson comorbidities,dementia
+G30,hes_apc,diag,icd10,alzheimer disease,charlson comorbidities,dementia
+G31.1,hes_apc,diag,icd10,senile degeneration of brain not elsewhere classified,charlson comorbidities,dementia
+I27.8,hes_apc,diag,icd10,other specified pulmonary heart diseases,charlson comorbidities,chronic pulmonary disease
+I27.9,hes_apc,diag,icd10,pulmonary heart disease unspecified,charlson comorbidities,chronic pulmonary disease
+J40,hes_apc,diag,icd10,bronchitis not specified as acute or chronic,charlson comorbidities,chronic pulmonary disease
+J41,hes_apc,diag,icd10,simple and mucopurulent chronic bronchitis,charlson comorbidities,chronic pulmonary disease
+J42,hes_apc,diag,icd10,unspecified chronic bronchitis,charlson comorbidities,chronic pulmonary disease
+J43,hes_apc,diag,icd10,emphysema,charlson comorbidities,chronic pulmonary disease
+J44,hes_apc,diag,icd10,other chronic obstructive pulmonary disease,charlson comorbidities,chronic pulmonary disease
+J45,hes_apc,diag,icd10,asthma,charlson comorbidities,chronic pulmonary disease
+J46,hes_apc,diag,icd10,status asthmaticus,charlson comorbidities,chronic pulmonary disease
+J47,hes_apc,diag,icd10,bronchiectasis,charlson comorbidities,chronic pulmonary disease
+J60,hes_apc,diag,icd10,coalworker pneumoconiosis,charlson comorbidities,chronic pulmonary disease
+J61,hes_apc,diag,icd10,pneumoconiosis due to asbestos and other mineral fibres,charlson comorbidities,chronic pulmonary disease
+J62,hes_apc,diag,icd10,pneumoconiosis due to dust containing silica,charlson comorbidities,chronic pulmonary disease
+J63,hes_apc,diag,icd10,pneumoconiosis due to other inorganic dusts,charlson comorbidities,chronic pulmonary disease
+J64,hes_apc,diag,icd10,unspecified pneumoconiosis,charlson comorbidities,chronic pulmonary disease
+J65,hes_apc,diag,icd10,pneumoconiosis associated with tuberculosis,charlson comorbidities,chronic pulmonary disease
+J66,hes_apc,diag,icd10,airway disease due to specific organic dust,charlson comorbidities,chronic pulmonary disease
+J67,hes_apc,diag,icd10,hypersensitivity pneumonitis due to organic dust,charlson comorbidities,chronic pulmonary disease
+J68.4,hes_apc,diag,icd10,chronic respiratory conditions due to chemicals gases fumes and vapours,charlson comorbidities,chronic pulmonary disease
+J70.1,hes_apc,diag,icd10,chronic and other pulmonary manifestations due to radiation,charlson comorbidities,chronic pulmonary disease
+J70.3,hes_apc,diag,icd10,chronic drug-induced interstitial lung disorders,charlson comorbidities,chronic pulmonary disease
+M05,hes_apc,diag,icd10,seropositive rheumatoid arthritis,charlson comorbidities,rheumatic disease
+M06,hes_apc,diag,icd10,other rheumatoid arthritis,charlson comorbidities,rheumatic disease
+M31.5,hes_apc,diag,icd10,giant cell arteritis with polymyalgia rheumatica,charlson comorbidities,rheumatic disease
+M32,hes_apc,diag,icd10,systemic lupus erythematosus,charlson comorbidities,rheumatic disease
+M33,hes_apc,diag,icd10,dermatopolymyositis,charlson comorbidities,rheumatic disease
+M34,hes_apc,diag,icd10,systemic sclerosis,charlson comorbidities,rheumatic disease
+M35.1,hes_apc,diag,icd10,other overlap syndromes,charlson comorbidities,rheumatic disease
+M35.3,hes_apc,diag,icd10,polymyalgia rheumatica,charlson comorbidities,rheumatic disease
+M36.0,hes_apc,diag,icd10,dermato(poly)myositis in neoplastic disease,charlson comorbidities,rheumatic disease
+K25,hes_apc,diag,icd10,gastric ulcer,charlson comorbidities,peptic ulcer disease
+K26,hes_apc,diag,icd10,duodenal ulcer,charlson comorbidities,peptic ulcer disease
+K27,hes_apc,diag,icd10,peptic ulcer site unspecified,charlson comorbidities,peptic ulcer disease
+K28,hes_apc,diag,icd10,gastrojejunal ulcer,charlson comorbidities,peptic ulcer disease
+B18,hes_apc,diag,icd10,chronic viral hepatitis,charlson comorbidities,mild liver disease
+K70.0,hes_apc,diag,icd10,alcoholic fatty liver,charlson comorbidities,mild liver disease
+K70.1,hes_apc,diag,icd10,alcoholic hepatitis,charlson comorbidities,mild liver disease
+K70.2,hes_apc,diag,icd10,alcoholic fibrosis and sclerosis of liver,charlson comorbidities,mild liver disease
+K70.3,hes_apc,diag,icd10,alcoholic cirrhosis of liver,charlson comorbidities,mild liver disease
+K70.9,hes_apc,diag,icd10,alcoholic liver disease unspecified,charlson comorbidities,mild liver disease
+K71.3,hes_apc,diag,icd10,toxic liver disease with chronic persistent hepatitis,charlson comorbidities,mild liver disease
+K71.4,hes_apc,diag,icd10,toxic liver disease with chronic lobular hepatitis,charlson comorbidities,mild liver disease
+K71.5,hes_apc,diag,icd10,toxic liver disease with chronic active hepatitis,charlson comorbidities,mild liver disease
+K71.7,hes_apc,diag,icd10,toxic liver disease with fibrosis and cirrhosis of liver,charlson comorbidities,mild liver disease
+K73,hes_apc,diag,icd10,chronic hepatitis not elsewhere classified,charlson comorbidities,mild liver disease
+K74,hes_apc,diag,icd10,fibrosis and cirrhosis of liver,charlson comorbidities,mild liver disease
+K76.0,hes_apc,diag,icd10,fatty (change of) liver not elsewhere classified,charlson comorbidities,mild liver disease
+K76.2,hes_apc,diag,icd10,central haemorrhagic necrosis of liver,charlson comorbidities,mild liver disease
+K76.3,hes_apc,diag,icd10,infarction of liver,charlson comorbidities,mild liver disease
+K76.4,hes_apc,diag,icd10,peliosis hepatis,charlson comorbidities,mild liver disease
+K76.8,hes_apc,diag,icd10,other specified diseases of liver,charlson comorbidities,mild liver disease
+K76.9,hes_apc,diag,icd10,liver disease unspecified,charlson comorbidities,mild liver disease
+Z94.4,hes_apc,diag,icd10,liver transplant status,charlson comorbidities,mild liver disease
+E10.0,hes_apc,diag,icd10,type 1 diabetes mellitus,charlson comorbidities,diabetes without chronic complications
+E10.1,hes_apc,diag,icd10,type 1 diabetes mellitus,charlson comorbidities,diabetes without chronic complications
+E10.6,hes_apc,diag,icd10,type 1 diabetes mellitus,charlson comorbidities,diabetes without chronic complications
+E10.8,hes_apc,diag,icd10,type 1 diabetes mellitus,charlson comorbidities,diabetes without chronic complications
+E10.9,hes_apc,diag,icd10,type 1 diabetes mellitus,charlson comorbidities,diabetes without chronic complications
+E11.0,hes_apc,diag,icd10,type 2 diabetes mellitus,charlson comorbidities,diabetes without chronic complications
+E11.1,hes_apc,diag,icd10,type 2 diabetes mellitus,charlson comorbidities,diabetes without chronic complications
+E11.6,hes_apc,diag,icd10,type 2 diabetes mellitus,charlson comorbidities,diabetes without chronic complications
+E11.8,hes_apc,diag,icd10,type 2 diabetes mellitus,charlson comorbidities,diabetes without chronic complications
+E11.9,hes_apc,diag,icd10,type 2 diabetes mellitus,charlson comorbidities,diabetes without chronic complications
+E12.0,hes_apc,diag,icd10,malnutrition-related diabetes mellitus,charlson comorbidities,diabetes without chronic complications
+E12.1,hes_apc,diag,icd10,malnutrition-related diabetes mellitus,charlson comorbidities,diabetes without chronic complications
+E12.6,hes_apc,diag,icd10,malnutrition-related diabetes mellitus,charlson comorbidities,diabetes without chronic complications
+E12.8,hes_apc,diag,icd10,malnutrition-related diabetes mellitus,charlson comorbidities,diabetes without chronic complications
+E12.9,hes_apc,diag,icd10,malnutrition-related diabetes mellitus,charlson comorbidities,diabetes without chronic complications
+E13.0,hes_apc,diag,icd10,other specified diabetes mellitus,charlson comorbidities,diabetes without chronic complications
+E13.1,hes_apc,diag,icd10,other specified diabetes mellitus,charlson comorbidities,diabetes without chronic complications
+E13.6,hes_apc,diag,icd10,other specified diabetes mellitus,charlson comorbidities,diabetes without chronic complications
+E13.8,hes_apc,diag,icd10,other specified diabetes mellitus,charlson comorbidities,diabetes without chronic complications
+E13.9,hes_apc,diag,icd10,other specified diabetes mellitus,charlson comorbidities,diabetes without chronic complications
+E14.0,hes_apc,diag,icd10,unspecified diabetes mellitus,charlson comorbidities,diabetes without chronic complications
+E14.1,hes_apc,diag,icd10,unspecified diabetes mellitus,charlson comorbidities,diabetes without chronic complications
+E14.6,hes_apc,diag,icd10,unspecified diabetes mellitus,charlson comorbidities,diabetes without chronic complications
+E14.8,hes_apc,diag,icd10,unspecified diabetes mellitus,charlson comorbidities,diabetes without chronic complications
+E14.9,hes_apc,diag,icd10,unspecified diabetes mellitus,charlson comorbidities,diabetes without chronic complications
+E10.2,hes_apc,diag,icd10,type 1 diabetes mellitus,charlson comorbidities,diabetes with chronic complications
+E10.3,hes_apc,diag,icd10,type 1 diabetes mellitus,charlson comorbidities,diabetes with chronic complications
+E10.4,hes_apc,diag,icd10,type 1 diabetes mellitus,charlson comorbidities,diabetes with chronic complications
+E10.5,hes_apc,diag,icd10,type 1 diabetes mellitus,charlson comorbidities,diabetes with chronic complications
+E10.7,hes_apc,diag,icd10,type 1 diabetes mellitus,charlson comorbidities,diabetes with chronic complications
+E11.2,hes_apc,diag,icd10,type 2 diabetes mellitus,charlson comorbidities,diabetes with chronic complications
+E11.3,hes_apc,diag,icd10,type 2 diabetes mellitus,charlson comorbidities,diabetes with chronic complications
+E11.4,hes_apc,diag,icd10,type 2 diabetes mellitus,charlson comorbidities,diabetes with chronic complications
+E11.5,hes_apc,diag,icd10,type 2 diabetes mellitus,charlson comorbidities,diabetes with chronic complications
+E11.7,hes_apc,diag,icd10,type 2 diabetes mellitus,charlson comorbidities,diabetes with chronic complications
+E12.2,hes_apc,diag,icd10,malnutrition-related diabetes mellitus,charlson comorbidities,diabetes with chronic complications
+E12.3,hes_apc,diag,icd10,malnutrition-related diabetes mellitus,charlson comorbidities,diabetes with chronic complications
+E12.4,hes_apc,diag,icd10,malnutrition-related diabetes mellitus,charlson comorbidities,diabetes with chronic complications
+E12.5,hes_apc,diag,icd10,malnutrition-related diabetes mellitus,charlson comorbidities,diabetes with chronic complications
+E12.7,hes_apc,diag,icd10,malnutrition-related diabetes mellitus,charlson comorbidities,diabetes with chronic complications
+E13.2,hes_apc,diag,icd10,other specified diabetes mellitus,charlson comorbidities,diabetes with chronic complications
+E13.3,hes_apc,diag,icd10,other specified diabetes mellitus,charlson comorbidities,diabetes with chronic complications
+E13.4,hes_apc,diag,icd10,other specified diabetes mellitus,charlson comorbidities,diabetes with chronic complications
+E13.5,hes_apc,diag,icd10,other specified diabetes mellitus,charlson comorbidities,diabetes with chronic complications
+E13.7,hes_apc,diag,icd10,other specified diabetes mellitus,charlson comorbidities,diabetes with chronic complications
+E14.2,hes_apc,diag,icd10,unspecified diabetes mellitus,charlson comorbidities,diabetes with chronic complications
+E14.3,hes_apc,diag,icd10,unspecified diabetes mellitus,charlson comorbidities,diabetes with chronic complications
+E14.4,hes_apc,diag,icd10,unspecified diabetes mellitus,charlson comorbidities,diabetes with chronic complications
+E14.5,hes_apc,diag,icd10,unspecified diabetes mellitus,charlson comorbidities,diabetes with chronic complications
+E14.7,hes_apc,diag,icd10,unspecified diabetes mellitus,charlson comorbidities,diabetes with chronic complications
+G04.1,hes_apc,diag,icd10,tropical spastic paraplegia,charlson comorbidities,hemiplegia or paraplegia
+G11.4,hes_apc,diag,icd10,hereditary spastic paraplegia,charlson comorbidities,hemiplegia or paraplegia
+G80.1,hes_apc,diag,icd10,spastic diplegic cerebral palsy,charlson comorbidities,hemiplegia or paraplegia
+G80.2,hes_apc,diag,icd10,spastic hemiplegic cerebral palsy,charlson comorbidities,hemiplegia or paraplegia
+G81,hes_apc,diag,icd10,hemiplegia,charlson comorbidities,hemiplegia or paraplegia
+G82,hes_apc,diag,icd10,paraplegia and tetraplegia,charlson comorbidities,hemiplegia or paraplegia
+G83.0,hes_apc,diag,icd10,diplegia of upper limbs,charlson comorbidities,hemiplegia or paraplegia
+G83.1,hes_apc,diag,icd10,monoplegia of lower limb,charlson comorbidities,hemiplegia or paraplegia
+G83.2,hes_apc,diag,icd10,monoplegia of upper limb,charlson comorbidities,hemiplegia or paraplegia
+G83.3,hes_apc,diag,icd10,monoplegia unspecified,charlson comorbidities,hemiplegia or paraplegia
+G83.4,hes_apc,diag,icd10,cauda equina syndrome,charlson comorbidities,hemiplegia or paraplegia
+G83.9,hes_apc,diag,icd10,paralytic syndrome unspecified,charlson comorbidities,hemiplegia or paraplegia
+I12.0,hes_apc,diag,icd10,hypertensive renal disease with renal failure,charlson comorbidities,renal disease
+I13.1,hes_apc,diag,icd10,hypertensive heart and renal disease with renal failure,charlson comorbidities,renal disease
+N03.2,hes_apc,diag,icd10,chronic nephritic syndrome,charlson comorbidities,renal disease
+N03.3,hes_apc,diag,icd10,chronic nephritic syndrome,charlson comorbidities,renal disease
+N03.4,hes_apc,diag,icd10,chronic nephritic syndrome,charlson comorbidities,renal disease
+N03.5,hes_apc,diag,icd10,chronic nephritic syndrome,charlson comorbidities,renal disease
+N03.6,hes_apc,diag,icd10,chronic nephritic syndrome,charlson comorbidities,renal disease
+N03.7,hes_apc,diag,icd10,chronic nephritic syndrome,charlson comorbidities,renal disease
+N05.2,hes_apc,diag,icd10,unspecified nephritic syndrome,charlson comorbidities,renal disease
+N05.3,hes_apc,diag,icd10,unspecified nephritic syndrome,charlson comorbidities,renal disease
+N05.4,hes_apc,diag,icd10,unspecified nephritic syndrome,charlson comorbidities,renal disease
+N05.5,hes_apc,diag,icd10,unspecified nephritic syndrome,charlson comorbidities,renal disease
+N05.6,hes_apc,diag,icd10,unspecified nephritic syndrome,charlson comorbidities,renal disease
+N05.7,hes_apc,diag,icd10,unspecified nephritic syndrome,charlson comorbidities,renal disease
+N18,hes_apc,diag,icd10,chronic kidney disease,charlson comorbidities,renal disease
+N19,hes_apc,diag,icd10,unspecified kidney failure,charlson comorbidities,renal disease
+N25.0,hes_apc,diag,icd10,renal osteodystrophy,charlson comorbidities,renal disease
+Z49.0,hes_apc,diag,icd10,preparatory care for dialysis,charlson comorbidities,renal disease
+Z49.1,hes_apc,diag,icd10,extracorporeal dialysis,charlson comorbidities,renal disease
+Z49.2,hes_apc,diag,icd10,other dialysis,charlson comorbidities,renal disease
+Z94.0,hes_apc,diag,icd10,kidney transplant status,charlson comorbidities,renal disease
+Z99.2,hes_apc,diag,icd10,dependence on renal dialysis,charlson comorbidities,renal disease
+C00,hes_apc,diag,icd10,malignant neoplasm of lip,charlson comorbidities,any malignancy
+C01,hes_apc,diag,icd10,malignant neoplasm of base of tongue,charlson comorbidities,any malignancy
+C02,hes_apc,diag,icd10,malignant neoplasm of other and unspecified parts of tongue,charlson comorbidities,any malignancy
+C03,hes_apc,diag,icd10,malignant neoplasm of gum,charlson comorbidities,any malignancy
+C04,hes_apc,diag,icd10,malignant neoplasm of floor of mouth,charlson comorbidities,any malignancy
+C05,hes_apc,diag,icd10,malignant neoplasm of palate,charlson comorbidities,any malignancy
+C06,hes_apc,diag,icd10,malignant neoplasm of other and unspecified parts of mouth,charlson comorbidities,any malignancy
+C07,hes_apc,diag,icd10,malignant neoplasm of parotid gland,charlson comorbidities,any malignancy
+C08,hes_apc,diag,icd10,malignant neoplasm of other and unspecified major salivary glands,charlson comorbidities,any malignancy
+C09,hes_apc,diag,icd10,malignant neoplasm of tonsil,charlson comorbidities,any malignancy
+C10,hes_apc,diag,icd10,malignant neoplasm of oropharynx,charlson comorbidities,any malignancy
+C11,hes_apc,diag,icd10,malignant neoplasm of nasopharynx,charlson comorbidities,any malignancy
+C12,hes_apc,diag,icd10,malignant neoplasm of piriform sinus,charlson comorbidities,any malignancy
+C13,hes_apc,diag,icd10,malignant neoplasm of hypopharynx,charlson comorbidities,any malignancy
+C14,hes_apc,diag,icd10,malignant neoplasm of other and ill-defined sites in the lip oral cavity and pharynx,charlson comorbidities,any malignancy
+C15,hes_apc,diag,icd10,malignant neoplasm of oesophagus,charlson comorbidities,any malignancy
+C16,hes_apc,diag,icd10,malignant neoplasm of stomach,charlson comorbidities,any malignancy
+C17,hes_apc,diag,icd10,malignant neoplasm of small intestine,charlson comorbidities,any malignancy
+C18,hes_apc,diag,icd10,malignant neoplasm of colon,charlson comorbidities,any malignancy
+C19,hes_apc,diag,icd10,malignant neoplasm of rectosigmoid junction,charlson comorbidities,any malignancy
+C20,hes_apc,diag,icd10,malignant neoplasm of rectum,charlson comorbidities,any malignancy
+C21,hes_apc,diag,icd10,malignant neoplasm of anus and anal canal,charlson comorbidities,any malignancy
+C22,hes_apc,diag,icd10,malignant neoplasm of liver and intrahepatic bile ducts,charlson comorbidities,any malignancy
+C23,hes_apc,diag,icd10,malignant neoplasm of gallbladder,charlson comorbidities,any malignancy
+C24,hes_apc,diag,icd10,malignant neoplasm of other and unspecified parts of biliary tract,charlson comorbidities,any malignancy
+C25,hes_apc,diag,icd10,malignant neoplasm of pancreas,charlson comorbidities,any malignancy
+C26,hes_apc,diag,icd10,malignant neoplasm of other and ill-defined digestive organs,charlson comorbidities,any malignancy
+C30,hes_apc,diag,icd10,malignant neoplasm of nasal cavity and middle ear,charlson comorbidities,any malignancy
+C31,hes_apc,diag,icd10,malignant neoplasm of accessory sinuses,charlson comorbidities,any malignancy
+C32,hes_apc,diag,icd10,malignant neoplasm of larynx,charlson comorbidities,any malignancy
+C33,hes_apc,diag,icd10,malignant neoplasm of trachea,charlson comorbidities,any malignancy
+C34,hes_apc,diag,icd10,malignant neoplasm of bronchus and lung,charlson comorbidities,any malignancy
+C37,hes_apc,diag,icd10,malignant neoplasm of thymus,charlson comorbidities,any malignancy
+C38,hes_apc,diag,icd10,malignant neoplasm of heart mediastinum and pleura,charlson comorbidities,any malignancy
+C39,hes_apc,diag,icd10,malignant neoplasm of other and ill-defined sites in the respiratory system and intrathoracic organs,charlson comorbidities,any malignancy
+C40,hes_apc,diag,icd10,malignant neoplasm of bone and articular cartilage of limbs,charlson comorbidities,any malignancy
+C41,hes_apc,diag,icd10,malignant neoplasm of bone and articular cartilage of other and unspecified sites,charlson comorbidities,any malignancy
+C43,hes_apc,diag,icd10,malignant melanoma of skin,charlson comorbidities,any malignancy
+C45,hes_apc,diag,icd10,mesothelioma,charlson comorbidities,any malignancy
+C46,hes_apc,diag,icd10,kaposi sarcoma,charlson comorbidities,any malignancy
+C47,hes_apc,diag,icd10,malignant neoplasm of peripheral nerves and autonomic nervous system,charlson comorbidities,any malignancy
+C48,hes_apc,diag,icd10,malignant neoplasm of retroperitoneum and peritoneum,charlson comorbidities,any malignancy
+C49,hes_apc,diag,icd10,malignant neoplasm of other connective and soft tissue,charlson comorbidities,any malignancy
+C50,hes_apc,diag,icd10,malignant neoplasm of breast,charlson comorbidities,any malignancy
+C51,hes_apc,diag,icd10,malignant neoplasm of vulva,charlson comorbidities,any malignancy
+C52,hes_apc,diag,icd10,malignant neoplasm of vagina,charlson comorbidities,any malignancy
+C53,hes_apc,diag,icd10,malignant neoplasm of cervix uteri,charlson comorbidities,any malignancy
+C54,hes_apc,diag,icd10,malignant neoplasm of corpus uteri,charlson comorbidities,any malignancy
+C55,hes_apc,diag,icd10,malignant neoplasm of uterus part unspecified,charlson comorbidities,any malignancy
+C56,hes_apc,diag,icd10,malignant neoplasm of ovary,charlson comorbidities,any malignancy
+C57,hes_apc,diag,icd10,malignant neoplasm of other and unspecified female genital organs,charlson comorbidities,any malignancy
+C58,hes_apc,diag,icd10,malignant neoplasm of placenta,charlson comorbidities,any malignancy
+C60,hes_apc,diag,icd10,malignant neoplasm of penis,charlson comorbidities,any malignancy
+C61,hes_apc,diag,icd10,malignant neoplasm of prostate,charlson comorbidities,any malignancy
+C62,hes_apc,diag,icd10,malignant neoplasm of testis,charlson comorbidities,any malignancy
+C63,hes_apc,diag,icd10,malignant neoplasm of other and unspecified male genital organs,charlson comorbidities,any malignancy
+C64,hes_apc,diag,icd10,malignant neoplasm of kidney except renal pelvis,charlson comorbidities,any malignancy
+C65,hes_apc,diag,icd10,malignant neoplasm of renal pelvis,charlson comorbidities,any malignancy
+C66,hes_apc,diag,icd10,malignant neoplasm of ureter,charlson comorbidities,any malignancy
+C67,hes_apc,diag,icd10,malignant neoplasm of bladder,charlson comorbidities,any malignancy
+C68,hes_apc,diag,icd10,malignant neoplasm of other and unspecified urinary organs,charlson comorbidities,any malignancy
+C69,hes_apc,diag,icd10,malignant neoplasm of eye and adnexa,charlson comorbidities,any malignancy
+C70,hes_apc,diag,icd10,malignant neoplasm of meninges,charlson comorbidities,any malignancy
+C71,hes_apc,diag,icd10,malignant neoplasm of brain,charlson comorbidities,any malignancy
+C72,hes_apc,diag,icd10,malignant neoplasm of spinal cord cranial nerves and other parts of central nervous system,charlson comorbidities,any malignancy
+C73,hes_apc,diag,icd10,malignant neoplasm of thyroid gland,charlson comorbidities,any malignancy
+C74,hes_apc,diag,icd10,malignant neoplasm of adrenal gland,charlson comorbidities,any malignancy
+C75,hes_apc,diag,icd10,malignant neoplasm of other endocrine glands and related structures,charlson comorbidities,any malignancy
+C76,hes_apc,diag,icd10,malignant neoplasm of other and ill-defined sites,charlson comorbidities,any malignancy
+C81,hes_apc,diag,icd10,hodgkin lymphoma,charlson comorbidities,any malignancy
+C82,hes_apc,diag,icd10,follicular lymphoma,charlson comorbidities,any malignancy
+C83,hes_apc,diag,icd10,non-follicular lymphoma,charlson comorbidities,any malignancy
+C84,hes_apc,diag,icd10,mature t/nk-cell lymphomas,charlson comorbidities,any malignancy
+C85,hes_apc,diag,icd10,other and unspecified types of non-hodgkin lymphoma,charlson comorbidities,any malignancy
+C88,hes_apc,diag,icd10,malignant immunoproliferative diseases,charlson comorbidities,any malignancy
+C90,hes_apc,diag,icd10,multiple myeloma and malignant plasma cell neoplasms,charlson comorbidities,any malignancy
+C91,hes_apc,diag,icd10,lymphoid leukaemia,charlson comorbidities,any malignancy
+C92,hes_apc,diag,icd10,myeloid leukaemia,charlson comorbidities,any malignancy
+C93,hes_apc,diag,icd10,monocytic leukaemia,charlson comorbidities,any malignancy
+C94,hes_apc,diag,icd10,other leukaemias of specified cell type,charlson comorbidities,any malignancy
+C95,hes_apc,diag,icd10,leukaemia of unspecified cell type,charlson comorbidities,any malignancy
+C96,hes_apc,diag,icd10,other and unspecified malignant neoplasms of lymphoid haematopoietic and related tissue,charlson comorbidities,any malignancy
+C97,hes_apc,diag,icd10,malignant neoplasms of independent (primary) multiple sites,charlson comorbidities,any malignancy
+I85.0,hes_apc,diag,icd10,oesophageal varices with bleeding,charlson comorbidities,moderate or severe liver disease
+I85.9,hes_apc,diag,icd10,oesophageal varices without bleeding,charlson comorbidities,moderate or severe liver disease
+I86.4,hes_apc,diag,icd10,gastric varices,charlson comorbidities,moderate or severe liver disease
+I98.2,hes_apc,diag,icd10,oesophageal varices without bleeding in diseases classified elsewhere,charlson comorbidities,moderate or severe liver disease
+K70.4,hes_apc,diag,icd10,alcoholic hepatic failure,charlson comorbidities,moderate or severe liver disease
+K71.1,hes_apc,diag,icd10,toxic liver disease with hepatic necrosis,charlson comorbidities,moderate or severe liver disease
+K72.1,hes_apc,diag,icd10,chronic hepatic failure,charlson comorbidities,moderate or severe liver disease
+K72.9,hes_apc,diag,icd10,hepatic failure unspecified,charlson comorbidities,moderate or severe liver disease
+K76.5,hes_apc,diag,icd10,hepatic veno-occlusive disease,charlson comorbidities,moderate or severe liver disease
+K76.6,hes_apc,diag,icd10,portal hypertension,charlson comorbidities,moderate or severe liver disease
+K76.7,hes_apc,diag,icd10,hepatorenal syndrome,charlson comorbidities,moderate or severe liver disease
+C77,hes_apc,diag,icd10,secondary and unspecified malignant neoplasm of lymph nodes,charlson comorbidities,metastatic solid tumour
+C78,hes_apc,diag,icd10,secondary malignant neoplasm of respiratory and digestive organs,charlson comorbidities,metastatic solid tumour
+C79,hes_apc,diag,icd10,secondary malignant neoplasm of other and unspecified sites,charlson comorbidities,metastatic solid tumour
+C80,hes_apc,diag,icd10,malignant neoplasm without specification of site,charlson comorbidities,metastatic solid tumour
+B20,hes_apc,diag,icd10,human immunodeficiency virus [hiv] disease resulting in infectious and parasitic diseases,charlson comorbidities,aids/hiv
+B21,hes_apc,diag,icd10,human immunodeficiency virus [hiv] disease resulting in malignant neoplasms,charlson comorbidities,aids/hiv
+B22,hes_apc,diag,icd10,human immunodeficiency virus [hiv] disease resulting in other specified diseases,charlson comorbidities,aids/hiv
+B24,hes_apc,diag,icd10,unspecified human immunodeficiency virus [hiv] disease,charlson comorbidities,aids/hiv

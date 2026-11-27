@@ -1,0 +1,19 @@
+code,dataset,field,code_type,description,group,subgroup
+O14,hes_apc,diag,icd10,pre-eclampsia,high risk pregnancy,pre-eclampsia
+O15,hes_apc,diag,icd10,eclampsia,high risk pregnancy,pre-eclampsia
+O24.4,hes_apc,diag,icd10,diabetes mellitus arising in pregnancy,high risk pregnancy,gestational diabetes
+I10,hes_apc,diag,icd10,essential (primary) hypertension,high risk pregnancy,pre-existing hypertension
+I11,hes_apc,diag,icd10,hypertensive heart disease,high risk pregnancy,pre-existing hypertension
+I12,hes_apc,diag,icd10,hypertensive renal disease,high risk pregnancy,pre-existing hypertension
+I13,hes_apc,diag,icd10,hypertensive heart and renal disease,high risk pregnancy,pre-existing hypertension
+I15,hes_apc,diag,icd10,secondary hypertension,high risk pregnancy,pre-existing hypertension
+O10,hes_apc,diag,icd10,pre-existing hypertension complicating pregnancy childbirth and the puerperium,high risk pregnancy,pre-existing hypertension
+O11,hes_apc,diag,icd10,pre-eclampsia superimposed on chronic hypertension,high risk pregnancy,pre-existing hypertension
+E10,hes_apc,diag,icd10,type 1 diabetes mellitus,high risk pregnancy,pre-existing diabetes
+E11,hes_apc,diag,icd10,type 2 diabetes mellitus,high risk pregnancy,pre-existing diabetes
+E13,hes_apc,diag,icd10,other specified diabetes mellitus,high risk pregnancy,pre-existing diabetes
+E14,hes_apc,diag,icd10,unspecified diabetes mellitus,high risk pregnancy,pre-existing diabetes
+O24.0,hes_apc,diag,icd10,pre-existing type 1 diabetes mellitus,high risk pregnancy,pre-existing diabetes
+O24.1,hes_apc,diag,icd10,pre-existing type 2 diabetes mellitus,high risk pregnancy,pre-existing diabetes
+O24.2,hes_apc,diag,icd10,pre-existing malnutrition-related diabetes mellitus,high risk pregnancy,pre-existing diabetes
+O24.3,hes_apc,diag,icd10,pre-existing diabetes mellitus unspecified,high risk pregnancy,pre-existing diabetes
