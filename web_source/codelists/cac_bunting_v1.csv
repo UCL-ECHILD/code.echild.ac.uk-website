@@ -1,0 +1,18 @@
+code,dataset,field,code_type,description,group,flag
+P59.3,hes_apc,diag,icd10,neonatal jaundice from breast milk inhibitor,physiological jaundice,jaundice_exclusion
+P59.9,hes_apc,diag,icd10,neonatal jaundice unspecified,physiological jaundice,jaundice_exclusion
+R17,hes_apc,diag,icd10,unspecified jaundice,physiological jaundice,jaundice_exclusion
+S12.8,hes_apc,opertn,opcs4,other phototherapy,physiological jaundice,jaundice_exclusion
+S12.9,hes_apc,opertn,opcs4,unspecified phototherapy,physiological jaundice,jaundice_exclusion
+P92.2,hes_apc,diag,icd10,slow feeding of newborn,feeding difficulties,feeding_exclusion
+P92.3,hes_apc,diag,icd10,underfeeding of newborn,feeding difficulties,feeding_exclusion
+P92.4,hes_apc,diag,icd10,overfeeding of newborn,feeding difficulties,feeding_exclusion
+P92.5,hes_apc,diag,icd10,neonatal difficulty in feeding at breast,feeding difficulties,feeding_exclusion
+P92.8,hes_apc,diag,icd10,other feeding problems of newborn,feeding difficulties,feeding_exclusion
+P92.9,hes_apc,diag,icd10,feeding problem of newborn unspecified,feeding difficulties,feeding_exclusion
+R62.8,hes_apc,diag,icd10,other lack of expected normal physiological development,feeding difficulties,feeding_exclusion
+R63.3,hes_apc,diag,icd10,feeding difficulties and mismanagement,feeding difficulties,feeding_exclusion
+R63.4,hes_apc,diag,icd10,abnormal weight loss,feeding difficulties,feeding_exclusion
+R63.5,hes_apc,diag,icd10,abnormal weight gain,feeding difficulties,feeding_exclusion
+A08,hes_apc,diag,icd10,viral and other specified intestinal infections,gastroenteritis,gastroenteritis_exclusion
+A09,hes_apc,diag,icd10,other gastroenteritis and colitis of infectious and unspecified origin,gastroenteritis,gastroenteritis_exclusion

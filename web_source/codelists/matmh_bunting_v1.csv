@@ -1,0 +1,58 @@
+code,dataset,field,code_type,description,group,subgroup
+F32.0,hes_apc,diag,icd10,mild depressive episode,internalising,mood disorders
+F32.1,hes_apc,diag,icd10,moderate depressive episode,internalising,mood disorders
+F32.2,hes_apc,diag,icd10,severe depressive episode without psychotic symptoms,internalising,mood disorders
+F32.8,hes_apc,diag,icd10,other depressive episodes,internalising,mood disorders
+F32.9,hes_apc,diag,icd10,depressive episode unspecified,internalising,mood disorders
+F33.0,hes_apc,diag,icd10,recurrent depressive disorder current episode mild,internalising,mood disorders
+F33.1,hes_apc,diag,icd10,recurrent depressive disorder current episode moderate,internalising,mood disorders
+F33.2,hes_apc,diag,icd10,recurrent depressive disorder current episode severe without psychotic symptoms,internalising,mood disorders
+F33.3,hes_apc,diag,icd10,recurrent depressive disorder current episode severe with psychotic symptoms,internalising,mood disorders
+F33.8,hes_apc,diag,icd10,other recurrent depressive disorders,internalising,mood disorders
+F33.9,hes_apc,diag,icd10,recurrent depressive disorder unspecified,internalising,mood disorders
+F34.0,hes_apc,diag,icd10,cyclothymia,internalising,mood disorders
+F34.1,hes_apc,diag,icd10,dysthymia,internalising,mood disorders
+F34.8,hes_apc,diag,icd10,other persistent mood [affective] disorders,internalising,mood disorders
+F34.9,hes_apc,diag,icd10,persistent mood [affective] disorder unspecified,internalising,mood disorders
+F38.0,hes_apc,diag,icd10,other single mood [affective] disorders,internalising,mood disorders
+F38.1,hes_apc,diag,icd10,other recurrent mood [affective] disorders,internalising,mood disorders
+F38.8,hes_apc,diag,icd10,other specified mood [affective] disorders,internalising,mood disorders
+F39,hes_apc,diag,icd10,unspecified mood [affective] disorder,internalising,mood disorders
+F40,hes_apc,diag,icd10,phobic anxiety disorders,internalising,anxiety or fear-related obsessive-compulsive & dissociative disorders
+F41,hes_apc,diag,icd10,other anxiety disorders,internalising,anxiety or fear-related obsessive-compulsive & dissociative disorders
+F42,hes_apc,diag,icd10,obsessive-compulsive disorder,internalising,anxiety or fear-related obsessive-compulsive & dissociative disorders
+F44,hes_apc,diag,icd10,dissociative [conversion] disorders,internalising,anxiety or fear-related obsessive-compulsive & dissociative disorders
+F45,hes_apc,diag,icd10,somatoform disorders,internalising,anxiety or fear-related obsessive-compulsive & dissociative disorders
+F48,hes_apc,diag,icd10,other neurotic disorders,internalising,anxiety or fear-related obsessive-compulsive & dissociative disorders
+F54,hes_apc,diag,icd10,psychological and behavioural factors associated with disorders or diseases classified elsewhere,internalising,anxiety or fear-related obsessive-compulsive & dissociative disorders
+F94.0,hes_apc,diag,icd10,elective mutism,internalising,anxiety or fear-related obsessive-compulsive & dissociative disorders
+F43,hes_apc,diag,icd10,reaction to severe stress and adjustment disorders,internalising,disorders specifically associated with stress
+F62,hes_apc,diag,icd10,enduring personality changes not attributable to brain damage and disease,internalising,disorders specifically associated with stress
+F94.1,hes_apc,diag,icd10,reactive attachment disorder of childhood,internalising,disorders specifically associated with stress
+F94.2,hes_apc,diag,icd10,disinhibited attachment disorder of childhood,internalising,disorders specifically associated with stress
+F50,hes_apc,diag,icd10,eating disorders,internalising,eating disorders
+F51,hes_apc,diag,icd10,nonorganic sleep disorders,internalising,sleep disorders
+F55,hes_apc,diag,icd10,abuse of non-dependence-producing substances,internalising,abuse of non-dependence-producing substances
+F93,hes_apc,diag,icd10,emotional disorders with onset specific to childhood,internalising,emotional disorders with onset usually occurring in childhood and adolescence
+F94,hes_apc,diag,icd10,disorders of social functioning with onset specific to childhood and adolescence,internalising,emotional disorders with onset usually occurring in childhood and adolescence
+F98,hes_apc,diag,icd10,other behavioural and emotional disorders with onset usually occurring in childhood and adolescence,internalising,emotional disorders with onset usually occurring in childhood and adolescence
+F63,hes_apc,diag,icd10,habit and impulse disorders,externalising,impulse control disruptive behaviour or dissocial disorders
+F90,hes_apc,diag,icd10,hyperkinetic disorders,externalising,impulse control disruptive behaviour or dissocial disorders
+F91,hes_apc,diag,icd10,conduct disorders,externalising,impulse control disruptive behaviour or dissocial disorders
+F92,hes_apc,diag,icd10,mixed disorders of conduct and emotions,externalising,impulse control disruptive behaviour or dissocial disorders
+F30,hes_apc,diag,icd10,manic episode,thought problems & personality disorders,mood disorders with mania or psychotic symptoms
+F31,hes_apc,diag,icd10,bipolar affective disorder,thought problems & personality disorders,mood disorders with mania or psychotic symptoms
+F32.3,hes_apc,diag,icd10,severe depressive episode with psychotic symptoms,thought problems & personality disorders,mood disorders with mania or psychotic symptoms
+F20,hes_apc,diag,icd10,schizophrenia,thought problems & personality disorders,schizophrenia or other primary psychotic disorders
+F21,hes_apc,diag,icd10,schizotypal disorder,thought problems & personality disorders,schizophrenia or other primary psychotic disorders
+F22,hes_apc,diag,icd10,persistent delusional disorders,thought problems & personality disorders,schizophrenia or other primary psychotic disorders
+F23,hes_apc,diag,icd10,acute and transient psychotic disorders,thought problems & personality disorders,schizophrenia or other primary psychotic disorders
+F24,hes_apc,diag,icd10,induced delusional disorder,thought problems & personality disorders,schizophrenia or other primary psychotic disorders
+F25,hes_apc,diag,icd10,schizoaffective disorders,thought problems & personality disorders,schizophrenia or other primary psychotic disorders
+F28,hes_apc,diag,icd10,other nonorganic psychotic disorders,thought problems & personality disorders,schizophrenia or other primary psychotic disorders
+F29,hes_apc,diag,icd10,unspecified nonorganic psychosis,thought problems & personality disorders,schizophrenia or other primary psychotic disorders
+F60,hes_apc,diag,icd10,specific personality disorders,thought problems & personality disorders,disorders of adult personality and behaviour
+F61,hes_apc,diag,icd10,mixed and other personality disorders,thought problems & personality disorders,disorders of adult personality and behaviour
+F68,hes_apc,diag,icd10,other disorders of adult personality and behaviour,thought problems & personality disorders,disorders of adult personality and behaviour
+F69,hes_apc,diag,icd10,unspecified disorder of adult personality and behaviour,thought problems & personality disorders,disorders of adult personality and behaviour
+F53,hes_apc,diag,icd10,mental and behavioural disorders associated with the puerperium not elsewhere classified,mental health puerperium,mental & behavioural disorders associated with the puerperium

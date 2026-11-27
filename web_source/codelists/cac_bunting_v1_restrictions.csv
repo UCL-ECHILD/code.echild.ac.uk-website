@@ -1,0 +1,44 @@
+code,dataset,field,code_type,description,group,flag
+Q44,hes_apc,diag,icd10,congenital malformations of gallbladder bile ducts and liver,physiological jaundice,jaundice_exclusion
+E80.6,hes_apc,diag,icd10,other disorders of bilirubin metabolism,physiological jaundice,jaundice_exclusion
+P07.0,hes_apc,diag,icd10,extremely low birth weight,physiological jaundice,jaundice_exclusion
+P07.2,hes_apc,diag,icd10,extreme immaturity,physiological jaundice,jaundice_exclusion
+P07.3,hes_apc,diag,icd10,other preterm infants,physiological jaundice,jaundice_exclusion
+P59.0,hes_apc,diag,icd10,neonatal jaundice associated with preterm delivery,physiological jaundice,jaundice_exclusion
+J27.2,hes_apc,opertn,opcs4,partial excision of bile duct and anastomosis of bile duct to duodenum,physiological jaundice,jaundice_exclusion
+J27.3,hes_apc,opertn,opcs4,partial excision of bile duct and anastomosis of bile duct to jejunum,physiological jaundice,jaundice_exclusion
+J27.4,hes_apc,opertn,opcs4,partial excision of bile duct and end to end anastomosis of bile duct,physiological jaundice,jaundice_exclusion
+J27.8,hes_apc,opertn,opcs4,other specified excision of bile duct,physiological jaundice,jaundice_exclusion
+J27.9,hes_apc,opertn,opcs4,unspecified excision of bile duct,physiological jaundice,jaundice_exclusion
+Q35,hes_apc,diag,icd10,cleft palate,feeding difficulties,feeding_exclusion
+Q36,hes_apc,diag,icd10,cleft lip,feeding difficulties,feeding_exclusion
+Q37,hes_apc,diag,icd10,cleft palate with cleft lip,feeding difficulties,feeding_exclusion
+Q38,hes_apc,diag,icd10,other congenital malformations of tongue mouth and pharynx,feeding difficulties,feeding_exclusion
+Q39,hes_apc,diag,icd10,congenital malformations of oesophagus,feeding difficulties,feeding_exclusion
+Q40,hes_apc,diag,icd10,other congenital malformations of upper alimentary tract,feeding difficulties,feeding_exclusion
+Q41,hes_apc,diag,icd10,congenital absence atresia and stenosis of small intestine,feeding difficulties,feeding_exclusion
+Q42,hes_apc,diag,icd10,congenital absence atresia and stenosis of large intestine,feeding difficulties,feeding_exclusion
+Q43,hes_apc,diag,icd10,other congenital malformations of intestine,feeding difficulties,feeding_exclusion
+Q44,hes_apc,diag,icd10,congenital malformations of gallbladder bile ducts and liver,feeding difficulties,feeding_exclusion
+Q45,hes_apc,diag,icd10,other congenital malformations of digestive system,feeding difficulties,feeding_exclusion
+G70,hes_apc,diag,icd10,myasthenia gravis and other myoneural disorders,feeding difficulties,feeding_exclusion
+G71,hes_apc,diag,icd10,primary disorders of muscles,feeding difficulties,feeding_exclusion
+G72,hes_apc,diag,icd10,other myopathies,feeding difficulties,feeding_exclusion
+G73,hes_apc,diag,icd10,disorders of myoneural junction and muscle in diseases classified elsewhere,feeding difficulties,feeding_exclusion
+Q87.1,hes_apc,diag,icd10,congenital malformation syndromes predominantly associated with short stature,feeding difficulties,feeding_exclusion
+P07.0,hes_apc,diag,icd10,extremely low birth weight,feeding difficulties,feeding_exclusion
+P07.2,hes_apc,diag,icd10,extreme immaturity,feeding difficulties,feeding_exclusion
+P07.3,hes_apc,diag,icd10,other preterm infants,feeding difficulties,feeding_exclusion
+K52.8,hes_apc,diag,icd10,other specified noninfective gastroenteritis and colitis,gastroenteritis,gastroenteritis_exclusion
+K52.9,hes_apc,diag,icd10,noninfective gastroenteritis and colitis unspecified,gastroenteritis,gastroenteritis_exclusion
+Q38,hes_apc,diag,icd10,other congenital malformations of tongue mouth and pharynx,gastroenteritis,gastroenteritis_exclusion
+Q39,hes_apc,diag,icd10,congenital malformations of oesophagus,gastroenteritis,gastroenteritis_exclusion
+Q40,hes_apc,diag,icd10,other congenital malformations of upper alimentary tract,gastroenteritis,gastroenteritis_exclusion
+Q41,hes_apc,diag,icd10,congenital absence atresia and stenosis of small intestine,gastroenteritis,gastroenteritis_exclusion
+Q42,hes_apc,diag,icd10,congenital absence atresia and stenosis of large intestine,gastroenteritis,gastroenteritis_exclusion
+Q43,hes_apc,diag,icd10,other congenital malformations of intestine,gastroenteritis,gastroenteritis_exclusion
+Q44,hes_apc,diag,icd10,congenital malformations of gallbladder bile ducts and liver,gastroenteritis,gastroenteritis_exclusion
+Q45,hes_apc,diag,icd10,other congenital malformations of digestive system,gastroenteritis,gastroenteritis_exclusion
+P07.0,hes_apc,diag,icd10,extremely low birth weight,gastroenteritis,gastroenteritis_exclusion
+P07.2,hes_apc,diag,icd10,extreme immaturity,gastroenteritis,gastroenteritis_exclusion
+P07.3,hes_apc,diag,icd10,other preterm infants,gastroenteritis,gastroenteritis_exclusion

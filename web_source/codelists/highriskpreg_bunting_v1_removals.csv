@@ -1,0 +1,2 @@
+code,dataset,field,code_type,group,subgroup,reason_for_removal
+O24.2,hes_apc,diag,icd10,high risk pregnancy,gestational diabetes,code denotes pre-existing malnutrition-related diabetes mellitus rather than gestational diabetes; replaced with o24.4 in this subgroup
